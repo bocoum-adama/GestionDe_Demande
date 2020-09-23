@@ -1,0 +1,17 @@
+{
+  "cycles": [
+
+    {
+      "code_cycle": 3,
+      "value_cycle": "Moyen"
+    },
+    {
+      "code_cycle": 4,
+      "value_cycle": "Secondaire"
+    },
+    {
+      "code_cycle": 5,
+      "value_cycle": "Moyen secondaire"
+    }
+  ]
+}

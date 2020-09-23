@@ -1,0 +1,794 @@
+{
+    "districts": [
+        {
+            "code_department": 33,
+            "code_district": 35,
+            "value_district": "Art Baba Garage"
+        },
+        {
+            "code_department": 33,
+            "code_district": 39,
+            "value_district": "Art Lambaye"
+        },
+        {
+            "code_department": 33,
+            "code_district": 44,
+            "value_district": "Art Ngoye"
+        },
+        {
+            "code_department": 50,
+            "code_district": 52,
+            "value_district": "Art Ndindi"
+        },
+        {
+            "code_department": 50,
+            "code_district": 59,
+            "value_district": "Art Ndoulo"
+        },
+        {
+            "code_department": 66,
+            "code_district": 68,
+            "value_district": "Art Kael"
+        },
+        {
+            "code_department": 66,
+            "code_district": 77,
+            "value_district": "Art Ndame"
+        },
+        {
+            "code_department": 66,
+            "code_district": 83,
+            "value_district": "Art Taïf"
+        },
+        {
+            "code_department": 89,
+            "code_district": 91,
+            "value_district": "Art Fimela"
+        },
+        {
+            "code_department": 89,
+            "code_district": 96,
+            "value_district": "Art Tattaguine"
+        },
+        {
+            "code_department": 89,
+            "code_district": 102,
+            "value_district": "Art Ndiob"
+        },
+        {
+            "code_department": 89,
+            "code_district": 107,
+            "value_district": "Art Niakhar"
+        },
+        {
+            "code_department": 113,
+            "code_district": 115,
+            "value_district": "Art Djilor"
+        },
+        {
+            "code_department": 113,
+            "code_district": 121,
+            "value_district": "Art Niodior"
+        },
+        {
+            "code_department": 113,
+            "code_district": 125,
+            "value_district": "Art Toubacouta"
+        },
+        {
+            "code_department": 135,
+            "code_district": 137,
+            "value_district": "Art Colobane"
+        },
+        {
+            "code_department": 135,
+            "code_district": 140,
+            "value_district": "Art Ouadiour"
+        },
+        {
+            "code_department": 146,
+            "code_district": 148,
+            "value_district": "Art Bambylor"
+        },
+        {
+            "code_department": 146,
+            "code_district": 160,
+            "value_district": "Art Bambylor"
+        },
+        {
+            "code_department": 167,
+            "code_district": 169,
+            "value_district": "Art Sindia"
+        },
+        {
+            "code_department": 167,
+            "code_district": 180,
+            "value_district": "Art Fissel"
+        },
+        {
+            "code_department": 167,
+            "code_district": 184,
+            "value_district": "Art Sessene"
+        },
+        {
+            "code_department": 189,
+            "code_district": 195,
+            "value_district": "Art Keur Moussa"
+        },
+        {
+            "code_department": 189,
+            "code_district": 199,
+            "value_district": "Art Notto"
+        },
+        {
+            "code_department": 189,
+            "code_district": 202,
+            "value_district": "Art Thiénaba"
+        },
+        {
+            "code_department": 210,
+            "code_district": 212,
+            "value_district": "Art Meouane"
+        },
+        {
+            "code_department": 210,
+            "code_district": 217,
+            "value_district": "Art Merina Dakhar"
+        },
+        {
+            "code_department": 210,
+            "code_district": 221,
+            "value_district": "Art Niakhene"
+        },
+        {
+            "code_department": 210,
+            "code_district": 226,
+            "value_district": "Art Pambal"
+        },
+        {
+            "code_department": 265,
+            "code_district": 334,
+            "value_district": "Art keur Mbouki"
+        },
+        {
+            "code_department": 265,
+            "code_district": 338,
+            "value_district": "Art Mabo"
+        },
+        {
+            "code_department": 279,
+            "code_district": 344,
+            "value_district": "Art Gniby"
+        },
+        {
+            "code_department": 279,
+            "code_district": 348,
+            "value_district": "Art Katakel"
+        },
+        {
+            "code_department": 296,
+            "code_district": 355,
+            "value_district": "Art Ida Mouride"
+        },
+        {
+            "code_department": 296,
+            "code_district": 359,
+            "value_district": "Art Lour Escale"
+        },
+        {
+            "code_department": 296,
+            "code_district": 362,
+            "value_district": "Art Missirah Wadene"
+        },
+        {
+            "code_department": 303,
+            "code_district": 367,
+            "value_district": "Art Darou Minam 2"
+        },
+        {
+            "code_department": 303,
+            "code_district": 371,
+            "value_district": "Art Sagna"
+        },
+        {
+            "code_department": 277,
+            "code_district": 375,
+            "value_district": "Art Mbadakhoune"
+        },
+        {
+            "code_department": 277,
+            "code_district": 380,
+            "value_district": "Art Nguelou"
+        },
+        {
+            "code_department": 283,
+            "code_district": 390,
+            "value_district": "Art Koumbal"
+        },
+        {
+            "code_department": 283,
+            "code_district": 394,
+            "value_district": "Art Ndiendieng"
+        },
+        {
+            "code_department": 283,
+            "code_district": 398,
+            "value_district": "Art Sibassor"
+        },
+        {
+            "code_department": 310,
+            "code_district": 406,
+            "value_district": "Art Médina Sabakh"
+        },
+        {
+            "code_department": 310,
+            "code_district": 410,
+            "value_district": "Art Paoskoto"
+        },
+        {
+            "code_department": 310,
+            "code_district": 417,
+            "value_district": "Art Wack Gouna"
+        },
+        {
+            "code_department": 288,
+            "code_district": 424,
+            "value_district": "Art Bandafassi"
+        },
+        {
+            "code_department": 288,
+            "code_district": 429,
+            "value_district": "Art Fongolimbi"
+        },
+        {
+            "code_department": 319,
+            "code_district": 433,
+            "value_district": "Art Dakateli"
+        },
+        {
+            "code_department": 319,
+            "code_district": 436,
+            "value_district": "Art Dar Salam"
+        },
+        {
+            "code_department": 321,
+            "code_district": 441,
+            "value_district": "Art Bembou"
+        },
+        {
+            "code_department": 321,
+            "code_district": 444,
+            "value_district": "Art Sabodola"
+        },
+        {
+            "code_department": 292,
+            "code_district": 449,
+            "value_district": "Art Dioulacolon"
+        },
+        {
+            "code_department": 292,
+            "code_district": 454,
+            "value_district": "Art Mampatim"
+        },
+        {
+            "code_department": 292,
+            "code_district": 460,
+            "value_district": "Art Sare Bidji"
+        },
+        {
+            "code_department": 308,
+            "code_district": 467,
+            "value_district": "Art Fafacourou"
+        },
+        {
+            "code_department": 308,
+            "code_district": 470,
+            "value_district": "Art Ndorna"
+        },
+        {
+            "code_department": 308,
+            "code_district": 475,
+            "value_district": "Art Niaming"
+        },
+        {
+            "code_department": 331,
+            "code_district": 481,
+            "value_district": "Art Bonconto"
+        },
+        {
+            "code_department": 331,
+            "code_district": 486,
+            "value_district": "Art Pakour"
+        },
+        {
+            "code_department": 331,
+            "code_district": 490,
+            "value_district": "Art Sare Coly Salle"
+        },
+        {
+            "code_department": 286,
+            "code_district": 498,
+            "value_district": "Art Darou Mousty"
+        },
+        {
+            "code_department": 286,
+            "code_district": 506,
+            "value_district": "Art Ndande"
+        },
+        {
+            "code_department": 286,
+            "code_district": 512,
+            "value_district": "Art Sagatta Gueth"
+        },
+        {
+            "code_department": 298,
+            "code_district": 520,
+            "value_district": "Art Barkedji"
+        },
+        {
+            "code_department": 298,
+            "code_district": 525,
+            "value_district": "Art Dodji"
+        },
+        {
+            "code_department": 298,
+            "code_district": 529,
+            "value_district": "Art Sagatta Djolof"
+        },
+        {
+            "code_department": 298,
+            "code_district": 535,
+            "value_district": "Art Yang Yang"
+        },
+        {
+            "code_department": 300,
+            "code_district": 543,
+            "value_district": "Art Keur Momar Sarr"
+        },
+        {
+            "code_department": 300,
+            "code_district": 548,
+            "value_district": "Art Koki"
+        },
+        {
+            "code_department": 300,
+            "code_district": 553,
+            "value_district": "Art Mbediene"
+        },
+        {
+            "code_department": 300,
+            "code_district": 558,
+            "value_district": "Art Sakal"
+        },
+        {
+            "code_department": 281,
+            "code_district": 564,
+            "value_district": "Art Orkadiere"
+        },
+        {
+            "code_department": 281,
+            "code_district": 568,
+            "value_district": "Art Ouro Sidy"
+        },
+        {
+            "code_department": 306,
+            "code_district": 578,
+            "value_district": "Art Agnam Civol"
+        },
+        {
+            "code_department": 306,
+            "code_district": 582,
+            "value_district": "Art Ogo"
+        },
+        {
+            "code_department": 317,
+            "code_district": 590,
+            "value_district": "Art Velingara"
+        },
+        {
+            "code_department": 267,
+            "code_district": 617,
+            "value_district": "Art Boghal"
+        },
+        {
+            "code_department": 267,
+            "code_district": 623,
+            "value_district": "Art Bona"
+        },
+        {
+            "code_department": 267,
+            "code_district": 628,
+            "value_district": "Art Diaroume"
+        },
+        {
+            "code_department": 273,
+            "code_district": 635,
+            "value_district": "Art Djibanar"
+        },
+        {
+            "code_department": 273,
+            "code_district": 641,
+            "value_district": "Art Karantaba"
+        },
+        {
+            "code_department": 273,
+            "code_district": 644,
+            "value_district": "Art Simbandi Brassou"
+        },
+        {
+            "code_department": 323,
+            "code_district": 653,
+            "value_district": "Art Diende"
+        },
+        {
+            "code_department": 323,
+            "code_district": 659,
+            "value_district": "Art Djibabouya"
+        },
+        {
+            "code_department": 323,
+            "code_district": 663,
+            "value_district": "Art Djiredji"
+        },
+        {
+            "code_department": 269,
+            "code_district": 669,
+            "value_district": "Art Mbane"
+        },
+        {
+            "code_department": 269,
+            "code_district": 672,
+            "value_district": "Art Ndiaye"
+        },
+        {
+            "code_department": 315,
+            "code_district": 682,
+            "value_district": "Art Cas Cas"
+        },
+        {
+            "code_department": 315,
+            "code_district": 686,
+            "value_district": "Art Salde"
+        },
+        {
+            "code_department": 315,
+            "code_district": 696,
+            "value_district": "Art Gamadji Sare"
+        },
+        {
+            "code_department": 315,
+            "code_district": 700,
+            "value_district": "Art Thille Boubacar"
+        },
+        {
+            "code_department": 325,
+            "code_district": 709,
+            "value_district": "Art Rao"
+        },
+        {
+            "code_department": 260,
+            "code_district": 714,
+            "value_district": "Art Bele"
+        },
+        {
+            "code_department": 260,
+            "code_district": 717,
+            "value_district": "Art Keniaba"
+        },
+        {
+            "code_department": 260,
+            "code_district": 722,
+            "value_district": "Art Moudery"
+        },
+        {
+            "code_department": 271,
+            "code_district": 729,
+            "value_district": "Art Bala"
+        },
+        {
+            "code_department": 271,
+            "code_district": 734,
+            "value_district": "Art Boynguel Bamba"
+        },
+        {
+            "code_department": 271,
+            "code_district": 739,
+            "value_district": "Art Dianke Makha"
+        },
+        {
+            "code_department": 271,
+            "code_district": 744,
+            "value_district": "Art Koulor"
+        },
+        {
+            "code_department": 294,
+            "code_district": 749,
+            "value_district": "Art Bamba Thialene"
+        },
+        {
+            "code_department": 294,
+            "code_district": 754,
+            "value_district": "Art Kouthiaba Wolof"
+        },
+        {
+            "code_department": 328,
+            "code_district": 761,
+            "value_district": "Art Koussanar"
+        },
+        {
+            "code_department": 328,
+            "code_district": 764,
+            "value_district": "Art Makakolibantang"
+        },
+        {
+            "code_department": 328,
+            "code_district": 768,
+            "value_district": "Art Missirah"
+        },
+        {
+            "code_department": 262,
+            "code_district": 773,
+            "value_district": "Art Sindian"
+        },
+        {
+            "code_department": 262,
+            "code_district": 778,
+            "value_district": "Art Tenghory"
+        },
+        {
+            "code_department": 262,
+            "code_district": 784,
+            "value_district": "Art Kataba 1"
+        },
+        {
+            "code_department": 262,
+            "code_district": 788,
+            "value_district": "Art Tendouck"
+        },
+        {
+            "code_department": 312,
+            "code_district": 796,
+            "value_district": "Art Cabrousse"
+        },
+        {
+            "code_department": 312,
+            "code_district": 799,
+            "value_district": "Art Loudia Wolof"
+        },
+        {
+            "code_department": 258,
+            "code_district": 803,
+            "value_district": "Art Niaguis"
+        },
+        {
+            "code_department": 258,
+            "code_district": 807,
+            "value_district": "Art Niassia"
+        },
+        {
+            "code_department": 3,
+            "code_district": 3,
+            "value_district": "commune_departement de  Dakar"
+        },
+        {
+            "code_department": 33,
+            "code_district": 33,
+            "value_district": "commune_departement de  Bambey"
+        },
+        {
+            "code_department": 50,
+            "code_district": 50,
+            "value_district": "commune_departement de  Diourbel"
+        },
+        {
+            "code_department": 66,
+            "code_district": 66,
+            "value_district": "commune_departement de  Mbacké"
+        },
+        {
+            "code_department": 89,
+            "code_district": 89,
+            "value_district": "commune_departement de  Fatick"
+        },
+        {
+            "code_department": 113,
+            "code_district": 113,
+            "value_district": "commune_departement de  Foundiougne"
+        },
+        {
+            "code_department": 135,
+            "code_district": 135,
+            "value_district": "commune_departement de  Gossas"
+        },
+        {
+            "code_department": 146,
+            "code_district": 146,
+            "value_district": "commune_departement de  Rufisque"
+        },
+        {
+            "code_department": 167,
+            "code_district": 167,
+            "value_district": "commune_departement de  Mbour"
+        },
+        {
+            "code_department": 189,
+            "code_district": 189,
+            "value_district": "commune_departement de  Thies"
+        },
+        {
+            "code_department": 210,
+            "code_district": 210,
+            "value_district": "commune_departement de  Tivaouane"
+        },
+        {
+            "code_department": 258,
+            "code_district": 258,
+            "value_district": "commune_departement de  Ziguinchor"
+        },
+        {
+            "code_department": 260,
+            "code_district": 260,
+            "value_district": "commune_departement de  Bakel"
+        },
+        {
+            "code_department": 262,
+            "code_district": 262,
+            "value_district": "commune_departement de  Bignona"
+        },
+        {
+            "code_department": 265,
+            "code_district": 265,
+            "value_district": "commune_departement de  Birkelane"
+        },
+        {
+            "code_department": 267,
+            "code_district": 267,
+            "value_district": "commune_departement de  Bounkiling"
+        },
+        {
+            "code_department": 269,
+            "code_district": 269,
+            "value_district": "commune_departement de  Dagana"
+        },
+        {
+            "code_department": 271,
+            "code_district": 271,
+            "value_district": "commune_departement de  Goudiry"
+        },
+        {
+            "code_department": 273,
+            "code_district": 273,
+            "value_district": "commune_departement de  Goudomp"
+        },
+        {
+            "code_department": 275,
+            "code_district": 275,
+            "value_district": "commune_departement de  Guediawaye"
+        },
+        {
+            "code_department": 277,
+            "code_district": 277,
+            "value_district": "commune_departement de  Guinguineo"
+        },
+        {
+            "code_department": 279,
+            "code_district": 279,
+            "value_district": "commune_departement de  Kaffrine"
+        },
+        {
+            "code_department": 281,
+            "code_district": 281,
+            "value_district": "commune_departement de  Kanel"
+        },
+        {
+            "code_department": 283,
+            "code_district": 283,
+            "value_district": "commune_departement de  Kaolack"
+        },
+        {
+            "code_department": 286,
+            "code_district": 286,
+            "value_district": "commune_departement de  Kebemer"
+        },
+        {
+            "code_department": 288,
+            "code_district": 288,
+            "value_district": "commune_departement de  Kedougou"
+        },
+        {
+            "code_department": 290,
+            "code_district": 290,
+            "value_district": "commune_departement de  Pikine"
+        },
+        {
+            "code_department": 292,
+            "code_district": 292,
+            "value_district": "commune_departement de  Kolda"
+        },
+        {
+            "code_department": 294,
+            "code_district": 294,
+            "value_district": "commune_departement de  Koupentoum"
+        },
+        {
+            "code_department": 296,
+            "code_district": 296,
+            "value_district": "commune_departement de  Koungheul"
+        },
+        {
+            "code_department": 298,
+            "code_district": 298,
+            "value_district": "commune_departement de  Linguere"
+        },
+        {
+            "code_department": 300,
+            "code_district": 300,
+            "value_district": "commune_departement de  Louga"
+        },
+        {
+            "code_department": 303,
+            "code_district": 303,
+            "value_district": "commune_departement de  Malem Hodar"
+        },
+        {
+            "code_department": 306,
+            "code_district": 306,
+            "value_district": "commune_departement de  Matam"
+        },
+        {
+            "code_department": 308,
+            "code_district": 308,
+            "value_district": "commune_departement de  Médina Yora Foulah"
+        },
+        {
+            "code_department": 310,
+            "code_district": 310,
+            "value_district": "commune_departement de  Nioro"
+        },
+        {
+            "code_department": 312,
+            "code_district": 312,
+            "value_district": "commune_departement de  Oussouye"
+        },
+        {
+            "code_department": 315,
+            "code_district": 315,
+            "value_district": "commune_departement de  Podor"
+        },
+        {
+            "code_department": 317,
+            "code_district": 317,
+            "value_district": "commune_departement de  Ranerou Ferlo"
+        },
+        {
+            "code_department": 319,
+            "code_district": 319,
+            "value_district": "commune_departement de  Salémata"
+        },
+        {
+            "code_department": 321,
+            "code_district": 321,
+            "value_district": "commune_departement de  Saraya"
+        },
+        {
+            "code_department": 323,
+            "code_district": 323,
+            "value_district": "commune_departement de  Sédhiou"
+        },
+        {
+            "code_department": 325,
+            "code_district": 325,
+            "value_district": "commune_departement de  Saint-Louis"
+        },
+        {
+            "code_department": 328,
+            "code_district": 328,
+            "value_district": "commune_departement de  Tamba"
+        },
+        {
+            "code_department": 331,
+            "code_district": 331,
+            "value_district": "commune_departement de  Vélingara"
+        }
+    ]
+}

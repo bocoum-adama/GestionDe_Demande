@@ -1,0 +1,74 @@
+{
+    "regions": [
+        {
+            "code_region": 1,
+            "value_region": "DAKAR",
+            "value_country_short": "SN"
+        },
+        {
+            "code_region": 31,
+            "value_region": "DIOURBEL",
+            "value_country_short": "SN"
+        },
+        {
+            "code_region": 87,
+            "value_region": "FATICK",
+            "value_country_short": "SN"
+        },
+        {
+            "code_region": 165,
+            "value_region": "THIES",
+            "value_country_short": "SN"
+        },
+        {
+            "code_region": 236,
+            "value_region": "MATAM",
+            "value_country_short": "SN"
+        },
+        {
+            "code_region": 237,
+            "value_region": "SÉDHIOU",
+            "value_country_short": "SN"
+        },
+        {
+            "code_region": 238,
+            "value_region": "SAINT-LOUIS",
+            "value_country_short": "SN"
+        },
+        {
+            "code_region": 239,
+            "value_region": "TAMBA",
+            "value_country_short": "SN"
+        },
+        {
+            "code_region": 241,
+            "value_region": "ZIGUINCHOR",
+            "value_country_short": "SN"
+        },
+        {
+            "code_region": 242,
+            "value_region": "KAFFRINE",
+            "value_country_short": "SN"
+        },
+        {
+            "code_region": 243,
+            "value_region": "KAOLACK",
+            "value_country_short": "SN"
+        },
+        {
+            "code_region": 244,
+            "value_region": "KÉDOUGOU",
+            "value_country_short": "SN"
+        },
+        {
+            "code_region": 245,
+            "value_region": "KOLDA",
+            "value_country_short": "SN"
+        },
+        {
+            "code_region": 246,
+            "value_region": "LOUGA",
+            "value_country_short": "SN"
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+  "code": "0",
+  "status": "SUCCESS",
+  "message": "Traitement effecturé avec succées",
+  "ias": [
+    {
+      "code_ia": "2",
+      "value_ia": "IA DAKAR"
+    },
+    {
+      "code_ia": "32",
+      "value_ia": "IA DIOURBEL"
+    },
+    {
+      "code_ia": "88",
+      "value_ia": "IA FATICK"
+    },
+    {
+      "code_ia": "252",
+      "value_ia": "IA Kaffrine"
+    },
+    {
+      "code_ia": "253",
+      "value_ia": "IA Kaolack"
+    },
+    {
+      "code_ia": "255",
+      "value_ia": "IA Kédougou"
+    },
+    {
+      "code_ia": "256",
+      "value_ia": "IA Kolda"
+    },
+    {
+      "code_ia": "257",
+      "value_ia": "IA Louga"
+    },
+    {
+      "code_ia": "247",
+      "value_ia": "IA Matam"
+    },
+    {
+      "code_ia": "235",
+      "value_ia": "IA Pikine Guediawaye"
+    },
+    {
+      "code_ia": "145",
+      "value_ia": "IA RUFISQUE"
+    },
+    {
+      "code_ia": "249",
+      "value_ia": "IA Saint-Louis"
+    },
+    {
+      "code_ia": "248",
+      "value_ia": "IA Sédhiou"
+    },
+    {
+      "code_ia": "250",
+      "value_ia": "IA Tamba"
+    },
+    {
+      "code_ia": "166",
+      "value_ia": "IA THIES"
+    },
+    {
+      "code_ia": "251",
+      "value_ia": "IA Ziguinchor"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+    "typestructuredistributeds": [
+      {
+        "code_type_structure_distributed" : 19,
+        "value_type_structure_distributed" : "IA"
+      },
+      {
+        "code_type_structure_distributed": 23,
+        "value_type_structure_distributed": "IEF"
+      },
+      {
+        "code_type_structure_distributed": 29,
+        "value_type_structure_distributed": "CAOSP"
+      },
+      {
+        "code_type_structure_distributed": 30,
+        "value_type_structure_distributed": "IME"
+      },
+      {
+        "code_type_structure_distributed": 32,
+        "value_type_structure_distributed": "CRFPE"
+      },
+      {
+        "code_type_structure_distributed": 39,
+        "value_type_structure_distributed": "INEFJA"
+      },
+      {
+        "code_type_structure_distributed": 40,
+        "value_type_structure_distributed": "BIBLIOTHEQUE PEDAGOGIQUE"
+      }
+    ]
+  }

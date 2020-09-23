@@ -1,0 +1,1 @@
+ALTER TABLE `vehicule_personne` ADD `etat_affectation` ENUM('-1','1') NOT NULL AFTER `ien`;

@@ -1,0 +1,3337 @@
+{
+  "code": "0",
+  "message": "Traitement effecturé avec succées",
+  "status": "SUCCESS",
+  "areas": [
+    {
+      "code_ief": "34",
+      "code_area": "36",
+      "value_area": "Com Baba Garage"
+    },
+    {
+      "code_ief": "34",
+      "code_area": "37",
+      "value_area": "Com Dinguiraye"
+    },
+    {
+      "code_ief": "34",
+      "code_area": "38",
+      "value_area": "Com Keur Samba Kane"
+    },
+    {
+      "code_ief": "34",
+      "code_area": "40",
+      "value_area": "Com Gawane"
+    },
+    {
+      "code_ief": "34",
+      "code_area": "41",
+      "value_area": "Com Lambaye"
+    },
+    {
+      "code_ief": "34",
+      "code_area": "42",
+      "value_area": "Com Ngogom"
+    },
+    {
+      "code_ief": "34",
+      "code_area": "43",
+      "value_area": "Com Refane"
+    },
+    {
+      "code_ief": "34",
+      "code_area": "45",
+      "value_area": "Com Dangalma"
+    },
+    {
+      "code_ief": "34",
+      "code_area": "46",
+      "value_area": "Com Ndondol"
+    },
+    {
+      "code_ief": "34",
+      "code_area": "47",
+      "value_area": "Com Ngoye"
+    },
+    {
+      "code_ief": "34",
+      "code_area": "48",
+      "value_area": "Com Thiakar"
+    },
+    {
+      "code_ief": "51",
+      "code_area": "53",
+      "value_area": "Com Dankh Sene"
+    },
+    {
+      "code_ief": "51",
+      "code_area": "54",
+      "value_area": "Com Gade escale"
+    },
+    {
+      "code_ief": "51",
+      "code_area": "55",
+      "value_area": "Com Keur Ngalgou"
+    },
+    {
+      "code_ief": "51",
+      "code_area": "56",
+      "value_area": "Com Ndindi"
+    },
+    {
+      "code_ief": "51",
+      "code_area": "57",
+      "value_area": "Com Taiba Moutoupha"
+    },
+    {
+      "code_ief": "51",
+      "code_area": "58",
+      "value_area": "Com Touba Lappe"
+    },
+    {
+      "code_ief": "51",
+      "code_area": "60",
+      "value_area": "Com Ndoulo"
+    },
+    {
+      "code_ief": "51",
+      "code_area": "61",
+      "value_area": "Com Ngohé"
+    },
+    {
+      "code_ief": "51",
+      "code_area": "62",
+      "value_area": "Com Pattar"
+    },
+    {
+      "code_ief": "51",
+      "code_area": "63",
+      "value_area": "Com Tocky Gare"
+    },
+    {
+      "code_ief": "51",
+      "code_area": "64",
+      "value_area": "Com Toure Mbonde"
+    },
+    {
+      "code_ief": "67",
+      "code_area": "69",
+      "value_area": "Com Dandeye Gouye Gui "
+    },
+    {
+      "code_ief": "67",
+      "code_area": "70",
+      "value_area": "Com Darou Nahim"
+    },
+    {
+      "code_ief": "67",
+      "code_area": "71",
+      "value_area": "Com Darou Salam Typ"
+    },
+    {
+      "code_ief": "67",
+      "code_area": "72",
+      "value_area": "Com Kael"
+    },
+    {
+      "code_ief": "67",
+      "code_area": "73",
+      "value_area": "Com Madina"
+    },
+    {
+      "code_ief": "67",
+      "code_area": "74",
+      "value_area": "Com Ndioumane Thiekene"
+    },
+    {
+      "code_ief": "67",
+      "code_area": "75",
+      "value_area": "Com Taiba Tieckene"
+    },
+    {
+      "code_ief": "67",
+      "code_area": "76",
+      "value_area": "Com Touba Mboul"
+    },
+    {
+      "code_ief": "67",
+      "code_area": "78",
+      "value_area": "Com Dalla Ngabou"
+    },
+    {
+      "code_ief": "67",
+      "code_area": "79",
+      "value_area": "Com Missirah"
+    },
+    {
+      "code_ief": "67",
+      "code_area": "80",
+      "value_area": "Com Nghaye"
+    },
+    {
+      "code_ief": "67",
+      "code_area": "81",
+      "value_area": "Com Touba Fall"
+    },
+    {
+      "code_ief": "67",
+      "code_area": "82",
+      "value_area": "Com Touba Mosquee"
+    },
+    {
+      "code_ief": "67",
+      "code_area": "84",
+      "value_area": "Com Sadio"
+    },
+    {
+      "code_ief": "67",
+      "code_area": "85",
+      "value_area": "Com Taif"
+    },
+    {
+      "code_ief": "90",
+      "code_area": "92",
+      "value_area": "Com Djilass"
+    },
+    {
+      "code_ief": "90",
+      "code_area": "93",
+      "value_area": "Com Fimela"
+    },
+    {
+      "code_ief": "90",
+      "code_area": "94",
+      "value_area": "Com Loul Sessene"
+    },
+    {
+      "code_ief": "90",
+      "code_area": "95",
+      "value_area": "Com Palmarin Facao"
+    },
+    {
+      "code_ief": "90",
+      "code_area": "97",
+      "value_area": "Com Diarere"
+    },
+    {
+      "code_ief": "90",
+      "code_area": "98",
+      "value_area": "Com Diouroup"
+    },
+    {
+      "code_ief": "90",
+      "code_area": "99",
+      "value_area": "Com Tattaguine"
+    },
+    {
+      "code_ief": "101",
+      "code_area": "103",
+      "value_area": "Com Diaoule"
+    },
+    {
+      "code_ief": "101",
+      "code_area": "104",
+      "value_area": "Com Mbellacadiao"
+    },
+    {
+      "code_ief": "101",
+      "code_area": "105",
+      "value_area": "Com Ndiob"
+    },
+    {
+      "code_ief": "101",
+      "code_area": "106",
+      "value_area": "Com Thiare Ndiagui"
+    },
+    {
+      "code_ief": "101",
+      "code_area": "108",
+      "value_area": "Com Ngayokhene"
+    },
+    {
+      "code_ief": "101",
+      "code_area": "109",
+      "value_area": "Com Niakhar"
+    },
+    {
+      "code_ief": "101",
+      "code_area": "110",
+      "value_area": "Com Patar"
+    },
+    {
+      "code_ief": "114",
+      "code_area": "116",
+      "value_area": "Com Diagane Barka"
+    },
+    {
+      "code_ief": "114",
+      "code_area": "117",
+      "value_area": "Com Diossong"
+    },
+    {
+      "code_ief": "114",
+      "code_area": "118",
+      "value_area": "Com Djilor"
+    },
+    {
+      "code_ief": "114",
+      "code_area": "119",
+      "value_area": "Com Mbam"
+    },
+    {
+      "code_ief": "114",
+      "code_area": "120",
+      "value_area": "Com Niassene"
+    },
+    {
+      "code_ief": "114",
+      "code_area": "122",
+      "value_area": "Com Bassoul"
+    },
+    {
+      "code_ief": "114",
+      "code_area": "123",
+      "value_area": "Com Dionewar"
+    },
+    {
+      "code_ief": "114",
+      "code_area": "124",
+      "value_area": "Com Djirnda"
+    },
+    {
+      "code_ief": "114",
+      "code_area": "126",
+      "value_area": "Com Keur Saloum Diane"
+    },
+    {
+      "code_ief": "114",
+      "code_area": "127",
+      "value_area": "Com Keur Samba Gueye"
+    },
+    {
+      "code_ief": "114",
+      "code_area": "128",
+      "value_area": "Com Nioro Alassane Tall"
+    },
+    {
+      "code_ief": "114",
+      "code_area": "129",
+      "value_area": "Com Toubacouta"
+    },
+    {
+      "code_ief": "136",
+      "code_area": "138",
+      "value_area": "Com Colobane"
+    },
+    {
+      "code_ief": "136",
+      "code_area": "139",
+      "value_area": "Com Mbar"
+    },
+    {
+      "code_ief": "136",
+      "code_area": "141",
+      "value_area": "Com Ndiene Lagane"
+    },
+    {
+      "code_ief": "136",
+      "code_area": "142",
+      "value_area": "Com Ouadiour"
+    },
+    {
+      "code_ief": "136",
+      "code_area": "143",
+      "value_area": "Com Patar Lia"
+    },
+    {
+      "code_ief": "147",
+      "code_area": "149",
+      "value_area": "Com Yene"
+    },
+    {
+      "code_ief": "159",
+      "code_area": "161",
+      "value_area": "Com Bambylor"
+    },
+    {
+      "code_ief": "159",
+      "code_area": "162",
+      "value_area": "Com Tivaouane Peulh-Niagha"
+    },
+    {
+      "code_ief": "168",
+      "code_area": "170",
+      "value_area": "Com Diass"
+    },
+    {
+      "code_ief": "168",
+      "code_area": "171",
+      "value_area": "Com Malicounda"
+    },
+    {
+      "code_ief": "168",
+      "code_area": "172",
+      "value_area": "Com Sindia"
+    },
+    {
+      "code_ief": "179",
+      "code_area": "181",
+      "value_area": "Com Fissel"
+    },
+    {
+      "code_ief": "179",
+      "code_area": "182",
+      "value_area": "Com Ndiaganiao"
+    },
+    {
+      "code_ief": "179",
+      "code_area": "183",
+      "value_area": "Com Ngueniene"
+    },
+    {
+      "code_ief": "179",
+      "code_area": "185",
+      "value_area": "Com Sandiara"
+    },
+    {
+      "code_ief": "179",
+      "code_area": "186",
+      "value_area": "Com Sessene"
+    },
+    {
+      "code_ief": "194",
+      "code_area": "196",
+      "value_area": "Com Diender Guedji"
+    },
+    {
+      "code_ief": "194",
+      "code_area": "197",
+      "value_area": "Com Fandene"
+    },
+    {
+      "code_ief": "194",
+      "code_area": "198",
+      "value_area": "Com Keur Moussa"
+    },
+    {
+      "code_ief": "194",
+      "code_area": "200",
+      "value_area": "Com Notto"
+    },
+    {
+      "code_ief": "194",
+      "code_area": "201",
+      "value_area": "Com Tassette"
+    },
+    {
+      "code_ief": "194",
+      "code_area": "203",
+      "value_area": "Com Ndieyene Sirah"
+    },
+    {
+      "code_ief": "194",
+      "code_area": "204",
+      "value_area": "Com Ngoudiane"
+    },
+    {
+      "code_ief": "194",
+      "code_area": "205",
+      "value_area": "Com Thienaba"
+    },
+    {
+      "code_ief": "194",
+      "code_area": "206",
+      "value_area": "Com Touba Toul"
+    },
+    {
+      "code_ief": "211",
+      "code_area": "213",
+      "value_area": "Com Darou khoudoss"
+    },
+    {
+      "code_ief": "211",
+      "code_area": "214",
+      "value_area": "Com Meouane"
+    },
+    {
+      "code_ief": "211",
+      "code_area": "215",
+      "value_area": "Com Meouane"
+    },
+    {
+      "code_ief": "211",
+      "code_area": "216",
+      "value_area": "Com Taiba Ndiaye"
+    },
+    {
+      "code_ief": "211",
+      "code_area": "218",
+      "value_area": "Com Koul"
+    },
+    {
+      "code_ief": "211",
+      "code_area": "219",
+      "value_area": "Com Merina Dakhar"
+    },
+    {
+      "code_ief": "211",
+      "code_area": "220",
+      "value_area": "Com Pekesse"
+    },
+    {
+      "code_ief": "211",
+      "code_area": "222",
+      "value_area": "Com Mbayene"
+    },
+    {
+      "code_ief": "211",
+      "code_area": "223",
+      "value_area": "Com Ngandiouf"
+    },
+    {
+      "code_ief": "211",
+      "code_area": "224",
+      "value_area": "Com Niakhene"
+    },
+    {
+      "code_ief": "211",
+      "code_area": "225",
+      "value_area": "Com Thilmakha"
+    },
+    {
+      "code_ief": "211",
+      "code_area": "227",
+      "value_area": "Com Cherif LO"
+    },
+    {
+      "code_ief": "211",
+      "code_area": "228",
+      "value_area": "Com Mont Rolland"
+    },
+    {
+      "code_ief": "211",
+      "code_area": "229",
+      "value_area": "Com Notto Gouye Diama"
+    },
+    {
+      "code_ief": "211",
+      "code_area": "230",
+      "value_area": "Com Pambal"
+    },
+    {
+      "code_ief": "211",
+      "code_area": "231",
+      "value_area": "Com Pire Goureye"
+    },
+    {
+      "code_ief": "266",
+      "code_area": "335",
+      "value_area": "Com Diamal"
+    },
+    {
+      "code_ief": "266",
+      "code_area": "336",
+      "value_area": "Com Keur Mbouki"
+    },
+    {
+      "code_ief": "266",
+      "code_area": "337",
+      "value_area": "Com Touba Mbella"
+    },
+    {
+      "code_ief": "266",
+      "code_area": "339",
+      "value_area": "Com Mabo"
+    },
+    {
+      "code_ief": "266",
+      "code_area": "340",
+      "value_area": "Com Mbeuleup"
+    },
+    {
+      "code_ief": "266",
+      "code_area": "341",
+      "value_area": "Com Ndiognick"
+    },
+    {
+      "code_ief": "266",
+      "code_area": "342",
+      "value_area": "Com Ségré gatta"
+    },
+    {
+      "code_ief": "280",
+      "code_area": "345",
+      "value_area": "Com Boulel"
+    },
+    {
+      "code_ief": "280",
+      "code_area": "346",
+      "value_area": "Com Gniby"
+    },
+    {
+      "code_ief": "280",
+      "code_area": "347",
+      "value_area": "Com Kahi"
+    },
+    {
+      "code_ief": "280",
+      "code_area": "349",
+      "value_area": "Com Diamagadio"
+    },
+    {
+      "code_ief": "280",
+      "code_area": "350",
+      "value_area": "Com Diokoul Mbelbouck"
+    },
+    {
+      "code_ief": "280",
+      "code_area": "351",
+      "value_area": "Com Kathiote"
+    },
+    {
+      "code_ief": "280",
+      "code_area": "352",
+      "value_area": "Com Medinatoul Salam 2"
+    },
+    {
+      "code_ief": "297",
+      "code_area": "356",
+      "value_area": "Com Fass Thiekene"
+    },
+    {
+      "code_ief": "297",
+      "code_area": "357",
+      "value_area": "Com Ida Mouride"
+    },
+    {
+      "code_ief": "297",
+      "code_area": "358",
+      "value_area": "Com Saly Escale"
+    },
+    {
+      "code_ief": "297",
+      "code_area": "360",
+      "value_area": "Com Lour Escale"
+    },
+    {
+      "code_ief": "297",
+      "code_area": "361",
+      "value_area": "Com Ribot Escale"
+    },
+    {
+      "code_ief": "297",
+      "code_area": "363",
+      "value_area": "Com Gainthe Pathe"
+    },
+    {
+      "code_ief": "297",
+      "code_area": "364",
+      "value_area": "Com Maka Yop"
+    },
+    {
+      "code_ief": "297",
+      "code_area": "365",
+      "value_area": "Com Missirah Wadene"
+    },
+    {
+      "code_ief": "304",
+      "code_area": "368",
+      "value_area": "Com Darou Minam 2"
+    },
+    {
+      "code_ief": "304",
+      "code_area": "369",
+      "value_area": "Com Ndiobene samba lamo"
+    },
+    {
+      "code_ief": "304",
+      "code_area": "370",
+      "value_area": "Com Ndioum Ngainth"
+    },
+    {
+      "code_ief": "304",
+      "code_area": "372",
+      "value_area": "Com Dianke Souf"
+    },
+    {
+      "code_ief": "304",
+      "code_area": "373",
+      "value_area": "Com Sagna"
+    },
+    {
+      "code_ief": "278",
+      "code_area": "376",
+      "value_area": "Com Khelcom Birame"
+    },
+    {
+      "code_ief": "278",
+      "code_area": "377",
+      "value_area": "Com Mbadakhoune"
+    },
+    {
+      "code_ief": "278",
+      "code_area": "378",
+      "value_area": "Com Ndiago"
+    },
+    {
+      "code_ief": "278",
+      "code_area": "379",
+      "value_area": "Com Ngathie Naoude"
+    },
+    {
+      "code_ief": "278",
+      "code_area": "381",
+      "value_area": "Com Dara Mboss"
+    },
+    {
+      "code_ief": "278",
+      "code_area": "382",
+      "value_area": "Com Gagnick"
+    },
+    {
+      "code_ief": "278",
+      "code_area": "383",
+      "value_area": "Com Nguelou"
+    },
+    {
+      "code_ief": "278",
+      "code_area": "384",
+      "value_area": "Com Ourour"
+    },
+    {
+      "code_ief": "278",
+      "code_area": "385",
+      "value_area": "Com Panal ouolof"
+    },
+    {
+      "code_ief": "285",
+      "code_area": "391",
+      "value_area": "Com Keur Baka"
+    },
+    {
+      "code_ief": "285",
+      "code_area": "392",
+      "value_area": "Com Latmingué"
+    },
+    {
+      "code_ief": "285",
+      "code_area": "393",
+      "value_area": "Com Thiaré"
+    },
+    {
+      "code_ief": "285",
+      "code_area": "395",
+      "value_area": "Com Keur Socé"
+    },
+    {
+      "code_ief": "285",
+      "code_area": "396",
+      "value_area": "Com Ndiafate"
+    },
+    {
+      "code_ief": "285",
+      "code_area": "397",
+      "value_area": "Com Ndiendieng"
+    },
+    {
+      "code_ief": "285",
+      "code_area": "399",
+      "value_area": "Com Dya"
+    },
+    {
+      "code_ief": "285",
+      "code_area": "400",
+      "value_area": "Com Ndiebel"
+    },
+    {
+      "code_ief": "285",
+      "code_area": "401",
+      "value_area": "Com Thiomby"
+    },
+    {
+      "code_ief": "311",
+      "code_area": "407",
+      "value_area": "Com Kayemor"
+    },
+    {
+      "code_ief": "311",
+      "code_area": "408",
+      "value_area": "Com Madina Sabakh"
+    },
+    {
+      "code_ief": "311",
+      "code_area": "409",
+      "value_area": "Com Ngayène"
+    },
+    {
+      "code_ief": "311",
+      "code_area": "411",
+      "value_area": "Com Dabaly"
+    },
+    {
+      "code_ief": "311",
+      "code_area": "412",
+      "value_area": "Com Darou Salam"
+    },
+    {
+      "code_ief": "311",
+      "code_area": "413",
+      "value_area": "Com Gainte Kaye"
+    },
+    {
+      "code_ief": "311",
+      "code_area": "414",
+      "value_area": "Com Paoskoto"
+    },
+    {
+      "code_ief": "311",
+      "code_area": "415",
+      "value_area": "Com Prokhane"
+    },
+    {
+      "code_ief": "311",
+      "code_area": "416",
+      "value_area": "Com Taiba Niassène"
+    },
+    {
+      "code_ief": "311",
+      "code_area": "418",
+      "value_area": "Com Keur Maba Diakhou"
+    },
+    {
+      "code_ief": "311",
+      "code_area": "419",
+      "value_area": "Com Keur Mandongo"
+    },
+    {
+      "code_ief": "311",
+      "code_area": "420",
+      "value_area": "Com Ndramé Escale"
+    },
+    {
+      "code_ief": "311",
+      "code_area": "421",
+      "value_area": "Com Wack Ngouna"
+    },
+    {
+      "code_ief": "289",
+      "code_area": "425",
+      "value_area": "Com Bandafassi"
+    },
+    {
+      "code_ief": "289",
+      "code_area": "426",
+      "value_area": "Com Dindéfélo"
+    },
+    {
+      "code_ief": "289",
+      "code_area": "427",
+      "value_area": "Com Ninefecha"
+    },
+    {
+      "code_ief": "289",
+      "code_area": "428",
+      "value_area": "Com Tomboronkoto"
+    },
+    {
+      "code_ief": "289",
+      "code_area": "430",
+      "value_area": "Com Dimboli"
+    },
+    {
+      "code_ief": "289",
+      "code_area": "431",
+      "value_area": "Com Fongolimbi"
+    },
+    {
+      "code_ief": "320",
+      "code_area": "434",
+      "value_area": "Com Dakateli"
+    },
+    {
+      "code_ief": "320",
+      "code_area": "435",
+      "value_area": "Com Kévoye"
+    },
+    {
+      "code_ief": "320",
+      "code_area": "437",
+      "value_area": "Com Dar Salam "
+    },
+    {
+      "code_ief": "320",
+      "code_area": "438",
+      "value_area": "Com Ethiolo"
+    },
+    {
+      "code_ief": "320",
+      "code_area": "439",
+      "value_area": "Com Oubadji"
+    },
+    {
+      "code_ief": "322",
+      "code_area": "442",
+      "value_area": "Com Bembou"
+    },
+    {
+      "code_ief": "322",
+      "code_area": "443",
+      "value_area": "Com Medina Baffe"
+    },
+    {
+      "code_ief": "322",
+      "code_area": "445",
+      "value_area": "Com Khossanto"
+    },
+    {
+      "code_ief": "322",
+      "code_area": "446",
+      "value_area": "Com Missirah Sirimana"
+    },
+    {
+      "code_ief": "322",
+      "code_area": "447",
+      "value_area": "Com Sabodola"
+    },
+    {
+      "code_ief": "293",
+      "code_area": "450",
+      "value_area": "Com Dioulacolon"
+    },
+    {
+      "code_ief": "293",
+      "code_area": "451",
+      "value_area": "Com Guiro Yero Bocar"
+    },
+    {
+      "code_ief": "293",
+      "code_area": "452",
+      "value_area": "Com Medina Elhadji"
+    },
+    {
+      "code_ief": "293",
+      "code_area": "453",
+      "value_area": "Com Tankanto Escale"
+    },
+    {
+      "code_ief": "293",
+      "code_area": "455",
+      "value_area": "Com Bagadadji"
+    },
+    {
+      "code_ief": "293",
+      "code_area": "456",
+      "value_area": "Com Coumbacara"
+    },
+    {
+      "code_ief": "293",
+      "code_area": "457",
+      "value_area": "Com Dialambere"
+    },
+    {
+      "code_ief": "293",
+      "code_area": "458",
+      "value_area": "Com Mampatim"
+    },
+    {
+      "code_ief": "293",
+      "code_area": "459",
+      "value_area": "Com Medina Cherif"
+    },
+    {
+      "code_ief": "293",
+      "code_area": "461",
+      "value_area": "Com Sare Bidji"
+    },
+    {
+      "code_ief": "293",
+      "code_area": "462",
+      "value_area": "Com Thietty"
+    },
+    {
+      "code_ief": "309",
+      "code_area": "468",
+      "value_area": "Com Badion"
+    },
+    {
+      "code_ief": "309",
+      "code_area": "469",
+      "value_area": "Com Fafacourou"
+    },
+    {
+      "code_ief": "309",
+      "code_area": "471",
+      "value_area": "Com Bignarabe"
+    },
+    {
+      "code_ief": "309",
+      "code_area": "472",
+      "value_area": "Com Bourouco"
+    },
+    {
+      "code_ief": "309",
+      "code_area": "473",
+      "value_area": "Com Koulinto"
+    },
+    {
+      "code_ief": "309",
+      "code_area": "474",
+      "value_area": "Com Ndorna"
+    },
+    {
+      "code_ief": "309",
+      "code_area": "476",
+      "value_area": "Com Dinguiraye"
+    },
+    {
+      "code_ief": "309",
+      "code_area": "477",
+      "value_area": "Com Kerewane"
+    },
+    {
+      "code_ief": "309",
+      "code_area": "478",
+      "value_area": "Com Niaming"
+    },
+    {
+      "code_ief": "332",
+      "code_area": "482",
+      "value_area": "Com Bonconto"
+    },
+    {
+      "code_ief": "332",
+      "code_area": "483",
+      "value_area": "Com Linkering"
+    },
+    {
+      "code_ief": "332",
+      "code_area": "484",
+      "value_area": "Com Madina Gounasse"
+    },
+    {
+      "code_ief": "332",
+      "code_area": "485",
+      "value_area": "Com Sinthiang Koundara"
+    },
+    {
+      "code_ief": "332",
+      "code_area": "487",
+      "value_area": "Com Ouassadou"
+    },
+    {
+      "code_ief": "332",
+      "code_area": "488",
+      "value_area": "Com Pakour"
+    },
+    {
+      "code_ief": "332",
+      "code_area": "489",
+      "value_area": "Com Paroumba"
+    },
+    {
+      "code_ief": "332",
+      "code_area": "491",
+      "value_area": "Com Kandia"
+    },
+    {
+      "code_ief": "332",
+      "code_area": "492",
+      "value_area": "Com Kandiaye"
+    },
+    {
+      "code_ief": "332",
+      "code_area": "493",
+      "value_area": "Com Nemataba"
+    },
+    {
+      "code_ief": "332",
+      "code_area": "494",
+      "value_area": "Com Sare Coly Salle"
+    },
+    {
+      "code_ief": "287",
+      "code_area": "499",
+      "value_area": "Com Darou Marnane"
+    },
+    {
+      "code_ief": "287",
+      "code_area": "500",
+      "value_area": "Com Darou Mousty"
+    },
+    {
+      "code_ief": "287",
+      "code_area": "501",
+      "value_area": "Com Mbacke Cadior"
+    },
+    {
+      "code_ief": "287",
+      "code_area": "502",
+      "value_area": "Com Mbadiane"
+    },
+    {
+      "code_ief": "287",
+      "code_area": "503",
+      "value_area": "Com Ndoyène"
+    },
+    {
+      "code_ief": "287",
+      "code_area": "504",
+      "value_area": "Com Sam Yabal"
+    },
+    {
+      "code_ief": "287",
+      "code_area": "505",
+      "value_area": "Com Touba Mérina"
+    },
+    {
+      "code_ief": "287",
+      "code_area": "507",
+      "value_area": "Com Bandegne Ouolof"
+    },
+    {
+      "code_ief": "287",
+      "code_area": "508",
+      "value_area": "Com Diokoul Diawrigne"
+    },
+    {
+      "code_ief": "287",
+      "code_area": "509",
+      "value_area": "Com Kab Gaye"
+    },
+    {
+      "code_ief": "287",
+      "code_area": "510",
+      "value_area": "Com Ndande"
+    },
+    {
+      "code_ief": "287",
+      "code_area": "511",
+      "value_area": "Com Thiepe"
+    },
+    {
+      "code_ief": "287",
+      "code_area": "513",
+      "value_area": "Com Kanène Ndiob"
+    },
+    {
+      "code_ief": "287",
+      "code_area": "514",
+      "value_area": "Com Loro"
+    },
+    {
+      "code_ief": "287",
+      "code_area": "515",
+      "value_area": "Com Ngourane Ouolof"
+    },
+    {
+      "code_ief": "287",
+      "code_area": "516",
+      "value_area": "Com Sagatta Gueth"
+    },
+    {
+      "code_ief": "287",
+      "code_area": "517",
+      "value_area": "Com Thiolom Fall"
+    },
+    {
+      "code_ief": "299",
+      "code_area": "521",
+      "value_area": "Com Barkédji"
+    },
+    {
+      "code_ief": "299",
+      "code_area": "522",
+      "value_area": "Com Gassane"
+    },
+    {
+      "code_ief": "299",
+      "code_area": "523",
+      "value_area": "Com Thiargny"
+    },
+    {
+      "code_ief": "299",
+      "code_area": "524",
+      "value_area": "Com Thiel"
+    },
+    {
+      "code_ief": "299",
+      "code_area": "526",
+      "value_area": "Com Dodji"
+    },
+    {
+      "code_ief": "299",
+      "code_area": "527",
+      "value_area": "Com Lagbar"
+    },
+    {
+      "code_ief": "299",
+      "code_area": "528",
+      "value_area": "Com Ouarkhokh"
+    },
+    {
+      "code_ief": "299",
+      "code_area": "530",
+      "value_area": "Com Affe Djolof"
+    },
+    {
+      "code_ief": "299",
+      "code_area": "531",
+      "value_area": "Com Boulal"
+    },
+    {
+      "code_ief": "299",
+      "code_area": "532",
+      "value_area": "Com Dealy"
+    },
+    {
+      "code_ief": "299",
+      "code_area": "533",
+      "value_area": "Com Sagatta Djolof"
+    },
+    {
+      "code_ief": "299",
+      "code_area": "534",
+      "value_area": "Com Thiamene Pase"
+    },
+    {
+      "code_ief": "299",
+      "code_area": "536",
+      "value_area": "Com Kambe"
+    },
+    {
+      "code_ief": "299",
+      "code_area": "537",
+      "value_area": "Com Mboula"
+    },
+    {
+      "code_ief": "299",
+      "code_area": "538",
+      "value_area": "Com Tessekere Forage"
+    },
+    {
+      "code_ief": "299",
+      "code_area": "539",
+      "value_area": "Com Yang Yang"
+    },
+    {
+      "code_ief": "301",
+      "code_area": "544",
+      "value_area": "Com Gande"
+    },
+    {
+      "code_ief": "301",
+      "code_area": "545",
+      "value_area": "Com Keur Momar Sarr"
+    },
+    {
+      "code_ief": "301",
+      "code_area": "546",
+      "value_area": "Com Nguer Malal"
+    },
+    {
+      "code_ief": "301",
+      "code_area": "547",
+      "value_area": "Com Syer"
+    },
+    {
+      "code_ief": "301",
+      "code_area": "549",
+      "value_area": "Com Guet Ardo"
+    },
+    {
+      "code_ief": "301",
+      "code_area": "550",
+      "value_area": "Com Koki"
+    },
+    {
+      "code_ief": "301",
+      "code_area": "551",
+      "value_area": "Com Pete Ouarack"
+    },
+    {
+      "code_ief": "301",
+      "code_area": "552",
+      "value_area": "Com Thiamene Cayor"
+    },
+    {
+      "code_ief": "301",
+      "code_area": "554",
+      "value_area": "Com Kelle Gueye"
+    },
+    {
+      "code_ief": "301",
+      "code_area": "555",
+      "value_area": "Com Mbediene"
+    },
+    {
+      "code_ief": "301",
+      "code_area": "556",
+      "value_area": "Com Nguidile"
+    },
+    {
+      "code_ief": "301",
+      "code_area": "557",
+      "value_area": "Com Niomre"
+    },
+    {
+      "code_ief": "301",
+      "code_area": "559",
+      "value_area": "Com Leona"
+    },
+    {
+      "code_ief": "301",
+      "code_area": "560",
+      "value_area": "Com Ngueune Sarr"
+    },
+    {
+      "code_ief": "301",
+      "code_area": "561",
+      "value_area": "Com Sakal"
+    },
+    {
+      "code_ief": "282",
+      "code_area": "565",
+      "value_area": "Com Aoure"
+    },
+    {
+      "code_ief": "282",
+      "code_area": "566",
+      "value_area": "Com Bokiladji"
+    },
+    {
+      "code_ief": "282",
+      "code_area": "567",
+      "value_area": "Com Orkadiere"
+    },
+    {
+      "code_ief": "282",
+      "code_area": "569",
+      "value_area": "Com Ndendory"
+    },
+    {
+      "code_ief": "282",
+      "code_area": "570",
+      "value_area": "Com Ouro Sidy"
+    },
+    {
+      "code_ief": "307",
+      "code_area": "579",
+      "value_area": "Com Agnam Civol"
+    },
+    {
+      "code_ief": "307",
+      "code_area": "580",
+      "value_area": "Com Dabia"
+    },
+    {
+      "code_ief": "307",
+      "code_area": "581",
+      "value_area": "Com Orefonde"
+    },
+    {
+      "code_ief": "307",
+      "code_area": "583",
+      "value_area": "Com Bokidiawe"
+    },
+    {
+      "code_ief": "307",
+      "code_area": "584",
+      "value_area": "Com Nabadji Civol"
+    },
+    {
+      "code_ief": "307",
+      "code_area": "585",
+      "value_area": "Com Ogo"
+    },
+    {
+      "code_ief": "318",
+      "code_area": "591",
+      "value_area": "Com Lougre Thioli"
+    },
+    {
+      "code_ief": "318",
+      "code_area": "592",
+      "value_area": "Com Oudalaye"
+    },
+    {
+      "code_ief": "318",
+      "code_area": "593",
+      "value_area": "Com Velingara"
+    },
+    {
+      "code_ief": "268",
+      "code_area": "618",
+      "value_area": "Com Boghal"
+    },
+    {
+      "code_ief": "268",
+      "code_area": "619",
+      "value_area": "Com Djinany"
+    },
+    {
+      "code_ief": "268",
+      "code_area": "620",
+      "value_area": "Com Ndiamacouta"
+    },
+    {
+      "code_ief": "268",
+      "code_area": "621",
+      "value_area": "Com Ndiamalathiel"
+    },
+    {
+      "code_ief": "268",
+      "code_area": "622",
+      "value_area": "Com Tankon"
+    },
+    {
+      "code_ief": "268",
+      "code_area": "624",
+      "value_area": "Com Bona"
+    },
+    {
+      "code_ief": "268",
+      "code_area": "625",
+      "value_area": "Com Diacounda"
+    },
+    {
+      "code_ief": "268",
+      "code_area": "626",
+      "value_area": "Com Inor"
+    },
+    {
+      "code_ief": "268",
+      "code_area": "627",
+      "value_area": "Com Kandion Mangana"
+    },
+    {
+      "code_ief": "268",
+      "code_area": "629",
+      "value_area": "Com Diambaty"
+    },
+    {
+      "code_ief": "268",
+      "code_area": "630",
+      "value_area": "Com Diaroume"
+    },
+    {
+      "code_ief": "268",
+      "code_area": "631",
+      "value_area": "Com Faoune"
+    },
+    {
+      "code_ief": "274",
+      "code_area": "636",
+      "value_area": "Com Djibanar"
+    },
+    {
+      "code_ief": "274",
+      "code_area": "637",
+      "value_area": "Com Kaour"
+    },
+    {
+      "code_ief": "274",
+      "code_area": "638",
+      "value_area": "Com Mangaroungou Santo"
+    },
+    {
+      "code_ief": "274",
+      "code_area": "639",
+      "value_area": "Com Simbandi Balante"
+    },
+    {
+      "code_ief": "274",
+      "code_area": "640",
+      "value_area": "Com Yarang Balante"
+    },
+    {
+      "code_ief": "274",
+      "code_area": "642",
+      "value_area": "Com Karantaba"
+    },
+    {
+      "code_ief": "274",
+      "code_area": "643",
+      "value_area": "Com Kolibantang"
+    },
+    {
+      "code_ief": "274",
+      "code_area": "645",
+      "value_area": "Com Baghere"
+    },
+    {
+      "code_ief": "274",
+      "code_area": "646",
+      "value_area": "Com Diouboudou"
+    },
+    {
+      "code_ief": "274",
+      "code_area": "647",
+      "value_area": "Com Niagha"
+    },
+    {
+      "code_ief": "274",
+      "code_area": "648",
+      "value_area": "Com Simbandi Brassou"
+    },
+    {
+      "code_ief": "324",
+      "code_area": "654",
+      "value_area": "Com Diende"
+    },
+    {
+      "code_ief": "324",
+      "code_area": "655",
+      "value_area": "Com Koussy"
+    },
+    {
+      "code_ief": "324",
+      "code_area": "656",
+      "value_area": "Com Oudougar"
+    },
+    {
+      "code_ief": "324",
+      "code_area": "657",
+      "value_area": "Com Sakar"
+    },
+    {
+      "code_ief": "324",
+      "code_area": "658",
+      "value_area": "Com Sama Kanta Peul"
+    },
+    {
+      "code_ief": "324",
+      "code_area": "660",
+      "value_area": "Com Benet Bijini"
+    },
+    {
+      "code_ief": "324",
+      "code_area": "661",
+      "value_area": "Com Djibabouya"
+    },
+    {
+      "code_ief": "324",
+      "code_area": "662",
+      "value_area": "Com Sansamba"
+    },
+    {
+      "code_ief": "324",
+      "code_area": "664",
+      "value_area": "Com Bambali"
+    },
+    {
+      "code_ief": "324",
+      "code_area": "665",
+      "value_area": "Com Djiredji"
+    },
+    {
+      "code_ief": "270",
+      "code_area": "670",
+      "value_area": "Com Mbane"
+    },
+    {
+      "code_ief": "270",
+      "code_area": "671",
+      "value_area": "Com Mbokhol"
+    },
+    {
+      "code_ief": "270",
+      "code_area": "673",
+      "value_area": "Com Diama"
+    },
+    {
+      "code_ief": "270",
+      "code_area": "674",
+      "value_area": "Com Ngnith"
+    },
+    {
+      "code_ief": "270",
+      "code_area": "675",
+      "value_area": "Com Ronkh"
+    },
+    {
+      "code_ief": "333",
+      "code_area": "683",
+      "value_area": "Com Doumga Lao"
+    },
+    {
+      "code_ief": "333",
+      "code_area": "684",
+      "value_area": "Com Madina Ndiatbe"
+    },
+    {
+      "code_ief": "333",
+      "code_area": "685",
+      "value_area": "Com Meri"
+    },
+    {
+      "code_ief": "333",
+      "code_area": "687",
+      "value_area": "Com Boke Dialloube"
+    },
+    {
+      "code_ief": "333",
+      "code_area": "688",
+      "value_area": "Com Mbollo Birane"
+    },
+    {
+      "code_ief": "316",
+      "code_area": "697",
+      "value_area": "Com Dodel"
+    },
+    {
+      "code_ief": "316",
+      "code_area": "698",
+      "value_area": "Com Gamadji Sare"
+    },
+    {
+      "code_ief": "316",
+      "code_area": "699",
+      "value_area": "Com Guede Village"
+    },
+    {
+      "code_ief": "316",
+      "code_area": "701",
+      "value_area": "Com Fanaye"
+    },
+    {
+      "code_ief": "316",
+      "code_area": "702",
+      "value_area": "Com Ndiayene Peindao"
+    },
+    {
+      "code_ief": "327",
+      "code_area": "710",
+      "value_area": "Com Fass Ngom"
+    },
+    {
+      "code_ief": "327",
+      "code_area": "711",
+      "value_area": "Com Gandon"
+    },
+    {
+      "code_ief": "327",
+      "code_area": "712",
+      "value_area": "Com Ndiebene Gandiol"
+    },
+    {
+      "code_ief": "261",
+      "code_area": "715",
+      "value_area": "Com Bele"
+    },
+    {
+      "code_ief": "261",
+      "code_area": "716",
+      "value_area": "Com Sinthiou Fissa"
+    },
+    {
+      "code_ief": "261",
+      "code_area": "718",
+      "value_area": "Com Gathiari"
+    },
+    {
+      "code_ief": "261",
+      "code_area": "719",
+      "value_area": "Com Madina Foulbe"
+    },
+    {
+      "code_ief": "261",
+      "code_area": "720",
+      "value_area": "Com Sadatou"
+    },
+    {
+      "code_ief": "261",
+      "code_area": "721",
+      "value_area": "Com Toumboura"
+    },
+    {
+      "code_ief": "261",
+      "code_area": "723",
+      "value_area": "Com Ballou"
+    },
+    {
+      "code_ief": "261",
+      "code_area": "724",
+      "value_area": "Com Gabou"
+    },
+    {
+      "code_ief": "261",
+      "code_area": "725",
+      "value_area": "Com Mouderi"
+    },
+    {
+      "code_ief": "272",
+      "code_area": "730",
+      "value_area": "Com Bala"
+    },
+    {
+      "code_ief": "272",
+      "code_area": "731",
+      "value_area": "Com Goumbayel"
+    },
+    {
+      "code_ief": "272",
+      "code_area": "733",
+      "value_area": "Com Koar"
+    },
+    {
+      "code_ief": "272",
+      "code_area": "735",
+      "value_area": "Com Boynguel Bamba"
+    },
+    {
+      "code_ief": "272",
+      "code_area": "736",
+      "value_area": "Com Dougue"
+    },
+    {
+      "code_ief": "272",
+      "code_area": "737",
+      "value_area": "Com Koussan"
+    },
+    {
+      "code_ief": "272",
+      "code_area": "738",
+      "value_area": "Com Sinthiou Mamadou Boubou"
+    },
+    {
+      "code_ief": "272",
+      "code_area": "740",
+      "value_area": "Com Bani Israel"
+    },
+    {
+      "code_ief": "272",
+      "code_area": "741",
+      "value_area": "Com Boutoucoufara"
+    },
+    {
+      "code_ief": "272",
+      "code_area": "742",
+      "value_area": "Com Dianke Makha"
+    },
+    {
+      "code_ief": "272",
+      "code_area": "743",
+      "value_area": "Com Komoti"
+    },
+    {
+      "code_ief": "272",
+      "code_area": "745",
+      "value_area": "Com Koulor"
+    },
+    {
+      "code_ief": "272",
+      "code_area": "746",
+      "value_area": "Com Sinthiou Bocar Ali"
+    },
+    {
+      "code_ief": "295",
+      "code_area": "750",
+      "value_area": "Com Bamba Thialene"
+    },
+    {
+      "code_ief": "295",
+      "code_area": "751",
+      "value_area": "Com Kahel"
+    },
+    {
+      "code_ief": "295",
+      "code_area": "752",
+      "value_area": "Com Mereto"
+    },
+    {
+      "code_ief": "295",
+      "code_area": "753",
+      "value_area": "Com Ndame"
+    },
+    {
+      "code_ief": "295",
+      "code_area": "755",
+      "value_area": "Com Kouthia Gaydi"
+    },
+    {
+      "code_ief": "295",
+      "code_area": "756",
+      "value_area": "Com Kouthiaba Wolof"
+    },
+    {
+      "code_ief": "295",
+      "code_area": "757",
+      "value_area": "Com Pass Koto"
+    },
+    {
+      "code_ief": "295",
+      "code_area": "758",
+      "value_area": "Com Payar "
+    },
+    {
+      "code_ief": "329",
+      "code_area": "762",
+      "value_area": "Com Koussanar"
+    },
+    {
+      "code_ief": "329",
+      "code_area": "763",
+      "value_area": "Com Sinthiou Malene"
+    },
+    {
+      "code_ief": "329",
+      "code_area": "765",
+      "value_area": "Com Maka"
+    },
+    {
+      "code_ief": "329",
+      "code_area": "766",
+      "value_area": "Com Ndoga Babacar"
+    },
+    {
+      "code_ief": "329",
+      "code_area": "767",
+      "value_area": "Com Niani Toucouleur"
+    },
+    {
+      "code_ief": "329",
+      "code_area": "769",
+      "value_area": "Com Dialokoto"
+    },
+    {
+      "code_ief": "329",
+      "code_area": "770",
+      "value_area": "Com Missirah"
+    },
+    {
+      "code_ief": "329",
+      "code_area": "771",
+      "value_area": "Com Netteboulou"
+    },
+    {
+      "code_ief": "263",
+      "code_area": "774",
+      "value_area": "Com Djibidione"
+    },
+    {
+      "code_ief": "263",
+      "code_area": "775",
+      "value_area": "Com Oulampane"
+    },
+    {
+      "code_ief": "263",
+      "code_area": "776",
+      "value_area": "Com Sindian"
+    },
+    {
+      "code_ief": "263",
+      "code_area": "777",
+      "value_area": "Com Suelle"
+    },
+    {
+      "code_ief": "263",
+      "code_area": "779",
+      "value_area": "Com Coubalan"
+    },
+    {
+      "code_ief": "263",
+      "code_area": "780",
+      "value_area": "Com Niamone"
+    },
+    {
+      "code_ief": "263",
+      "code_area": "781",
+      "value_area": "Com Ouonck"
+    },
+    {
+      "code_ief": "263",
+      "code_area": "782",
+      "value_area": "Com Tenghory"
+    },
+    {
+      "code_ief": "264",
+      "code_area": "785",
+      "value_area": "Com Djiniaki"
+    },
+    {
+      "code_ief": "264",
+      "code_area": "786",
+      "value_area": "Com Kafountine"
+    },
+    {
+      "code_ief": "264",
+      "code_area": "787",
+      "value_area": "Com Kataba 1"
+    },
+    {
+      "code_ief": "264",
+      "code_area": "789",
+      "value_area": "Com Balingore"
+    },
+    {
+      "code_ief": "264",
+      "code_area": "790",
+      "value_area": "Com Diegoune"
+    },
+    {
+      "code_ief": "264",
+      "code_area": "791",
+      "value_area": "Com Karthiack"
+    },
+    {
+      "code_ief": "264",
+      "code_area": "792",
+      "value_area": "Com Mangagoulack"
+    },
+    {
+      "code_ief": "264",
+      "code_area": "793",
+      "value_area": "Com Mlomp"
+    },
+    {
+      "code_ief": "313",
+      "code_area": "797",
+      "value_area": "Com Diembering"
+    },
+    {
+      "code_ief": "313",
+      "code_area": "798",
+      "value_area": "Com Santhiaba Mandjack"
+    },
+    {
+      "code_ief": "313",
+      "code_area": "800",
+      "value_area": "Com Mlomp"
+    },
+    {
+      "code_ief": "313",
+      "code_area": "801",
+      "value_area": "Com Oukout"
+    },
+    {
+      "code_ief": "259",
+      "code_area": "804",
+      "value_area": "Com Adéane"
+    },
+    {
+      "code_ief": "259",
+      "code_area": "805",
+      "value_area": "Com Boutoupa Cam"
+    },
+    {
+      "code_ief": "259",
+      "code_area": "806",
+      "value_area": "Com Niaguis"
+    },
+    {
+      "code_ief": "259",
+      "code_area": "808",
+      "value_area": "Com Enampor"
+    },
+    {
+      "code_ief": "259",
+      "code_area": "809",
+      "value_area": "Com Niassia"
+    },
+    {
+      "code_ief": "324",
+      "code_area": "811",
+      "value_area": "Com Diannah ba"
+    },
+    {
+      "code_ief": "4",
+      "code_area": "6",
+      "value_area": "Com Mermoz Sacre Coeur"
+    },
+    {
+      "code_ief": "4",
+      "code_area": "7",
+      "value_area": "Com Ngor"
+    },
+    {
+      "code_ief": "4",
+      "code_area": "8",
+      "value_area": "Com Ouakam"
+    },
+    {
+      "code_ief": "4",
+      "code_area": "9",
+      "value_area": "Com Yoff"
+    },
+    {
+      "code_ief": "10",
+      "code_area": "12",
+      "value_area": "Com Fann Point E Amitie"
+    },
+    {
+      "code_ief": "10",
+      "code_area": "13",
+      "value_area": "Com Fass Gueule Tapee Col"
+    },
+    {
+      "code_ief": "10",
+      "code_area": "14",
+      "value_area": "Com Goree"
+    },
+    {
+      "code_ief": "10",
+      "code_area": "15",
+      "value_area": "Com Médina"
+    },
+    {
+      "code_ief": "10",
+      "code_area": "16",
+      "value_area": "Com Plateau"
+    },
+    {
+      "code_ief": "17",
+      "code_area": "19",
+      "value_area": "Com Biscuiterie"
+    },
+    {
+      "code_ief": "17",
+      "code_area": "20",
+      "value_area": "Com Dieuppeul Derkle"
+    },
+    {
+      "code_ief": "17",
+      "code_area": "21",
+      "value_area": "Com Grand Dakar"
+    },
+    {
+      "code_ief": "17",
+      "code_area": "22",
+      "value_area": "Com Hann Bel Air"
+    },
+    {
+      "code_ief": "17",
+      "code_area": "23",
+      "value_area": "Com HLM"
+    },
+    {
+      "code_ief": "17",
+      "code_area": "24",
+      "value_area": "Com Sicap Liberte"
+    },
+    {
+      "code_ief": "25",
+      "code_area": "27",
+      "value_area": "Com Camberene"
+    },
+    {
+      "code_ief": "25",
+      "code_area": "28",
+      "value_area": "Com Grand Yoff"
+    },
+    {
+      "code_ief": "25",
+      "code_area": "29",
+      "value_area": "Com Parcelles Assainies"
+    },
+    {
+      "code_ief": "25",
+      "code_area": "30",
+      "value_area": "Com Patte d'Oie"
+    },
+    {
+      "code_ief": "34",
+      "code_area": "35",
+      "value_area": "Art Baba Garage"
+    },
+    {
+      "code_ief": "34",
+      "code_area": "39",
+      "value_area": "Art Lambaye"
+    },
+    {
+      "code_ief": "34",
+      "code_area": "44",
+      "value_area": "Art Ngoye"
+    },
+    {
+      "code_ief": "34",
+      "code_area": "49",
+      "value_area": "Com Bambey"
+    },
+    {
+      "code_ief": "51",
+      "code_area": "52",
+      "value_area": "Art Ndindi"
+    },
+    {
+      "code_ief": "51",
+      "code_area": "59",
+      "value_area": "Art Ndoulo"
+    },
+    {
+      "code_ief": "51",
+      "code_area": "65",
+      "value_area": "Com Diourbel"
+    },
+    {
+      "code_ief": "67",
+      "code_area": "68",
+      "value_area": "Art Kael"
+    },
+    {
+      "code_ief": "67",
+      "code_area": "77",
+      "value_area": "Art Ndame"
+    },
+    {
+      "code_ief": "67",
+      "code_area": "83",
+      "value_area": "Art Taïf"
+    },
+    {
+      "code_ief": "67",
+      "code_area": "86",
+      "value_area": "Com Mbacké"
+    },
+    {
+      "code_ief": "90",
+      "code_area": "91",
+      "value_area": "Art Fimela"
+    },
+    {
+      "code_ief": "90",
+      "code_area": "96",
+      "value_area": "Art Tattaguine"
+    },
+    {
+      "code_ief": "90",
+      "code_area": "100",
+      "value_area": "Com Diofior"
+    },
+    {
+      "code_ief": "101",
+      "code_area": "102",
+      "value_area": "Art Ndiob"
+    },
+    {
+      "code_ief": "101",
+      "code_area": "107",
+      "value_area": "Art Niakhar"
+    },
+    {
+      "code_ief": "101",
+      "code_area": "111",
+      "value_area": "Com Diakhao"
+    },
+    {
+      "code_ief": "101",
+      "code_area": "112",
+      "value_area": "Com Fatick"
+    },
+    {
+      "code_ief": "114",
+      "code_area": "115",
+      "value_area": "Art Djilor"
+    },
+    {
+      "code_ief": "114",
+      "code_area": "121",
+      "value_area": "Art Niodior"
+    },
+    {
+      "code_ief": "114",
+      "code_area": "125",
+      "value_area": "Art Toubacouta"
+    },
+    {
+      "code_ief": "114",
+      "code_area": "130",
+      "value_area": "Com Foundiougne"
+    },
+    {
+      "code_ief": "114",
+      "code_area": "131",
+      "value_area": "Com Karang Poste"
+    },
+    {
+      "code_ief": "114",
+      "code_area": "132",
+      "value_area": "Com Passy"
+    },
+    {
+      "code_ief": "114",
+      "code_area": "133",
+      "value_area": "Com Sokone"
+    },
+    {
+      "code_ief": "114",
+      "code_area": "134",
+      "value_area": "Com Soum"
+    },
+    {
+      "code_ief": "136",
+      "code_area": "137",
+      "value_area": "Art Colobane"
+    },
+    {
+      "code_ief": "136",
+      "code_area": "140",
+      "value_area": "Art Ouadiour"
+    },
+    {
+      "code_ief": "136",
+      "code_area": "144",
+      "value_area": "Com Gossas"
+    },
+    {
+      "code_ief": "147",
+      "code_area": "148",
+      "value_area": "Art Bambylor"
+    },
+    {
+      "code_ief": "147",
+      "code_area": "150",
+      "value_area": "Com Bargny"
+    },
+    {
+      "code_ief": "147",
+      "code_area": "151",
+      "value_area": "Com Diamniadio"
+    },
+    {
+      "code_ief": "147",
+      "code_area": "152",
+      "value_area": "Com Sébikotane"
+    },
+    {
+      "code_ief": "147",
+      "code_area": "153",
+      "value_area": "Com Sendou"
+    },
+    {
+      "code_ief": "155",
+      "code_area": "156",
+      "value_area": "Com Rufisque Est"
+    },
+    {
+      "code_ief": "155",
+      "code_area": "157",
+      "value_area": "Com Rufisque Nord"
+    },
+    {
+      "code_ief": "155",
+      "code_area": "158",
+      "value_area": "Com Rufisque Ouest"
+    },
+    {
+      "code_ief": "159",
+      "code_area": "160",
+      "value_area": "Art Bambylor"
+    },
+    {
+      "code_ief": "159",
+      "code_area": "163",
+      "value_area": "Com Jaxaay Parcelle Niakoul Ra"
+    },
+    {
+      "code_ief": "159",
+      "code_area": "164",
+      "value_area": "Com Sangalkam"
+    },
+    {
+      "code_ief": "168",
+      "code_area": "169",
+      "value_area": "Art Sindia"
+    },
+    {
+      "code_ief": "168",
+      "code_area": "173",
+      "value_area": "Com Mbour"
+    },
+    {
+      "code_ief": "168",
+      "code_area": "174",
+      "value_area": "Com Ngaparou"
+    },
+    {
+      "code_ief": "168",
+      "code_area": "175",
+      "value_area": "Com Nguékhokh"
+    },
+    {
+      "code_ief": "168",
+      "code_area": "176",
+      "value_area": "Com Popenguine"
+    },
+    {
+      "code_ief": "168",
+      "code_area": "177",
+      "value_area": "Com Saly"
+    },
+    {
+      "code_ief": "168",
+      "code_area": "178",
+      "value_area": "Com Somone"
+    },
+    {
+      "code_ief": "179",
+      "code_area": "180",
+      "value_area": "Art Fissel"
+    },
+    {
+      "code_ief": "179",
+      "code_area": "184",
+      "value_area": "Art Sessene"
+    },
+    {
+      "code_ief": "179",
+      "code_area": "187",
+      "value_area": "Com Joal"
+    },
+    {
+      "code_ief": "179",
+      "code_area": "188",
+      "value_area": "Com Thiadiaye"
+    },
+    {
+      "code_ief": "190",
+      "code_area": "191",
+      "value_area": "Com Thies Nord"
+    },
+    {
+      "code_ief": "190",
+      "code_area": "192",
+      "value_area": "Com Thies Est"
+    },
+    {
+      "code_ief": "190",
+      "code_area": "193",
+      "value_area": "Com Thies Ouest"
+    },
+    {
+      "code_ief": "194",
+      "code_area": "195",
+      "value_area": "Art Keur Moussa"
+    },
+    {
+      "code_ief": "194",
+      "code_area": "199",
+      "value_area": "Art Notto"
+    },
+    {
+      "code_ief": "194",
+      "code_area": "202",
+      "value_area": "Art Thiénaba"
+    },
+    {
+      "code_ief": "194",
+      "code_area": "207",
+      "value_area": "Com Kayar"
+    },
+    {
+      "code_ief": "194",
+      "code_area": "208",
+      "value_area": "Com Khombole"
+    },
+    {
+      "code_ief": "194",
+      "code_area": "209",
+      "value_area": "Com Pout"
+    },
+    {
+      "code_ief": "211",
+      "code_area": "212",
+      "value_area": "Art Meouane"
+    },
+    {
+      "code_ief": "211",
+      "code_area": "217",
+      "value_area": "Art Merina Dakhar"
+    },
+    {
+      "code_ief": "211",
+      "code_area": "221",
+      "value_area": "Art Niakhene"
+    },
+    {
+      "code_ief": "211",
+      "code_area": "226",
+      "value_area": "Art Pambal"
+    },
+    {
+      "code_ief": "211",
+      "code_area": "232",
+      "value_area": "Com MBoro"
+    },
+    {
+      "code_ief": "211",
+      "code_area": "233",
+      "value_area": "Com Mékhé"
+    },
+    {
+      "code_ief": "211",
+      "code_area": "234",
+      "value_area": "Com Tivaouane"
+    },
+    {
+      "code_ief": "266",
+      "code_area": "334",
+      "value_area": "Art keur Mbouki"
+    },
+    {
+      "code_ief": "266",
+      "code_area": "338",
+      "value_area": "Art Mabo"
+    },
+    {
+      "code_ief": "266",
+      "code_area": "343",
+      "value_area": "Com Birkelane"
+    },
+    {
+      "code_ief": "280",
+      "code_area": "344",
+      "value_area": "Art Gniby"
+    },
+    {
+      "code_ief": "280",
+      "code_area": "348",
+      "value_area": "Art Katakel"
+    },
+    {
+      "code_ief": "280",
+      "code_area": "353",
+      "value_area": "Com Kaffrine"
+    },
+    {
+      "code_ief": "280",
+      "code_area": "354",
+      "value_area": "Com Nganda"
+    },
+    {
+      "code_ief": "297",
+      "code_area": "355",
+      "value_area": "Art Ida Mouride"
+    },
+    {
+      "code_ief": "297",
+      "code_area": "359",
+      "value_area": "Art Lour Escale"
+    },
+    {
+      "code_ief": "297",
+      "code_area": "362",
+      "value_area": "Art Missirah Wadene"
+    },
+    {
+      "code_ief": "297",
+      "code_area": "366",
+      "value_area": "Com Koungheul"
+    },
+    {
+      "code_ief": "304",
+      "code_area": "367",
+      "value_area": "Art Darou Minam 2"
+    },
+    {
+      "code_ief": "304",
+      "code_area": "371",
+      "value_area": "Art Sagna"
+    },
+    {
+      "code_ief": "304",
+      "code_area": "374",
+      "value_area": "Com Malem Hoddar"
+    },
+    {
+      "code_ief": "278",
+      "code_area": "375",
+      "value_area": "Art Mbadakhoune"
+    },
+    {
+      "code_ief": "278",
+      "code_area": "380",
+      "value_area": "Art Nguelou"
+    },
+    {
+      "code_ief": "278",
+      "code_area": "386",
+      "value_area": "Com Fass"
+    },
+    {
+      "code_ief": "278",
+      "code_area": "387",
+      "value_area": "Com Guinguineo"
+    },
+    {
+      "code_ief": "278",
+      "code_area": "388",
+      "value_area": "Com Mboss"
+    },
+    {
+      "code_ief": "284",
+      "code_area": "389",
+      "value_area": "Com Kaolack"
+    },
+    {
+      "code_ief": "285",
+      "code_area": "390",
+      "value_area": "Art Koumbal"
+    },
+    {
+      "code_ief": "285",
+      "code_area": "394",
+      "value_area": "Art Ndiendieng"
+    },
+    {
+      "code_ief": "285",
+      "code_area": "398",
+      "value_area": "Art Ngothie"
+    },
+    {
+      "code_ief": "285",
+      "code_area": "402",
+      "value_area": "Com Gandiaye"
+    },
+    {
+      "code_ief": "285",
+      "code_area": "403",
+      "value_area": "Com Kahone"
+    },
+    {
+      "code_ief": "285",
+      "code_area": "404",
+      "value_area": "Com Ndoffane"
+    },
+    {
+      "code_ief": "285",
+      "code_area": "405",
+      "value_area": "Com Sibassor"
+    },
+    {
+      "code_ief": "311",
+      "code_area": "406",
+      "value_area": "Art Médina Sabakh"
+    },
+    {
+      "code_ief": "311",
+      "code_area": "410",
+      "value_area": "Art Paoskoto"
+    },
+    {
+      "code_ief": "311",
+      "code_area": "417",
+      "value_area": "Art Wack Gouna"
+    },
+    {
+      "code_ief": "311",
+      "code_area": "422",
+      "value_area": "Com Keur Madiabel"
+    },
+    {
+      "code_ief": "311",
+      "code_area": "423",
+      "value_area": "Com Nioro"
+    },
+    {
+      "code_ief": "289",
+      "code_area": "424",
+      "value_area": "Art Bandafassi"
+    },
+    {
+      "code_ief": "289",
+      "code_area": "429",
+      "value_area": "Art Fongolimbi"
+    },
+    {
+      "code_ief": "289",
+      "code_area": "432",
+      "value_area": "Com Kedougou"
+    },
+    {
+      "code_ief": "320",
+      "code_area": "433",
+      "value_area": "Art Dakateli"
+    },
+    {
+      "code_ief": "320",
+      "code_area": "436",
+      "value_area": "Art Dar Salam"
+    },
+    {
+      "code_ief": "320",
+      "code_area": "440",
+      "value_area": "Com Salemata"
+    },
+    {
+      "code_ief": "322",
+      "code_area": "441",
+      "value_area": "Art Bembou"
+    },
+    {
+      "code_ief": "322",
+      "code_area": "444",
+      "value_area": "Art Sabodola"
+    },
+    {
+      "code_ief": "322",
+      "code_area": "448",
+      "value_area": "Com Saraya"
+    },
+    {
+      "code_ief": "293",
+      "code_area": "449",
+      "value_area": "Art Dioulacolon"
+    },
+    {
+      "code_ief": "293",
+      "code_area": "454",
+      "value_area": "Art Mampatim"
+    },
+    {
+      "code_ief": "293",
+      "code_area": "460",
+      "value_area": "Art Sare Bidji"
+    },
+    {
+      "code_ief": "293",
+      "code_area": "463",
+      "value_area": "Com Dabo"
+    },
+    {
+      "code_ief": "293",
+      "code_area": "464",
+      "value_area": "Com Kolda"
+    },
+    {
+      "code_ief": "293",
+      "code_area": "465",
+      "value_area": "Com Salikegne"
+    },
+    {
+      "code_ief": "293",
+      "code_area": "466",
+      "value_area": "Com Sare Yoba Diega"
+    },
+    {
+      "code_ief": "309",
+      "code_area": "467",
+      "value_area": "Art Fafacourou"
+    },
+    {
+      "code_ief": "309",
+      "code_area": "470",
+      "value_area": "Art Ndorna"
+    },
+    {
+      "code_ief": "309",
+      "code_area": "475",
+      "value_area": "Art Niaming"
+    },
+    {
+      "code_ief": "309",
+      "code_area": "479",
+      "value_area": "Com Medina Yoro Foulah"
+    },
+    {
+      "code_ief": "309",
+      "code_area": "480",
+      "value_area": "Com Pata"
+    },
+    {
+      "code_ief": "332",
+      "code_area": "481",
+      "value_area": "Art Bonconto"
+    },
+    {
+      "code_ief": "332",
+      "code_area": "486",
+      "value_area": "Art Pakour"
+    },
+    {
+      "code_ief": "332",
+      "code_area": "490",
+      "value_area": "Art Sare Coly Salle"
+    },
+    {
+      "code_ief": "332",
+      "code_area": "495",
+      "value_area": "Com Diaobe Kabendou"
+    },
+    {
+      "code_ief": "332",
+      "code_area": "496",
+      "value_area": "Com Kounkane"
+    },
+    {
+      "code_ief": "332",
+      "code_area": "497",
+      "value_area": "Com Velingara"
+    },
+    {
+      "code_ief": "287",
+      "code_area": "498",
+      "value_area": "Art Darou Mousty"
+    },
+    {
+      "code_ief": "287",
+      "code_area": "506",
+      "value_area": "Art Ndande"
+    },
+    {
+      "code_ief": "287",
+      "code_area": "512",
+      "value_area": "Art Sagatta Gueth"
+    },
+    {
+      "code_ief": "287",
+      "code_area": "518",
+      "value_area": "Com Gueoul"
+    },
+    {
+      "code_ief": "287",
+      "code_area": "519",
+      "value_area": "Com Kébémer"
+    },
+    {
+      "code_ief": "299",
+      "code_area": "520",
+      "value_area": "Art Barkedji"
+    },
+    {
+      "code_ief": "299",
+      "code_area": "525",
+      "value_area": "Art Dodji"
+    },
+    {
+      "code_ief": "299",
+      "code_area": "529",
+      "value_area": "Art Sagatta Djolof"
+    },
+    {
+      "code_ief": "299",
+      "code_area": "535",
+      "value_area": "Art Yang Yang"
+    },
+    {
+      "code_ief": "299",
+      "code_area": "540",
+      "value_area": "Com Dahra"
+    },
+    {
+      "code_ief": "299",
+      "code_area": "541",
+      "value_area": "Com Linguère"
+    },
+    {
+      "code_ief": "299",
+      "code_area": "542",
+      "value_area": "Com Mbeuleukhe"
+    },
+    {
+      "code_ief": "301",
+      "code_area": "543",
+      "value_area": "Art Keur Momar Sarr"
+    },
+    {
+      "code_ief": "301",
+      "code_area": "548",
+      "value_area": "Art Koki"
+    },
+    {
+      "code_ief": "301",
+      "code_area": "553",
+      "value_area": "Art Mbediene"
+    },
+    {
+      "code_ief": "301",
+      "code_area": "558",
+      "value_area": "Art Sakal"
+    },
+    {
+      "code_ief": "301",
+      "code_area": "562",
+      "value_area": "Com Louga"
+    },
+    {
+      "code_ief": "301",
+      "code_area": "563",
+      "value_area": "Com Ndiagne"
+    },
+    {
+      "code_ief": "282",
+      "code_area": "564",
+      "value_area": "Art Orkadiere"
+    },
+    {
+      "code_ief": "282",
+      "code_area": "568",
+      "value_area": "Art Ouro Sidy"
+    },
+    {
+      "code_ief": "282",
+      "code_area": "571",
+      "value_area": "Com Dembancane"
+    },
+    {
+      "code_ief": "282",
+      "code_area": "572",
+      "value_area": "Com Hamady Ounare"
+    },
+    {
+      "code_ief": "282",
+      "code_area": "573",
+      "value_area": "Com Kanel"
+    },
+    {
+      "code_ief": "282",
+      "code_area": "574",
+      "value_area": "Com Odobere"
+    },
+    {
+      "code_ief": "282",
+      "code_area": "575",
+      "value_area": "Com Semme"
+    },
+    {
+      "code_ief": "282",
+      "code_area": "576",
+      "value_area": "Com Sinthiou Bamambe Banadji"
+    },
+    {
+      "code_ief": "282",
+      "code_area": "577",
+      "value_area": "Com Waounde"
+    },
+    {
+      "code_ief": "307",
+      "code_area": "578",
+      "value_area": "Art Agnam Civol"
+    },
+    {
+      "code_ief": "307",
+      "code_area": "582",
+      "value_area": "Art Ogo"
+    },
+    {
+      "code_ief": "307",
+      "code_area": "586",
+      "value_area": "Com Matam"
+    },
+    {
+      "code_ief": "307",
+      "code_area": "587",
+      "value_area": "Com Nguidilogne"
+    },
+    {
+      "code_ief": "307",
+      "code_area": "588",
+      "value_area": "Com Ourossogui"
+    },
+    {
+      "code_ief": "307",
+      "code_area": "589",
+      "value_area": "Com Thilogne"
+    },
+    {
+      "code_ief": "318",
+      "code_area": "590",
+      "value_area": "Art Velingara"
+    },
+    {
+      "code_ief": "318",
+      "code_area": "594",
+      "value_area": "Com Ranerou"
+    },
+    {
+      "code_ief": "276",
+      "code_area": "595",
+      "value_area": "Com Golf Sud"
+    },
+    {
+      "code_ief": "276",
+      "code_area": "597",
+      "value_area": "Com Medina Gounass"
+    },
+    {
+      "code_ief": "276",
+      "code_area": "598",
+      "value_area": "Com Ndiareme Limamoulaye"
+    },
+    {
+      "code_ief": "276",
+      "code_area": "599",
+      "value_area": "Com Sam Notaire"
+    },
+    {
+      "code_ief": "276",
+      "code_area": "600",
+      "value_area": "Com Wakhinane Nimzatt"
+    },
+    {
+      "code_ief": "291",
+      "code_area": "601",
+      "value_area": "Com Keur Massar"
+    },
+    {
+      "code_ief": "291",
+      "code_area": "602",
+      "value_area": "Com Malika"
+    },
+    {
+      "code_ief": "291",
+      "code_area": "603",
+      "value_area": "Com Yeumbeul Nord"
+    },
+    {
+      "code_ief": "291",
+      "code_area": "604",
+      "value_area": "Com Yeumbeul Sud"
+    },
+    {
+      "code_ief": "314",
+      "code_area": "605",
+      "value_area": "Com Dalifort"
+    },
+    {
+      "code_ief": "314",
+      "code_area": "606",
+      "value_area": "Com Djeddah Thiaroye Kaw"
+    },
+    {
+      "code_ief": "314",
+      "code_area": "607",
+      "value_area": "Com Guinaw Rail Nord"
+    },
+    {
+      "code_ief": "314",
+      "code_area": "608",
+      "value_area": "Com Guinaw Rail Sud"
+    },
+    {
+      "code_ief": "314",
+      "code_area": "609",
+      "value_area": "Com Pikine Est"
+    },
+    {
+      "code_ief": "314",
+      "code_area": "610",
+      "value_area": "Com Pikine Nord"
+    },
+    {
+      "code_ief": "314",
+      "code_area": "611",
+      "value_area": "Com Pikine Ouest"
+    },
+    {
+      "code_ief": "330",
+      "code_area": "612",
+      "value_area": "Com Diamaguene Sicap Mbao"
+    },
+    {
+      "code_ief": "330",
+      "code_area": "613",
+      "value_area": "Com Mbao"
+    },
+    {
+      "code_ief": "330",
+      "code_area": "614",
+      "value_area": "Com Thiaroye Gare"
+    },
+    {
+      "code_ief": "330",
+      "code_area": "615",
+      "value_area": "Com Thiaroye sur Mer"
+    },
+    {
+      "code_ief": "330",
+      "code_area": "616",
+      "value_area": "Com Tivaouane Diaksao"
+    },
+    {
+      "code_ief": "268",
+      "code_area": "617",
+      "value_area": "Art Boghal"
+    },
+    {
+      "code_ief": "268",
+      "code_area": "623",
+      "value_area": "Art Bona"
+    },
+    {
+      "code_ief": "268",
+      "code_area": "628",
+      "value_area": "Art Diaroume"
+    },
+    {
+      "code_ief": "268",
+      "code_area": "632",
+      "value_area": "Com Bounkiling"
+    },
+    {
+      "code_ief": "268",
+      "code_area": "633",
+      "value_area": "Com Medina Wandifa"
+    },
+    {
+      "code_ief": "268",
+      "code_area": "634",
+      "value_area": "Com Ndiamacouta"
+    },
+    {
+      "code_ief": "274",
+      "code_area": "635",
+      "value_area": "Art Djibanar"
+    },
+    {
+      "code_ief": "274",
+      "code_area": "641",
+      "value_area": "Art Karantaba"
+    },
+    {
+      "code_ief": "274",
+      "code_area": "644",
+      "value_area": "Art Simbandi Brassou"
+    },
+    {
+      "code_ief": "274",
+      "code_area": "649",
+      "value_area": "Com Diattacounda"
+    },
+    {
+      "code_ief": "274",
+      "code_area": "650",
+      "value_area": "Com Goudomp"
+    },
+    {
+      "code_ief": "274",
+      "code_area": "651",
+      "value_area": "Com Samine"
+    },
+    {
+      "code_ief": "274",
+      "code_area": "652",
+      "value_area": "Com Tanaff"
+    },
+    {
+      "code_ief": "324",
+      "code_area": "653",
+      "value_area": "Art Diende"
+    },
+    {
+      "code_ief": "324",
+      "code_area": "659",
+      "value_area": "Art Djibabouya"
+    },
+    {
+      "code_ief": "324",
+      "code_area": "663",
+      "value_area": "Art Djiredji"
+    },
+    {
+      "code_ief": "324",
+      "code_area": "666",
+      "value_area": "Com Dianah Malary"
+    },
+    {
+      "code_ief": "324",
+      "code_area": "667",
+      "value_area": "Com Marsassoum"
+    },
+    {
+      "code_ief": "324",
+      "code_area": "668",
+      "value_area": "Com Sedhiou"
+    },
+    {
+      "code_ief": "270",
+      "code_area": "669",
+      "value_area": "Art Mbane"
+    },
+    {
+      "code_ief": "270",
+      "code_area": "672",
+      "value_area": "Art Ndiaye"
+    },
+    {
+      "code_ief": "270",
+      "code_area": "676",
+      "value_area": "Com Dagana"
+    },
+    {
+      "code_ief": "270",
+      "code_area": "677",
+      "value_area": "Com Gae"
+    },
+    {
+      "code_ief": "270",
+      "code_area": "678",
+      "value_area": "Com Ndombo Sandjiry"
+    },
+    {
+      "code_ief": "270",
+      "code_area": "679",
+      "value_area": "Com Richard Toll"
+    },
+    {
+      "code_ief": "270",
+      "code_area": "680",
+      "value_area": "Com Ross Bethio"
+    },
+    {
+      "code_ief": "270",
+      "code_area": "681",
+      "value_area": "Com Rosso Senegal"
+    },
+    {
+      "code_ief": "333",
+      "code_area": "682",
+      "value_area": "Art Cas Cas"
+    },
+    {
+      "code_ief": "333",
+      "code_area": "686",
+      "value_area": "Art Salde"
+    },
+    {
+      "code_ief": "333",
+      "code_area": "689",
+      "value_area": "Com Aere Lao"
+    },
+    {
+      "code_ief": "333",
+      "code_area": "690",
+      "value_area": "Com Bode Lao"
+    },
+    {
+      "code_ief": "333",
+      "code_area": "691",
+      "value_area": "Com Galloya Toucouleur"
+    },
+    {
+      "code_ief": "333",
+      "code_area": "692",
+      "value_area": "Com Gollere"
+    },
+    {
+      "code_ief": "333",
+      "code_area": "693",
+      "value_area": "Com Mboumba"
+    },
+    {
+      "code_ief": "333",
+      "code_area": "694",
+      "value_area": "Com Pete"
+    },
+    {
+      "code_ief": "333",
+      "code_area": "695",
+      "value_area": "Com Walalde"
+    },
+    {
+      "code_ief": "316",
+      "code_area": "696",
+      "value_area": "Art Gamadji Sare"
+    },
+    {
+      "code_ief": "316",
+      "code_area": "700",
+      "value_area": "Art Thille Boubacar"
+    },
+    {
+      "code_ief": "316",
+      "code_area": "703",
+      "value_area": "Com Demette"
+    },
+    {
+      "code_ief": "316",
+      "code_area": "704",
+      "value_area": "Com Guede Chantier"
+    },
+    {
+      "code_ief": "316",
+      "code_area": "705",
+      "value_area": "Com NDiandane"
+    },
+    {
+      "code_ief": "316",
+      "code_area": "706",
+      "value_area": "Com Ndioum"
+    },
+    {
+      "code_ief": "316",
+      "code_area": "707",
+      "value_area": "Com Podor"
+    },
+    {
+      "code_ief": "326",
+      "code_area": "708",
+      "value_area": "Com Saint-Louis"
+    },
+    {
+      "code_ief": "327",
+      "code_area": "709",
+      "value_area": "Art Rao"
+    },
+    {
+      "code_ief": "327",
+      "code_area": "713",
+      "value_area": "Com Mpal"
+    },
+    {
+      "code_ief": "261",
+      "code_area": "714",
+      "value_area": "Art Bele"
+    },
+    {
+      "code_ief": "261",
+      "code_area": "717",
+      "value_area": "Art Keniaba"
+    },
+    {
+      "code_ief": "261",
+      "code_area": "722",
+      "value_area": "Art Moudery"
+    },
+    {
+      "code_ief": "261",
+      "code_area": "726",
+      "value_area": "Com Bakel"
+    },
+    {
+      "code_ief": "261",
+      "code_area": "727",
+      "value_area": "Com Diawara"
+    },
+    {
+      "code_ief": "261",
+      "code_area": "728",
+      "value_area": "Com Kidira"
+    },
+    {
+      "code_ief": "272",
+      "code_area": "729",
+      "value_area": "Art Bala"
+    },
+    {
+      "code_ief": "272",
+      "code_area": "734",
+      "value_area": "Art Boynguel Bamba"
+    },
+    {
+      "code_ief": "272",
+      "code_area": "739",
+      "value_area": "Art Dianke Makha"
+    },
+    {
+      "code_ief": "272",
+      "code_area": "744",
+      "value_area": "Art Koulor"
+    },
+    {
+      "code_ief": "272",
+      "code_area": "747",
+      "value_area": "Com Goudiry"
+    },
+    {
+      "code_ief": "272",
+      "code_area": "748",
+      "value_area": "Com Kothiary"
+    },
+    {
+      "code_ief": "295",
+      "code_area": "749",
+      "value_area": "Art Bamba Thialene"
+    },
+    {
+      "code_ief": "295",
+      "code_area": "754",
+      "value_area": "Art Kouthiaba Wolof"
+    },
+    {
+      "code_ief": "295",
+      "code_area": "759",
+      "value_area": "Com Malem Niani"
+    },
+    {
+      "code_ief": "295",
+      "code_area": "760",
+      "value_area": "Com Koumpentoun"
+    },
+    {
+      "code_ief": "329",
+      "code_area": "761",
+      "value_area": "Art Koussanar"
+    },
+    {
+      "code_ief": "329",
+      "code_area": "764",
+      "value_area": "Art Makakolibantang"
+    },
+    {
+      "code_ief": "329",
+      "code_area": "768",
+      "value_area": "Art Missirah"
+    },
+    {
+      "code_ief": "329",
+      "code_area": "772",
+      "value_area": "Com Tamba"
+    },
+    {
+      "code_ief": "263",
+      "code_area": "773",
+      "value_area": "Art Sindian"
+    },
+    {
+      "code_ief": "263",
+      "code_area": "778",
+      "value_area": "Art Tenghory"
+    },
+    {
+      "code_ief": "263",
+      "code_area": "783",
+      "value_area": "Com Bignona"
+    },
+    {
+      "code_ief": "264",
+      "code_area": "784",
+      "value_area": "Art Kataba 1"
+    },
+    {
+      "code_ief": "264",
+      "code_area": "788",
+      "value_area": "Art Tendouck"
+    },
+    {
+      "code_ief": "264",
+      "code_area": "794",
+      "value_area": "Com Diouloulou"
+    },
+    {
+      "code_ief": "264",
+      "code_area": "795",
+      "value_area": "Com Thionck Essyl"
+    },
+    {
+      "code_ief": "313",
+      "code_area": "796",
+      "value_area": "Art Cabrousse"
+    },
+    {
+      "code_ief": "313",
+      "code_area": "799",
+      "value_area": "Art Loudia Wolof"
+    },
+    {
+      "code_ief": "313",
+      "code_area": "802",
+      "value_area": "Com Oussouye"
+    },
+    {
+      "code_ief": "259",
+      "code_area": "803",
+      "value_area": "Art Niaguis"
+    },
+    {
+      "code_ief": "259",
+      "code_area": "807",
+      "value_area": "Art Niassia"
+    },
+    {
+      "code_ief": "259",
+      "code_area": "810",
+      "value_area": "Com Ziguinchor"
+    }
+  ]
+}

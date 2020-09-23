@@ -1,0 +1,68 @@
+
+/*===============================================
+   Timeline Widget
+=================================================*/
+ol.timeline-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  color: #AAA;
+}
+ol.timeline-list li.timeline-item {
+  position: relative;
+  padding: 15px 120px 15px 50px;
+}
+ol.timeline-list li.timeline-item:hover .timeline-icon,
+ol.timeline-list li.timeline-item:focus .timeline-icon {
+  opacity: 1;
+}
+ol.timeline-list li.timeline-item:after {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 23px;
+  top: 0;
+  height: 100%;
+  width: 3px;
+  background: #E8E8E8;
+}
+ol.timeline-list li.timeline-item + .timeline-item {
+  border-top: 1px solid #E8E8E8;
+}
+ol.timeline-list li.timeline-item .timeline-desc {
+  letter-spacing: 0.2px;
+}
+ol.timeline-list li.timeline-item .timeline-desc b,
+ol.timeline-list li.timeline-item .timeline-desc strong {
+  color: #333;
+  font-weight: 600;
+}
+ol.timeline-list li.timeline-item .timeline-desc a {
+  padding: 0 2px;
+  color: #3bafda;
+}
+ol.timeline-list li.timeline-item .timeline-icon {
+  opacity: 0.85;
+  z-index: 2;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  background: #BBB;
+  width: 30px;
+  height: 30px;
+  line-height: 26px;
+  color: #FFF;
+  text-align: center;
+  border-radius: 26px;
+  border: 2px solid #FFF;
+}
+ol.timeline-list li.timeline-item .timeline-date {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+.tray-left ol.timeline-list li.timeline-item,
+.tray-right ol.timeline-list li.timeline-item {
+  position: relative;
+  padding: 15px 80px 15px 50px;
+}

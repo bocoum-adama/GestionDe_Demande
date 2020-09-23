@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!--
+    This build file packages the phing files, builds a package.xml (version 2) for installation
+    using PEAR and creates the TAR and TGZ files.
+-->
+<project name="digigarde" basedir="." default="main">
+
+    <php function="dirname" returnProperty="buildfile.dir">
+        <param value="${phing.file}"/>
+    </php>
+
+    <php function="realpath" returnProperty="phingpkg.home">
+        <param value="${buildfile.dir}"/>
+    </php>
+
+    <property name="project.name" value="digigarde"/>
+    <property name="build.config.prod.dir" value="${buildfile.dir}/application/config/production"/>
+    <property name="build.full.dir" value="${buildfile.dir}/build"/>
+    <property name="build.pear.dir" value="${build.full.dir}/pear"/>
+    <property name="build.pear.config.dev.dir" value="${build.pear.dir}/application/config"/>
+    <property name="prod.server.path" value="/var/www/${project.name}"/>
+    <property name="prod.server.buildpath" value="/var/www/${project.name}/build"/>
+    <property name="prod.server.sharedfolder" value="/var/www/${project.name}/sql"/>
+
+    <fileset dir="${phingpkg.home}" id="all">
+        <include name="application/**"/>
+        <include name="assets/**"/>
+        <include name="api/**"/>
+        <include name="configuration/**"/>
+        <include name="images/**"/>
+        <include name="system/**"/>
+        <include name="index.php"/>
+    </fileset>
+
+    <fileset dir="${phingpkg.home}" id="comp">
+        <include name="composer.json"/>
+        <include name="bootstrap.php"/>
+        <include name=".htaccess.dist"/>
+    </fileset>
+
+    <fileset dir="${phingpkg.home}" id="bdd">
+        <include name="sql/**"/>
+    </fileset>
+
+    <fileset dir="${build.config.prod.dir}" id="config">
+        <include name="**"/>
+    </fileset>
+
+    <import file="../common.xml" />
+
+</project>

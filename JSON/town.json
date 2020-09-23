@@ -1,0 +1,2769 @@
+{
+    "towns": [
+        {
+            "code_district": 35,
+            "code_town": 36,
+            "value_town": "Com Baba Garage"
+        },
+        {
+            "code_district": 35,
+            "code_town": 37,
+            "value_town": "Com Dinguiraye"
+        },
+        {
+            "code_district": 35,
+            "code_town": 38,
+            "value_town": "Com Keur Samba Kane"
+        },
+        {
+            "code_district": 39,
+            "code_town": 40,
+            "value_town": "Com Gawane"
+        },
+        {
+            "code_district": 39,
+            "code_town": 41,
+            "value_town": "Com Lambaye"
+        },
+        {
+            "code_district": 39,
+            "code_town": 42,
+            "value_town": "Com Ngogom"
+        },
+        {
+            "code_district": 39,
+            "code_town": 43,
+            "value_town": "Com Refane"
+        },
+        {
+            "code_district": 44,
+            "code_town": 45,
+            "value_town": "Com Dangalma"
+        },
+        {
+            "code_district": 44,
+            "code_town": 46,
+            "value_town": "Com Ndondol"
+        },
+        {
+            "code_district": 44,
+            "code_town": 47,
+            "value_town": "CR Ngoye"
+        },
+        {
+            "code_district": 44,
+            "code_town": 48,
+            "value_town": "CR Thiakar"
+        },
+        {
+            "code_district": 52,
+            "code_town": 53,
+            "value_town": "Com Dankh Sene"
+        },
+        {
+            "code_district": 52,
+            "code_town": 54,
+            "value_town": "Com Gade escale"
+        },
+        {
+            "code_district": 52,
+            "code_town": 55,
+            "value_town": "Com Keur Ngalgou"
+        },
+        {
+            "code_district": 52,
+            "code_town": 56,
+            "value_town": "Com Ndindi"
+        },
+        {
+            "code_district": 52,
+            "code_town": 57,
+            "value_town": "Com Taiba Moutoupha"
+        },
+        {
+            "code_district": 52,
+            "code_town": 58,
+            "value_town": "Com Touba Lappe"
+        },
+        {
+            "code_district": 59,
+            "code_town": 60,
+            "value_town": "Com Ndoulo"
+        },
+        {
+            "code_district": 59,
+            "code_town": 61,
+            "value_town": "Com Ngohé"
+        },
+        {
+            "code_district": 59,
+            "code_town": 62,
+            "value_town": "Com Pattar"
+        },
+        {
+            "code_district": 59,
+            "code_town": 63,
+            "value_town": "Com Tocky Gare"
+        },
+        {
+            "code_district": 59,
+            "code_town": 64,
+            "value_town": "Com Toure Mbonde"
+        },
+        {
+            "code_district": 68,
+            "code_town": 69,
+            "value_town": "Com Dandeye Gouye Gui "
+        },
+        {
+            "code_district": 68,
+            "code_town": 70,
+            "value_town": "Com Darou Nahim"
+        },
+        {
+            "code_district": 68,
+            "code_town": 71,
+            "value_town": "Com Darou Salam Typ"
+        },
+        {
+            "code_district": 68,
+            "code_town": 72,
+            "value_town": "Com Kael"
+        },
+        {
+            "code_district": 68,
+            "code_town": 73,
+            "value_town": "Com Madina"
+        },
+        {
+            "code_district": 68,
+            "code_town": 74,
+            "value_town": "Com Ndioumane Thiekene"
+        },
+        {
+            "code_district": 68,
+            "code_town": 75,
+            "value_town": "Com Taiba Tieckene"
+        },
+        {
+            "code_district": 68,
+            "code_town": 76,
+            "value_town": "Com Touba Mboul"
+        },
+        {
+            "code_district": 77,
+            "code_town": 78,
+            "value_town": "Com Dalla Ngabou"
+        },
+        {
+            "code_district": 77,
+            "code_town": 79,
+            "value_town": "Com Missirah"
+        },
+        {
+            "code_district": 77,
+            "code_town": 80,
+            "value_town": "Com Nghaye"
+        },
+        {
+            "code_district": 77,
+            "code_town": 81,
+            "value_town": "Com Touba Fall"
+        },
+        {
+            "code_district": 77,
+            "code_town": 82,
+            "value_town": "Com Touba Mosquee"
+        },
+        {
+            "code_district": 83,
+            "code_town": 84,
+            "value_town": "Com Sadio"
+        },
+        {
+            "code_district": 83,
+            "code_town": 85,
+            "value_town": "Com Taif"
+        },
+        {
+            "code_district": 91,
+            "code_town": 92,
+            "value_town": "Com Djilass"
+        },
+        {
+            "code_district": 91,
+            "code_town": 93,
+            "value_town": "Com Fimela"
+        },
+        {
+            "code_district": 91,
+            "code_town": 94,
+            "value_town": "Com Loul Sessene"
+        },
+        {
+            "code_district": 91,
+            "code_town": 95,
+            "value_town": "Com Palmarin Facao"
+        },
+        {
+            "code_district": 96,
+            "code_town": 97,
+            "value_town": "Com Diarere"
+        },
+        {
+            "code_district": 96,
+            "code_town": 98,
+            "value_town": "Com Diouroup"
+        },
+        {
+            "code_district": 96,
+            "code_town": 99,
+            "value_town": "Com Tattaguine"
+        },
+        {
+            "code_district": 102,
+            "code_town": 103,
+            "value_town": "Com Diaoule"
+        },
+        {
+            "code_district": 102,
+            "code_town": 104,
+            "value_town": "Com Mbellacadiao"
+        },
+        {
+            "code_district": 102,
+            "code_town": 105,
+            "value_town": "Com Ndiob"
+        },
+        {
+            "code_district": 102,
+            "code_town": 106,
+            "value_town": "Com Thiare Ndiagui"
+        },
+        {
+            "code_district": 107,
+            "code_town": 108,
+            "value_town": "Com Ngayokhene"
+        },
+        {
+            "code_district": 107,
+            "code_town": 109,
+            "value_town": "Com Niakhar"
+        },
+        {
+            "code_district": 107,
+            "code_town": 110,
+            "value_town": "Com Patar"
+        },
+        {
+            "code_district": 115,
+            "code_town": 116,
+            "value_town": "Com Diagane Barka"
+        },
+        {
+            "code_district": 115,
+            "code_town": 117,
+            "value_town": "Com Diossong"
+        },
+        {
+            "code_district": 115,
+            "code_town": 118,
+            "value_town": "Com Djilor"
+        },
+        {
+            "code_district": 115,
+            "code_town": 119,
+            "value_town": "Com Mbam"
+        },
+        {
+            "code_district": 115,
+            "code_town": 120,
+            "value_town": "Com Niassene"
+        },
+        {
+            "code_district": 121,
+            "code_town": 122,
+            "value_town": "Com Bassoul"
+        },
+        {
+            "code_district": 121,
+            "code_town": 123,
+            "value_town": "Com Dionewar"
+        },
+        {
+            "code_district": 121,
+            "code_town": 124,
+            "value_town": "Com Djirnda"
+        },
+        {
+            "code_district": 125,
+            "code_town": 126,
+            "value_town": "Com Keur Saloum Diane"
+        },
+        {
+            "code_district": 125,
+            "code_town": 127,
+            "value_town": "Com Keur Samba Gueye"
+        },
+        {
+            "code_district": 125,
+            "code_town": 128,
+            "value_town": "Com Nioro Alassane Tall"
+        },
+        {
+            "code_district": 125,
+            "code_town": 129,
+            "value_town": "Com Toubacouta"
+        },
+        {
+            "code_district": 137,
+            "code_town": 138,
+            "value_town": "Com Colobane"
+        },
+        {
+            "code_district": 137,
+            "code_town": 139,
+            "value_town": "Com Mbar"
+        },
+        {
+            "code_district": 140,
+            "code_town": 141,
+            "value_town": "Com Ndiene Lagane"
+        },
+        {
+            "code_district": 140,
+            "code_town": 142,
+            "value_town": "Com Ouadiour"
+        },
+        {
+            "code_district": 140,
+            "code_town": 143,
+            "value_town": "Com Patar Lia"
+        },
+        {
+            "code_district": 148,
+            "code_town": 149,
+            "value_town": "Com Yene"
+        },
+        {
+            "code_district": 160,
+            "code_town": 161,
+            "value_town": "Com Bambylor"
+        },
+        {
+            "code_district": 160,
+            "code_town": 162,
+            "value_town": "Com Tivaouane Peulh-Niagha"
+        },
+        {
+            "code_district": 169,
+            "code_town": 170,
+            "value_town": "Com Diass"
+        },
+        {
+            "code_district": 169,
+            "code_town": 171,
+            "value_town": "Com Malicounda"
+        },
+        {
+            "code_district": 169,
+            "code_town": 172,
+            "value_town": "Com Sindia"
+        },
+        {
+            "code_district": 180,
+            "code_town": 181,
+            "value_town": "Com Fissel"
+        },
+        {
+            "code_district": 180,
+            "code_town": 182,
+            "value_town": "Com Ndiaganiao"
+        },
+        {
+            "code_district": 184,
+            "code_town": 183,
+            "value_town": "Com Ngueniene"
+        },
+        {
+            "code_district": 184,
+            "code_town": 185,
+            "value_town": "Com Sandiara"
+        },
+        {
+            "code_district": 184,
+            "code_town": 186,
+            "value_town": "Com Sessene"
+        },
+        {
+            "code_district": 195,
+            "code_town": 196,
+            "value_town": "Com Diender Guedji"
+        },
+        {
+            "code_district": 195,
+            "code_town": 197,
+            "value_town": "Com Fandene"
+        },
+        {
+            "code_district": 195,
+            "code_town": 198,
+            "value_town": "Com Keur Moussa"
+        },
+        {
+            "code_district": 199,
+            "code_town": 200,
+            "value_town": "Com Notto"
+        },
+        {
+            "code_district": 199,
+            "code_town": 201,
+            "value_town": "Com Tassette"
+        },
+        {
+            "code_district": 202,
+            "code_town": 203,
+            "value_town": "Com Ndieyene Sirah"
+        },
+        {
+            "code_district": 202,
+            "code_town": 204,
+            "value_town": "Com Ngoudiane"
+        },
+        {
+            "code_district": 202,
+            "code_town": 205,
+            "value_town": "Com Thienaba"
+        },
+        {
+            "code_district": 202,
+            "code_town": 206,
+            "value_town": "Com Touba Toul"
+        },
+        {
+            "code_district": 212,
+            "code_town": 213,
+            "value_town": "Com Darou khoudoss"
+        },
+        {
+            "code_district": 212,
+            "code_town": 214,
+            "value_town": "Com Meouane"
+        },
+        {
+            "code_district": 212,
+            "code_town": 215,
+            "value_town": "Com Meouane"
+        },
+        {
+            "code_district": 212,
+            "code_town": 216,
+            "value_town": "Com Taiba Ndiaye"
+        },
+        {
+            "code_district": 217,
+            "code_town": 218,
+            "value_town": "Com Koul"
+        },
+        {
+            "code_district": 217,
+            "code_town": 219,
+            "value_town": "Com Merina Dakhar"
+        },
+        {
+            "code_district": 217,
+            "code_town": 220,
+            "value_town": "Com Pekesse"
+        },
+        {
+            "code_district": 221,
+            "code_town": 222,
+            "value_town": "Com Mbayene"
+        },
+        {
+            "code_district": 221,
+            "code_town": 223,
+            "value_town": "Com Ngandiouf"
+        },
+        {
+            "code_district": 221,
+            "code_town": 224,
+            "value_town": "Com Niakhene"
+        },
+        {
+            "code_district": 221,
+            "code_town": 225,
+            "value_town": "Com Thilmakha"
+        },
+        {
+            "code_district": 226,
+            "code_town": 227,
+            "value_town": "Com Cherif LO"
+        },
+        {
+            "code_district": 226,
+            "code_town": 228,
+            "value_town": "Com Mont Rolland"
+        },
+        {
+            "code_district": 226,
+            "code_town": 229,
+            "value_town": "Com Notto Gouye Diama"
+        },
+        {
+            "code_district": 226,
+            "code_town": 230,
+            "value_town": "Com Pambal"
+        },
+        {
+            "code_district": 226,
+            "code_town": 231,
+            "value_town": "Com Pire Goureye"
+        },
+        {
+            "code_district": 334,
+            "code_town": 335,
+            "value_town": "Com Diamal"
+        },
+        {
+            "code_district": 334,
+            "code_town": 336,
+            "value_town": "Com Keur Mbouki"
+        },
+        {
+            "code_district": 334,
+            "code_town": 337,
+            "value_town": "Com Touba Mbella"
+        },
+        {
+            "code_district": 338,
+            "code_town": 339,
+            "value_town": "Com Mabo"
+        },
+        {
+            "code_district": 338,
+            "code_town": 340,
+            "value_town": "Com Mbeuleup"
+        },
+        {
+            "code_district": 338,
+            "code_town": 341,
+            "value_town": "Com Ndiognick"
+        },
+        {
+            "code_district": 338,
+            "code_town": 342,
+            "value_town": "Com Ségré gatta"
+        },
+        {
+            "code_district": 344,
+            "code_town": 345,
+            "value_town": "Com Boulel"
+        },
+        {
+            "code_district": 344,
+            "code_town": 346,
+            "value_town": "Com Gniby"
+        },
+        {
+            "code_district": 344,
+            "code_town": 347,
+            "value_town": "Com Kahi"
+        },
+        {
+            "code_district": 348,
+            "code_town": 349,
+            "value_town": "Com Diamagadio"
+        },
+        {
+            "code_district": 348,
+            "code_town": 350,
+            "value_town": "Com Diokoul Mbelbouck"
+        },
+        {
+            "code_district": 348,
+            "code_town": 351,
+            "value_town": "Com Kathiote"
+        },
+        {
+            "code_district": 348,
+            "code_town": 352,
+            "value_town": "Com Medinatoul Salam 2"
+        },
+        {
+            "code_district": 355,
+            "code_town": 356,
+            "value_town": "Com Fass Thiekene"
+        },
+        {
+            "code_district": 355,
+            "code_town": 357,
+            "value_town": "Com Ida Mouride"
+        },
+        {
+            "code_district": 355,
+            "code_town": 358,
+            "value_town": "Com Saly Escale"
+        },
+        {
+            "code_district": 359,
+            "code_town": 360,
+            "value_town": "Com Lour Escale"
+        },
+        {
+            "code_district": 359,
+            "code_town": 361,
+            "value_town": "Com Ribot Escale"
+        },
+        {
+            "code_district": 362,
+            "code_town": 363,
+            "value_town": "Com Gainthe Pathe"
+        },
+        {
+            "code_district": 362,
+            "code_town": 364,
+            "value_town": "Com Maka Yop"
+        },
+        {
+            "code_district": 362,
+            "code_town": 365,
+            "value_town": "Com Missirah Wadene"
+        },
+        {
+            "code_district": 367,
+            "code_town": 368,
+            "value_town": "Com Darou Minam 2"
+        },
+        {
+            "code_district": 367,
+            "code_town": 369,
+            "value_town": "Com Ndiobene samba lamo"
+        },
+        {
+            "code_district": 367,
+            "code_town": 370,
+            "value_town": "Com Ndioum Ngainth"
+        },
+        {
+            "code_district": 371,
+            "code_town": 372,
+            "value_town": "Com Dianke Souf"
+        },
+        {
+            "code_district": 371,
+            "code_town": 373,
+            "value_town": "Com Sagna"
+        },
+        {
+            "code_district": 375,
+            "code_town": 376,
+            "value_town": "Com Khelcom Birame"
+        },
+        {
+            "code_district": 375,
+            "code_town": 377,
+            "value_town": "Com Mbadakhoune"
+        },
+        {
+            "code_district": 375,
+            "code_town": 378,
+            "value_town": "Com Ndiago"
+        },
+        {
+            "code_district": 375,
+            "code_town": 379,
+            "value_town": "Com Ngathie Naoude"
+        },
+        {
+            "code_district": 380,
+            "code_town": 381,
+            "value_town": "Com Dara Mboss"
+        },
+        {
+            "code_district": 380,
+            "code_town": 382,
+            "value_town": "Com Gagnick"
+        },
+        {
+            "code_district": 380,
+            "code_town": 383,
+            "value_town": "Com Nguelou"
+        },
+        {
+            "code_district": 380,
+            "code_town": 384,
+            "value_town": "Com Ourour"
+        },
+        {
+            "code_district": 380,
+            "code_town": 385,
+            "value_town": "Com Panal ouolof"
+        },
+        {
+            "code_district": 390,
+            "code_town": 391,
+            "value_town": "Com Keur Baka"
+        },
+        {
+            "code_district": 390,
+            "code_town": 392,
+            "value_town": "Com Latmingué"
+        },
+        {
+            "code_district": 390,
+            "code_town": 393,
+            "value_town": "Com Thiaré"
+        },
+        {
+            "code_district": 394,
+            "code_town": 395,
+            "value_town": "Com Keur Socé"
+        },
+        {
+            "code_district": 394,
+            "code_town": 396,
+            "value_town": "Com Ndiafate"
+        },
+        {
+            "code_district": 394,
+            "code_town": 397,
+            "value_town": "Com Ndiendieng"
+        },
+        {
+            "code_district": 398,
+            "code_town": 399,
+            "value_town": "Com Dya"
+        },
+        {
+            "code_district": 398,
+            "code_town": 400,
+            "value_town": "Com Ndiebel"
+        },
+        {
+            "code_district": 398,
+            "code_town": 401,
+            "value_town": "Com Thiomby"
+        },
+        {
+            "code_district": 406,
+            "code_town": 407,
+            "value_town": "Com Kayemor"
+        },
+        {
+            "code_district": 406,
+            "code_town": 408,
+            "value_town": "Com Madina Sabakh"
+        },
+        {
+            "code_district": 406,
+            "code_town": 409,
+            "value_town": "Com Ngayène"
+        },
+        {
+            "code_district": 410,
+            "code_town": 411,
+            "value_town": "Com Dabaly"
+        },
+        {
+            "code_district": 410,
+            "code_town": 412,
+            "value_town": "Com Darou Salam"
+        },
+        {
+            "code_district": 410,
+            "code_town": 413,
+            "value_town": "Com Gainte Kaye"
+        },
+        {
+            "code_district": 410,
+            "code_town": 414,
+            "value_town": "Com Paoskoto"
+        },
+        {
+            "code_district": 410,
+            "code_town": 415,
+            "value_town": "Com Prokhane"
+        },
+        {
+            "code_district": 410,
+            "code_town": 416,
+            "value_town": "Com Taiba Niassène"
+        },
+        {
+            "code_district": 417,
+            "code_town": 418,
+            "value_town": "Com Keur Maba Diakhou"
+        },
+        {
+            "code_district": 417,
+            "code_town": 419,
+            "value_town": "Com Keur Mandongo"
+        },
+        {
+            "code_district": 417,
+            "code_town": 420,
+            "value_town": "Com Ndramé Escale"
+        },
+        {
+            "code_district": 417,
+            "code_town": 421,
+            "value_town": "Com Wack Ngouna"
+        },
+        {
+            "code_district": 424,
+            "code_town": 425,
+            "value_town": "Com Bandafassi"
+        },
+        {
+            "code_district": 424,
+            "code_town": 426,
+            "value_town": "Com Dindéfélo"
+        },
+        {
+            "code_district": 424,
+            "code_town": 427,
+            "value_town": "Com Ninefecha"
+        },
+        {
+            "code_district": 424,
+            "code_town": 428,
+            "value_town": "Com Tomboronkoto"
+        },
+        {
+            "code_district": 429,
+            "code_town": 430,
+            "value_town": "Com Dimboli"
+        },
+        {
+            "code_district": 429,
+            "code_town": 431,
+            "value_town": "Com Fongolimbi"
+        },
+        {
+            "code_district": 433,
+            "code_town": 434,
+            "value_town": "Com Dakateli"
+        },
+        {
+            "code_district": 433,
+            "code_town": 435,
+            "value_town": "Com Kévoye"
+        },
+        {
+            "code_district": 436,
+            "code_town": 437,
+            "value_town": "Com Dar Salam "
+        },
+        {
+            "code_district": 436,
+            "code_town": 438,
+            "value_town": "Com Ethiolo"
+        },
+        {
+            "code_district": 436,
+            "code_town": 439,
+            "value_town": "Com Oubadji"
+        },
+        {
+            "code_district": 441,
+            "code_town": 442,
+            "value_town": "Com Bembou"
+        },
+        {
+            "code_district": 441,
+            "code_town": 443,
+            "value_town": "Com Medina Baffe"
+        },
+        {
+            "code_district": 444,
+            "code_town": 445,
+            "value_town": "Com Khossanto"
+        },
+        {
+            "code_district": 444,
+            "code_town": 446,
+            "value_town": "Com Missirah Sirimana"
+        },
+        {
+            "code_district": 444,
+            "code_town": 447,
+            "value_town": "Com Sabodola"
+        },
+        {
+            "code_district": 449,
+            "code_town": 450,
+            "value_town": "Com Dioulacolon"
+        },
+        {
+            "code_district": 449,
+            "code_town": 451,
+            "value_town": "Com Guiro Yero Bocar"
+        },
+        {
+            "code_district": 449,
+            "code_town": 452,
+            "value_town": "Com Medina Elhadji"
+        },
+        {
+            "code_district": 449,
+            "code_town": 453,
+            "value_town": "Com Tankanto Escale"
+        },
+        {
+            "code_district": 454,
+            "code_town": 455,
+            "value_town": "Com Bagadadji"
+        },
+        {
+            "code_district": 454,
+            "code_town": 456,
+            "value_town": "Com Coumbacara"
+        },
+        {
+            "code_district": 454,
+            "code_town": 457,
+            "value_town": "Com Dialambere"
+        },
+        {
+            "code_district": 454,
+            "code_town": 458,
+            "value_town": "Com Mampatim"
+        },
+        {
+            "code_district": 454,
+            "code_town": 459,
+            "value_town": "Com Medina Cherif"
+        },
+        {
+            "code_district": 460,
+            "code_town": 461,
+            "value_town": "Com Sare Bidji"
+        },
+        {
+            "code_district": 460,
+            "code_town": 462,
+            "value_town": "Com Thietty"
+        },
+        {
+            "code_district": 467,
+            "code_town": 468,
+            "value_town": "Com Badion"
+        },
+        {
+            "code_district": 467,
+            "code_town": 469,
+            "value_town": "Com Fafacourou"
+        },
+        {
+            "code_district": 470,
+            "code_town": 471,
+            "value_town": "Com Bignarabe"
+        },
+        {
+            "code_district": 470,
+            "code_town": 472,
+            "value_town": "Com Bourouco"
+        },
+        {
+            "code_district": 470,
+            "code_town": 473,
+            "value_town": "Com Koulinto"
+        },
+        {
+            "code_district": 470,
+            "code_town": 474,
+            "value_town": "Com Ndorna"
+        },
+        {
+            "code_district": 475,
+            "code_town": 476,
+            "value_town": "Com Dinguiraye"
+        },
+        {
+            "code_district": 475,
+            "code_town": 477,
+            "value_town": "Com Kerewane"
+        },
+        {
+            "code_district": 475,
+            "code_town": 478,
+            "value_town": "Com Niaming"
+        },
+        {
+            "code_district": 481,
+            "code_town": 482,
+            "value_town": "Com Bonconto"
+        },
+        {
+            "code_district": 481,
+            "code_town": 483,
+            "value_town": "Com Linkering"
+        },
+        {
+            "code_district": 481,
+            "code_town": 484,
+            "value_town": "Com Madina Gounasse"
+        },
+        {
+            "code_district": 481,
+            "code_town": 485,
+            "value_town": "Com Sinthiang Koundara"
+        },
+        {
+            "code_district": 486,
+            "code_town": 487,
+            "value_town": "Com Ouassadou"
+        },
+        {
+            "code_district": 486,
+            "code_town": 488,
+            "value_town": "Com Pakour"
+        },
+        {
+            "code_district": 486,
+            "code_town": 489,
+            "value_town": "Com Paroumba"
+        },
+        {
+            "code_district": 490,
+            "code_town": 491,
+            "value_town": "Com Kandia"
+        },
+        {
+            "code_district": 490,
+            "code_town": 492,
+            "value_town": "Com Kandiaye"
+        },
+        {
+            "code_district": 490,
+            "code_town": 493,
+            "value_town": "Com Nemataba"
+        },
+        {
+            "code_district": 490,
+            "code_town": 494,
+            "value_town": "Com Sare Coly Salle"
+        },
+        {
+            "code_district": 498,
+            "code_town": 499,
+            "value_town": "Com Darou Marnane"
+        },
+        {
+            "code_district": 498,
+            "code_town": 500,
+            "value_town": "Com Darou Mousty"
+        },
+        {
+            "code_district": 498,
+            "code_town": 501,
+            "value_town": "Com Mbacke Cadior"
+        },
+        {
+            "code_district": 498,
+            "code_town": 502,
+            "value_town": "Com Mbadiane"
+        },
+        {
+            "code_district": 498,
+            "code_town": 503,
+            "value_town": "Com Ndoyène"
+        },
+        {
+            "code_district": 498,
+            "code_town": 504,
+            "value_town": "Com Sam Yabal"
+        },
+        {
+            "code_district": 498,
+            "code_town": 505,
+            "value_town": "Com Touba Mérina"
+        },
+        {
+            "code_district": 506,
+            "code_town": 507,
+            "value_town": "Com Bandegne Ouolof"
+        },
+        {
+            "code_district": 506,
+            "code_town": 508,
+            "value_town": "Com Diokoul Diawrigne"
+        },
+        {
+            "code_district": 506,
+            "code_town": 509,
+            "value_town": "Com Kab Gaye"
+        },
+        {
+            "code_district": 506,
+            "code_town": 510,
+            "value_town": "Com Ndande"
+        },
+        {
+            "code_district": 506,
+            "code_town": 511,
+            "value_town": "Com Thiepe"
+        },
+        {
+            "code_district": 512,
+            "code_town": 513,
+            "value_town": "Com Kanène Ndiob"
+        },
+        {
+            "code_district": 512,
+            "code_town": 514,
+            "value_town": "Com Loro"
+        },
+        {
+            "code_district": 512,
+            "code_town": 515,
+            "value_town": "Com Ngourane Ouolof"
+        },
+        {
+            "code_district": 512,
+            "code_town": 516,
+            "value_town": "Com Sagatta Gueth"
+        },
+        {
+            "code_district": 512,
+            "code_town": 517,
+            "value_town": "Com Thiolom Fall"
+        },
+        {
+            "code_district": 520,
+            "code_town": 521,
+            "value_town": "Com Barkédji"
+        },
+        {
+            "code_district": 520,
+            "code_town": 522,
+            "value_town": "Com Gassane"
+        },
+        {
+            "code_district": 520,
+            "code_town": 523,
+            "value_town": "Com Thiargny"
+        },
+        {
+            "code_district": 520,
+            "code_town": 524,
+            "value_town": "Com Thiel"
+        },
+        {
+            "code_district": 525,
+            "code_town": 526,
+            "value_town": "Com Dodji"
+        },
+        {
+            "code_district": 525,
+            "code_town": 527,
+            "value_town": "Com Lagbar"
+        },
+        {
+            "code_district": 525,
+            "code_town": 528,
+            "value_town": "Com Ouarkhokh"
+        },
+        {
+            "code_district": 529,
+            "code_town": 530,
+            "value_town": "Com Affe Djolof"
+        },
+        {
+            "code_district": 529,
+            "code_town": 531,
+            "value_town": "Com Boulal"
+        },
+        {
+            "code_district": 529,
+            "code_town": 532,
+            "value_town": "Com Dealy"
+        },
+        {
+            "code_district": 529,
+            "code_town": 533,
+            "value_town": "Com Sagatta Djolof"
+        },
+        {
+            "code_district": 529,
+            "code_town": 534,
+            "value_town": "Com Thiamene Pase"
+        },
+        {
+            "code_district": 535,
+            "code_town": 536,
+            "value_town": "Com Kambe"
+        },
+        {
+            "code_district": 535,
+            "code_town": 537,
+            "value_town": "Com Mboula"
+        },
+        {
+            "code_district": 535,
+            "code_town": 538,
+            "value_town": "Com Tessekere Forage"
+        },
+        {
+            "code_district": 535,
+            "code_town": 539,
+            "value_town": "Com Yang Yang"
+        },
+        {
+            "code_district": 543,
+            "code_town": 544,
+            "value_town": "Com Gande"
+        },
+        {
+            "code_district": 543,
+            "code_town": 545,
+            "value_town": "Com Keur Momar Sarr"
+        },
+        {
+            "code_district": 543,
+            "code_town": 546,
+            "value_town": "Com Nguer Malal"
+        },
+        {
+            "code_district": 543,
+            "code_town": 547,
+            "value_town": "Com Syer"
+        },
+        {
+            "code_district": 548,
+            "code_town": 549,
+            "value_town": "Com Guet Ardo"
+        },
+        {
+            "code_district": 548,
+            "code_town": 550,
+            "value_town": "Com Koki"
+        },
+        {
+            "code_district": 548,
+            "code_town": 551,
+            "value_town": "Com Pete Ouarack"
+        },
+        {
+            "code_district": 548,
+            "code_town": 552,
+            "value_town": "Com Thiamene Cayor"
+        },
+        {
+            "code_district": 553,
+            "code_town": 554,
+            "value_town": "Com Kelle Gueye"
+        },
+        {
+            "code_district": 553,
+            "code_town": 555,
+            "value_town": "Com Mbediene"
+        },
+        {
+            "code_district": 553,
+            "code_town": 556,
+            "value_town": "Com Nguidile"
+        },
+        {
+            "code_district": 553,
+            "code_town": 557,
+            "value_town": "Com Niomre"
+        },
+        {
+            "code_district": 558,
+            "code_town": 559,
+            "value_town": "Com Leona"
+        },
+        {
+            "code_district": 558,
+            "code_town": 560,
+            "value_town": "Com Ngueune Sarr"
+        },
+        {
+            "code_district": 558,
+            "code_town": 561,
+            "value_town": "Com Sakal"
+        },
+        {
+            "code_district": 564,
+            "code_town": 565,
+            "value_town": "Com Aoure"
+        },
+        {
+            "code_district": 564,
+            "code_town": 566,
+            "value_town": "Com Bokiladji"
+        },
+        {
+            "code_district": 564,
+            "code_town": 567,
+            "value_town": "Com Orkadiere"
+        },
+        {
+            "code_district": 568,
+            "code_town": 569,
+            "value_town": "Com Ndendory"
+        },
+        {
+            "code_district": 568,
+            "code_town": 570,
+            "value_town": "Com Ouro Sidy"
+        },
+        {
+            "code_district": 578,
+            "code_town": 579,
+            "value_town": "Com Agnam Civol"
+        },
+        {
+            "code_district": 578,
+            "code_town": 580,
+            "value_town": "Com Dabia"
+        },
+        {
+            "code_district": 578,
+            "code_town": 581,
+            "value_town": "Com Orefonde"
+        },
+        {
+            "code_district": 582,
+            "code_town": 583,
+            "value_town": "Com Bokidiawe"
+        },
+        {
+            "code_district": 582,
+            "code_town": 584,
+            "value_town": "Com Nabadji Civol"
+        },
+        {
+            "code_district": 582,
+            "code_town": 585,
+            "value_town": "Com Ogo"
+        },
+        {
+            "code_district": 590,
+            "code_town": 591,
+            "value_town": "Com Lougre Thioli"
+        },
+        {
+            "code_district": 590,
+            "code_town": 592,
+            "value_town": "Com Oudalaye"
+        },
+        {
+            "code_district": 590,
+            "code_town": 593,
+            "value_town": "Com Velingara"
+        },
+        {
+            "code_district": 617,
+            "code_town": 618,
+            "value_town": "Com Boghal"
+        },
+        {
+            "code_district": 617,
+            "code_town": 619,
+            "value_town": "Com Djinany"
+        },
+        {
+            "code_district": 617,
+            "code_town": 620,
+            "value_town": "Com Ndiamacouta"
+        },
+        {
+            "code_district": 617,
+            "code_town": 621,
+            "value_town": "Com Ndiamalathiel"
+        },
+        {
+            "code_district": 617,
+            "code_town": 622,
+            "value_town": "Com Tankon"
+        },
+        {
+            "code_district": 623,
+            "code_town": 624,
+            "value_town": "Com Bona"
+        },
+        {
+            "code_district": 623,
+            "code_town": 625,
+            "value_town": "Com Diacounda"
+        },
+        {
+            "code_district": 623,
+            "code_town": 626,
+            "value_town": "Com Inor"
+        },
+        {
+            "code_district": 623,
+            "code_town": 627,
+            "value_town": "Com Kandion Mangana"
+        },
+        {
+            "code_district": 628,
+            "code_town": 629,
+            "value_town": "Com Diambaty"
+        },
+        {
+            "code_district": 628,
+            "code_town": 630,
+            "value_town": "Com Diaroume"
+        },
+        {
+            "code_district": 628,
+            "code_town": 631,
+            "value_town": "Com Faoune"
+        },
+        {
+            "code_district": 635,
+            "code_town": 636,
+            "value_town": "Com Djibanar"
+        },
+        {
+            "code_district": 635,
+            "code_town": 637,
+            "value_town": "Com Kaour"
+        },
+        {
+            "code_district": 635,
+            "code_town": 638,
+            "value_town": "Com Mangaroungou Santo"
+        },
+        {
+            "code_district": 635,
+            "code_town": 639,
+            "value_town": "Com Simbandi Balante"
+        },
+        {
+            "code_district": 635,
+            "code_town": 640,
+            "value_town": "Com Yarang Balante"
+        },
+        {
+            "code_district": 641,
+            "code_town": 642,
+            "value_town": "Com Karantaba"
+        },
+        {
+            "code_district": 641,
+            "code_town": 643,
+            "value_town": "Com Kolibantang"
+        },
+        {
+            "code_district": 644,
+            "code_town": 645,
+            "value_town": "Com Baghere"
+        },
+        {
+            "code_district": 644,
+            "code_town": 646,
+            "value_town": "Com Diouboudou"
+        },
+        {
+            "code_district": 644,
+            "code_town": 647,
+            "value_town": "Com Niagha"
+        },
+        {
+            "code_district": 644,
+            "code_town": 648,
+            "value_town": "Com Simbandi Brassou"
+        },
+        {
+            "code_district": 653,
+            "code_town": 654,
+            "value_town": "Com Diende"
+        },
+        {
+            "code_district": 653,
+            "code_town": 655,
+            "value_town": "Com Koussy"
+        },
+        {
+            "code_district": 653,
+            "code_town": 656,
+            "value_town": "Com Oudougar"
+        },
+        {
+            "code_district": 653,
+            "code_town": 657,
+            "value_town": "Com Sakar"
+        },
+        {
+            "code_district": 653,
+            "code_town": 658,
+            "value_town": "Com Sama Kanta Peul"
+        },
+        {
+            "code_district": 659,
+            "code_town": 660,
+            "value_town": "Com Benet Bijini"
+        },
+        {
+            "code_district": 659,
+            "code_town": 661,
+            "value_town": "Com Djibabouya"
+        },
+        {
+            "code_district": 659,
+            "code_town": 662,
+            "value_town": "Com Sansamba"
+        },
+        {
+            "code_district": 663,
+            "code_town": 664,
+            "value_town": "Com Bambali"
+        },
+        {
+            "code_district": 663,
+            "code_town": 665,
+            "value_town": "Com Djiredji"
+        },
+        {
+            "code_district": 669,
+            "code_town": 670,
+            "value_town": "Com Mbane"
+        },
+        {
+            "code_district": 669,
+            "code_town": 671,
+            "value_town": "Com Mbokhol"
+        },
+        {
+            "code_district": 672,
+            "code_town": 673,
+            "value_town": "Com Diama"
+        },
+        {
+            "code_district": 672,
+            "code_town": 674,
+            "value_town": "Com Ngnith"
+        },
+        {
+            "code_district": 672,
+            "code_town": 675,
+            "value_town": "Com Ronkh"
+        },
+        {
+            "code_district": 682,
+            "code_town": 683,
+            "value_town": "Com Doumga Lao"
+        },
+        {
+            "code_district": 682,
+            "code_town": 684,
+            "value_town": "Com Madina Ndiatbe"
+        },
+        {
+            "code_district": 682,
+            "code_town": 685,
+            "value_town": "Com Meri"
+        },
+        {
+            "code_district": 686,
+            "code_town": 687,
+            "value_town": "Com Boke Dialloube"
+        },
+        {
+            "code_district": 686,
+            "code_town": 688,
+            "value_town": "Com Mbollo Birane"
+        },
+        {
+            "code_district": 696,
+            "code_town": 697,
+            "value_town": "Com Dodel"
+        },
+        {
+            "code_district": 696,
+            "code_town": 698,
+            "value_town": "Com Gamadji Sare"
+        },
+        {
+            "code_district": 696,
+            "code_town": 699,
+            "value_town": "Com Guede Village"
+        },
+        {
+            "code_district": 700,
+            "code_town": 701,
+            "value_town": "Com Fanaye"
+        },
+        {
+            "code_district": 700,
+            "code_town": 702,
+            "value_town": "Com Ndiayene Peindao"
+        },
+        {
+            "code_district": 709,
+            "code_town": 710,
+            "value_town": "Com Fass Ngom"
+        },
+        {
+            "code_district": 709,
+            "code_town": 711,
+            "value_town": "Com Gandon"
+        },
+        {
+            "code_district": 709,
+            "code_town": 712,
+            "value_town": "Com Ndiebene Gandiol"
+        },
+        {
+            "code_district": 714,
+            "code_town": 715,
+            "value_town": "Com Bele"
+        },
+        {
+            "code_district": 714,
+            "code_town": 716,
+            "value_town": "Com Sinthiou Fissa"
+        },
+        {
+            "code_district": 717,
+            "code_town": 718,
+            "value_town": "Com Gathiari"
+        },
+        {
+            "code_district": 717,
+            "code_town": 719,
+            "value_town": "Com Madina Foulbe"
+        },
+        {
+            "code_district": 717,
+            "code_town": 720,
+            "value_town": "Com Sadatou"
+        },
+        {
+            "code_district": 717,
+            "code_town": 721,
+            "value_town": "Com Toumboura"
+        },
+        {
+            "code_district": 722,
+            "code_town": 723,
+            "value_town": "Com Ballou"
+        },
+        {
+            "code_district": 722,
+            "code_town": 724,
+            "value_town": "Com Gabou"
+        },
+        {
+            "code_district": 722,
+            "code_town": 725,
+            "value_town": "Com Mouderi"
+        },
+        {
+            "code_district": 729,
+            "code_town": 730,
+            "value_town": "Com Bala"
+        },
+        {
+            "code_district": 729,
+            "code_town": 731,
+            "value_town": "Com Goumbayel"
+        },
+        {
+            "code_district": 729,
+            "code_town": 733,
+            "value_town": "Com Koar"
+        },
+        {
+            "code_district": 734,
+            "code_town": 735,
+            "value_town": "Com Boynguel Bamba"
+        },
+        {
+            "code_district": 734,
+            "code_town": 736,
+            "value_town": "Com Dougue"
+        },
+        {
+            "code_district": 734,
+            "code_town": 737,
+            "value_town": "Com Koussan"
+        },
+        {
+            "code_district": 734,
+            "code_town": 738,
+            "value_town": "Com Sinthiou Mamadou Boubou"
+        },
+        {
+            "code_district": 739,
+            "code_town": 740,
+            "value_town": "Com Bani Israel"
+        },
+        {
+            "code_district": 739,
+            "code_town": 741,
+            "value_town": "Com Boutoucoufara"
+        },
+        {
+            "code_district": 739,
+            "code_town": 742,
+            "value_town": "Com Dianke Makha"
+        },
+        {
+            "code_district": 739,
+            "code_town": 743,
+            "value_town": "Com Komoti"
+        },
+        {
+            "code_district": 744,
+            "code_town": 745,
+            "value_town": "Com Koulor"
+        },
+        {
+            "code_district": 744,
+            "code_town": 746,
+            "value_town": "Com Sinthiou Bocar Ali"
+        },
+        {
+            "code_district": 749,
+            "code_town": 750,
+            "value_town": "Com Bamba Thialene"
+        },
+        {
+            "code_district": 749,
+            "code_town": 751,
+            "value_town": "Com Kahel"
+        },
+        {
+            "code_district": 749,
+            "code_town": 752,
+            "value_town": "Com Mereto"
+        },
+        {
+            "code_district": 749,
+            "code_town": 753,
+            "value_town": "Com Ndame"
+        },
+        {
+            "code_district": 754,
+            "code_town": 755,
+            "value_town": "Com Kouthia Gaydi"
+        },
+        {
+            "code_district": 754,
+            "code_town": 756,
+            "value_town": "Com Kouthiaba Wolof"
+        },
+        {
+            "code_district": 754,
+            "code_town": 757,
+            "value_town": "Com Pass Koto"
+        },
+        {
+            "code_district": 754,
+            "code_town": 758,
+            "value_town": "Com Payar "
+        },
+        {
+            "code_district": 761,
+            "code_town": 762,
+            "value_town": "Com Koussanar"
+        },
+        {
+            "code_district": 761,
+            "code_town": 763,
+            "value_town": "Com Sinthiou Malene"
+        },
+        {
+            "code_district": 764,
+            "code_town": 765,
+            "value_town": "Com Maka"
+        },
+        {
+            "code_district": 764,
+            "code_town": 766,
+            "value_town": "Com Ndoga Babacar"
+        },
+        {
+            "code_district": 764,
+            "code_town": 767,
+            "value_town": "Com Niani Toucouleur"
+        },
+        {
+            "code_district": 768,
+            "code_town": 769,
+            "value_town": "Com Dialokoto"
+        },
+        {
+            "code_district": 768,
+            "code_town": 770,
+            "value_town": "Com Missirah"
+        },
+        {
+            "code_district": 768,
+            "code_town": 771,
+            "value_town": "Com Netteboulou"
+        },
+        {
+            "code_district": 773,
+            "code_town": 774,
+            "value_town": "Com Djibidione"
+        },
+        {
+            "code_district": 773,
+            "code_town": 775,
+            "value_town": "Com Oulampane"
+        },
+        {
+            "code_district": 773,
+            "code_town": 776,
+            "value_town": "Com Sindian"
+        },
+        {
+            "code_district": 773,
+            "code_town": 777,
+            "value_town": "Com Suelle"
+        },
+        {
+            "code_district": 778,
+            "code_town": 779,
+            "value_town": "Com Coubalan"
+        },
+        {
+            "code_district": 778,
+            "code_town": 780,
+            "value_town": "Com Niamone"
+        },
+        {
+            "code_district": 778,
+            "code_town": 781,
+            "value_town": "Com Ouonck"
+        },
+        {
+            "code_district": 778,
+            "code_town": 782,
+            "value_town": "Com Tenghory"
+        },
+        {
+            "code_district": 784,
+            "code_town": 785,
+            "value_town": "Com Djiniaki"
+        },
+        {
+            "code_district": 784,
+            "code_town": 786,
+            "value_town": "Com Kafountine"
+        },
+        {
+            "code_district": 784,
+            "code_town": 787,
+            "value_town": "Com Kataba 1"
+        },
+        {
+            "code_district": 788,
+            "code_town": 789,
+            "value_town": "Com Balingore"
+        },
+        {
+            "code_district": 788,
+            "code_town": 790,
+            "value_town": "Com Diegoune"
+        },
+        {
+            "code_district": 788,
+            "code_town": 791,
+            "value_town": "Com Karthiack"
+        },
+        {
+            "code_district": 788,
+            "code_town": 792,
+            "value_town": "Com Mangagoulack"
+        },
+        {
+            "code_district": 788,
+            "code_town": 793,
+            "value_town": "Com Mlomp"
+        },
+        {
+            "code_district": 796,
+            "code_town": 797,
+            "value_town": "Com Diembering"
+        },
+        {
+            "code_district": 796,
+            "code_town": 798,
+            "value_town": "Com Santhiaba Mandjack"
+        },
+        {
+            "code_district": 799,
+            "code_town": 800,
+            "value_town": "Com Mlomp"
+        },
+        {
+            "code_district": 799,
+            "code_town": 801,
+            "value_town": "Com Oukout"
+        },
+        {
+            "code_district": 803,
+            "code_town": 804,
+            "value_town": "Com Adéane"
+        },
+        {
+            "code_district": 803,
+            "code_town": 805,
+            "value_town": "Com Boutoupa Cam"
+        },
+        {
+            "code_district": 803,
+            "code_town": 806,
+            "value_town": "Com Niaguis"
+        },
+        {
+            "code_district": 807,
+            "code_town": 808,
+            "value_town": "Com Enampor"
+        },
+        {
+            "code_district": 807,
+            "code_town": 809,
+            "value_town": "Com Niassia"
+        },
+        {
+            "code_district": 653,
+            "code_town": 811,
+            "value_town": "Com Diannah ba"
+        },
+        {
+            "code_district": 3,
+            "code_town": 6,
+            "value_town": "Com Mermoz Sacre Coeur"
+        },
+        {
+            "code_district": 3,
+            "code_town": 7,
+            "value_town": "Com Ngor"
+        },
+        {
+            "code_district": 3,
+            "code_town": 8,
+            "value_town": "Com Ouakam"
+        },
+        {
+            "code_district": 3,
+            "code_town": 9,
+            "value_town": "Com Yoff"
+        },
+        {
+            "code_district": 3,
+            "code_town": 12,
+            "value_town": "Com Fann Point E Amitie"
+        },
+        {
+            "code_district": 3,
+            "code_town": 13,
+            "value_town": "Com Fass Gueule Tapee Col"
+        },
+        {
+            "code_district": 3,
+            "code_town": 14,
+            "value_town": "Com Goree"
+        },
+        {
+            "code_district": 3,
+            "code_town": 15,
+            "value_town": "Com Médina"
+        },
+        {
+            "code_district": 3,
+            "code_town": 16,
+            "value_town": "Com Plateau"
+        },
+        {
+            "code_district": 3,
+            "code_town": 19,
+            "value_town": "Com Biscuiterie"
+        },
+        {
+            "code_district": 3,
+            "code_town": 20,
+            "value_town": "Com Dieuppeul Derkle"
+        },
+        {
+            "code_district": 3,
+            "code_town": 21,
+            "value_town": "Com Grand Dakar"
+        },
+        {
+            "code_district": 3,
+            "code_town": 22,
+            "value_town": "Com Hann Bel Air"
+        },
+        {
+            "code_district": 3,
+            "code_town": 23,
+            "value_town": "Com HLM"
+        },
+        {
+            "code_district": 3,
+            "code_town": 24,
+            "value_town": "Com Sicap Liberte"
+        },
+        {
+            "code_district": 3,
+            "code_town": 27,
+            "value_town": "Com Camberene"
+        },
+        {
+            "code_district": 3,
+            "code_town": 28,
+            "value_town": "Com Grand Yoff"
+        },
+        {
+            "code_district": 3,
+            "code_town": 29,
+            "value_town": "Com Parcelles Assainies"
+        },
+        {
+            "code_district": 3,
+            "code_town": 30,
+            "value_town": "Com Patte d'Oie"
+        },
+        {
+            "code_district": 33,
+            "code_town": 49,
+            "value_town": "Com Bambey"
+        },
+        {
+            "code_district": 50,
+            "code_town": 65,
+            "value_town": "Com Diourbel"
+        },
+        {
+            "code_district": 66,
+            "code_town": 86,
+            "value_town": "Com Mbacké"
+        },
+        {
+            "code_district": 89,
+            "code_town": 100,
+            "value_town": "Com Diofior"
+        },
+        {
+            "code_district": 89,
+            "code_town": 111,
+            "value_town": "Com Diakhao"
+        },
+        {
+            "code_district": 89,
+            "code_town": 112,
+            "value_town": "Com Fatick"
+        },
+        {
+            "code_district": 113,
+            "code_town": 130,
+            "value_town": "Com Foundiougne"
+        },
+        {
+            "code_district": 113,
+            "code_town": 131,
+            "value_town": "Com Karang Poste"
+        },
+        {
+            "code_district": 113,
+            "code_town": 132,
+            "value_town": "Com Passy"
+        },
+        {
+            "code_district": 113,
+            "code_town": 133,
+            "value_town": "Com Sokone"
+        },
+        {
+            "code_district": 113,
+            "code_town": 134,
+            "value_town": "Com Soum"
+        },
+        {
+            "code_district": 135,
+            "code_town": 144,
+            "value_town": "Com Gossas"
+        },
+        {
+            "code_district": 146,
+            "code_town": 150,
+            "value_town": "Com Bargny"
+        },
+        {
+            "code_district": 146,
+            "code_town": 151,
+            "value_town": "Com Diamniadio"
+        },
+        {
+            "code_district": 146,
+            "code_town": 152,
+            "value_town": "Com Sébikotane"
+        },
+        {
+            "code_district": 146,
+            "code_town": 153,
+            "value_town": "Com Sendou"
+        },
+        {
+            "code_district": 146,
+            "code_town": 156,
+            "value_town": "Com Rufisque Est"
+        },
+        {
+            "code_district": 146,
+            "code_town": 157,
+            "value_town": "Com Rufisque Nord"
+        },
+        {
+            "code_district": 146,
+            "code_town": 158,
+            "value_town": "Com Rufisque Ouest"
+        },
+        {
+            "code_district": 146,
+            "code_town": 163,
+            "value_town": "Com Jaxaay Parcelle Niakoul Ra"
+        },
+        {
+            "code_district": 146,
+            "code_town": 164,
+            "value_town": "Com Sangalkam"
+        },
+        {
+            "code_district": 167,
+            "code_town": 173,
+            "value_town": "Com Mbour"
+        },
+        {
+            "code_district": 167,
+            "code_town": 174,
+            "value_town": "Com Ngaparou"
+        },
+        {
+            "code_district": 167,
+            "code_town": 175,
+            "value_town": "Com Nguékhokh"
+        },
+        {
+            "code_district": 167,
+            "code_town": 176,
+            "value_town": "Com Popenguine"
+        },
+        {
+            "code_district": 167,
+            "code_town": 177,
+            "value_town": "Com Saly"
+        },
+        {
+            "code_district": 167,
+            "code_town": 178,
+            "value_town": "Com Somone"
+        },
+        {
+            "code_district": 167,
+            "code_town": 187,
+            "value_town": "Com Joal"
+        },
+        {
+            "code_district": 167,
+            "code_town": 188,
+            "value_town": "Com Thiadiaye"
+        },
+        {
+            "code_district": 189,
+            "code_town": 191,
+            "value_town": "Com Thies Nord"
+        },
+        {
+            "code_district": 189,
+            "code_town": 192,
+            "value_town": "Com Thies Est"
+        },
+        {
+            "code_district": 189,
+            "code_town": 193,
+            "value_town": "Com Thies Ouest"
+        },
+        {
+            "code_district": 189,
+            "code_town": 207,
+            "value_town": "Com Kayar"
+        },
+        {
+            "code_district": 189,
+            "code_town": 208,
+            "value_town": "Com Khombole"
+        },
+        {
+            "code_district": 189,
+            "code_town": 209,
+            "value_town": "Com Pout"
+        },
+        {
+            "code_district": 210,
+            "code_town": 232,
+            "value_town": "Com MBoro"
+        },
+        {
+            "code_district": 210,
+            "code_town": 233,
+            "value_town": "Com Mékhé"
+        },
+        {
+            "code_district": 210,
+            "code_town": 234,
+            "value_town": "Com Tivaouane"
+        },
+        {
+            "code_district": 265,
+            "code_town": 343,
+            "value_town": "Com Birkelane"
+        },
+        {
+            "code_district": 279,
+            "code_town": 353,
+            "value_town": "Com Kaffrine"
+        },
+        {
+            "code_district": 279,
+            "code_town": 354,
+            "value_town": "Com Nganda"
+        },
+        {
+            "code_district": 296,
+            "code_town": 366,
+            "value_town": "Com Koungheul"
+        },
+        {
+            "code_district": 303,
+            "code_town": 374,
+            "value_town": "Com Malem Hoddar"
+        },
+        {
+            "code_district": 277,
+            "code_town": 386,
+            "value_town": "Com Fass"
+        },
+        {
+            "code_district": 277,
+            "code_town": 387,
+            "value_town": "Com Guinguineo"
+        },
+        {
+            "code_district": 277,
+            "code_town": 388,
+            "value_town": "Com Mboss"
+        },
+        {
+            "code_district": 283,
+            "code_town": 389,
+            "value_town": "Com Kaolack"
+        },
+        {
+            "code_district": 283,
+            "code_town": 402,
+            "value_town": "Com Gandiaye"
+        },
+        {
+            "code_district": 283,
+            "code_town": 403,
+            "value_town": "Com Kahone"
+        },
+        {
+            "code_district": 283,
+            "code_town": 404,
+            "value_town": "Com Ndoffane"
+        },
+        {
+            "code_district": 283,
+            "code_town": 405,
+            "value_town": "Com Sibassor"
+        },
+        {
+            "code_district": 310,
+            "code_town": 422,
+            "value_town": "Com Keur Madiabel"
+        },
+        {
+            "code_district": 310,
+            "code_town": 423,
+            "value_town": "Com Nioro"
+        },
+        {
+            "code_district": 288,
+            "code_town": 432,
+            "value_town": "Com Kedougou"
+        },
+        {
+            "code_district": 319,
+            "code_town": 440,
+            "value_town": "Com Salemata"
+        },
+        {
+            "code_district": 321,
+            "code_town": 448,
+            "value_town": "Com Saraya"
+        },
+        {
+            "code_district": 292,
+            "code_town": 463,
+            "value_town": "Com Dabo"
+        },
+        {
+            "code_district": 292,
+            "code_town": 464,
+            "value_town": "Com Kolda"
+        },
+        {
+            "code_district": 292,
+            "code_town": 465,
+            "value_town": "Com Salikegne"
+        },
+        {
+            "code_district": 292,
+            "code_town": 466,
+            "value_town": "Com Sare Yoba Diega"
+        },
+        {
+            "code_district": 308,
+            "code_town": 479,
+            "value_town": "Com Medina Yoro Foulah"
+        },
+        {
+            "code_district": 308,
+            "code_town": 480,
+            "value_town": "Com Pata"
+        },
+        {
+            "code_district": 331,
+            "code_town": 495,
+            "value_town": "Com Diaobe Kabendou"
+        },
+        {
+            "code_district": 331,
+            "code_town": 496,
+            "value_town": "Com Kounkane"
+        },
+        {
+            "code_district": 331,
+            "code_town": 497,
+            "value_town": "Com Velingara"
+        },
+        {
+            "code_district": 286,
+            "code_town": 518,
+            "value_town": "Com Gueoul"
+        },
+        {
+            "code_district": 286,
+            "code_town": 519,
+            "value_town": "Com Kébémer"
+        },
+        {
+            "code_district": 298,
+            "code_town": 540,
+            "value_town": "Com Dahra"
+        },
+        {
+            "code_district": 298,
+            "code_town": 541,
+            "value_town": "Com Linguère"
+        },
+        {
+            "code_district": 298,
+            "code_town": 542,
+            "value_town": "Com Mbeuleukhe"
+        },
+        {
+            "code_district": 300,
+            "code_town": 562,
+            "value_town": "Com Louga"
+        },
+        {
+            "code_district": 300,
+            "code_town": 563,
+            "value_town": "Com Ndiagne"
+        },
+        {
+            "code_district": 281,
+            "code_town": 571,
+            "value_town": "Com Dembancane"
+        },
+        {
+            "code_district": 281,
+            "code_town": 572,
+            "value_town": "Com Hamady Ounare"
+        },
+        {
+            "code_district": 281,
+            "code_town": 573,
+            "value_town": "Com Kanel"
+        },
+        {
+            "code_district": 281,
+            "code_town": 574,
+            "value_town": "Com Odobere"
+        },
+        {
+            "code_district": 281,
+            "code_town": 575,
+            "value_town": "Com Semme"
+        },
+        {
+            "code_district": 281,
+            "code_town": 576,
+            "value_town": "Com Sinthiou Bamambe Banadji"
+        },
+        {
+            "code_district": 281,
+            "code_town": 577,
+            "value_town": "Com Waounde"
+        },
+        {
+            "code_district": 306,
+            "code_town": 586,
+            "value_town": "Com Matam"
+        },
+        {
+            "code_district": 306,
+            "code_town": 587,
+            "value_town": "Com Nguidilogne"
+        },
+        {
+            "code_district": 306,
+            "code_town": 588,
+            "value_town": "Com Ourossogui"
+        },
+        {
+            "code_district": 306,
+            "code_town": 589,
+            "value_town": "Com Thilogne"
+        },
+        {
+            "code_district": 317,
+            "code_town": 594,
+            "value_town": "Com Ranerou"
+        },
+        {
+            "code_district": 275,
+            "code_town": 595,
+            "value_town": "Com Golf Sud"
+        },
+        {
+            "code_district": 275,
+            "code_town": 597,
+            "value_town": "Com Medina Gounass"
+        },
+        {
+            "code_district": 275,
+            "code_town": 598,
+            "value_town": "Com Ndiareme Limamoulaye"
+        },
+        {
+            "code_district": 275,
+            "code_town": 599,
+            "value_town": "Com Sam Notaire"
+        },
+        {
+            "code_district": 275,
+            "code_town": 600,
+            "value_town": "Com Wakhinane Nimzatt"
+        },
+        {
+            "code_district": 290,
+            "code_town": 601,
+            "value_town": "Com Keur Massar"
+        },
+        {
+            "code_district": 290,
+            "code_town": 602,
+            "value_town": "Com Malika"
+        },
+        {
+            "code_district": 290,
+            "code_town": 603,
+            "value_town": "Com Yeumbeul Nord"
+        },
+        {
+            "code_district": 290,
+            "code_town": 604,
+            "value_town": "Com Yeumbeul Sud"
+        },
+        {
+            "code_district": 290,
+            "code_town": 605,
+            "value_town": "Com Dalifort"
+        },
+        {
+            "code_district": 290,
+            "code_town": 606,
+            "value_town": "Com Djeddah Thiaroye Kaw"
+        },
+        {
+            "code_district": 290,
+            "code_town": 607,
+            "value_town": "Com Guinaw Rail Nord"
+        },
+        {
+            "code_district": 290,
+            "code_town": 608,
+            "value_town": "Com Guinaw Rail Sud"
+        },
+        {
+            "code_district": 290,
+            "code_town": 609,
+            "value_town": "Com Pikine Est"
+        },
+        {
+            "code_district": 290,
+            "code_town": 610,
+            "value_town": "Com Pikine Nord"
+        },
+        {
+            "code_district": 290,
+            "code_town": 611,
+            "value_town": "Com Pikine Ouest"
+        },
+        {
+            "code_district": 290,
+            "code_town": 612,
+            "value_town": "Com Diamaguene Sicap Mbao"
+        },
+        {
+            "code_district": 290,
+            "code_town": 613,
+            "value_town": "Com Mbao"
+        },
+        {
+            "code_district": 290,
+            "code_town": 614,
+            "value_town": "Com Thiaroye Gare"
+        },
+        {
+            "code_district": 290,
+            "code_town": 615,
+            "value_town": "Com Thiaroye sur Mer"
+        },
+        {
+            "code_district": 290,
+            "code_town": 616,
+            "value_town": "Com Tivaouane Diaksao"
+        },
+        {
+            "code_district": 267,
+            "code_town": 632,
+            "value_town": "Com Bounkiling"
+        },
+        {
+            "code_district": 267,
+            "code_town": 633,
+            "value_town": "Com Medina Wandifa"
+        },
+        {
+            "code_district": 267,
+            "code_town": 634,
+            "value_town": "Com Ndiamacouta"
+        },
+        {
+            "code_district": 273,
+            "code_town": 649,
+            "value_town": "Com Diattacounda"
+        },
+        {
+            "code_district": 273,
+            "code_town": 650,
+            "value_town": "Com Goudomp"
+        },
+        {
+            "code_district": 273,
+            "code_town": 651,
+            "value_town": "Com Samine"
+        },
+        {
+            "code_district": 273,
+            "code_town": 652,
+            "value_town": "Com Tanaff"
+        },
+        {
+            "code_district": 323,
+            "code_town": 666,
+            "value_town": "Com Dianah Malary"
+        },
+        {
+            "code_district": 323,
+            "code_town": 667,
+            "value_town": "Com Marsassoum"
+        },
+        {
+            "code_district": 323,
+            "code_town": 668,
+            "value_town": "Com Sedhiou"
+        },
+        {
+            "code_district": 269,
+            "code_town": 676,
+            "value_town": "Com Dagana"
+        },
+        {
+            "code_district": 269,
+            "code_town": 677,
+            "value_town": "Com Gae"
+        },
+        {
+            "code_district": 269,
+            "code_town": 678,
+            "value_town": "Com Ndombo Sandjiry"
+        },
+        {
+            "code_district": 269,
+            "code_town": 679,
+            "value_town": "Com Richard Toll"
+        },
+        {
+            "code_district": 269,
+            "code_town": 680,
+            "value_town": "Com Ross Bethio"
+        },
+        {
+            "code_district": 269,
+            "code_town": 681,
+            "value_town": "Com Rosso Senegal"
+        },
+        {
+            "code_district": 315,
+            "code_town": 689,
+            "value_town": "Com Aere Lao"
+        },
+        {
+            "code_district": 315,
+            "code_town": 690,
+            "value_town": "Com Bode Lao"
+        },
+        {
+            "code_district": 315,
+            "code_town": 691,
+            "value_town": "Com Galloya Toucouleur"
+        },
+        {
+            "code_district": 315,
+            "code_town": 692,
+            "value_town": "Com Gollere"
+        },
+        {
+            "code_district": 315,
+            "code_town": 693,
+            "value_town": "Com Mboumba"
+        },
+        {
+            "code_district": 315,
+            "code_town": 694,
+            "value_town": "Com Pete"
+        },
+        {
+            "code_district": 315,
+            "code_town": 695,
+            "value_town": "Com Walalde"
+        },
+        {
+            "code_district": 315,
+            "code_town": 703,
+            "value_town": "Com Demette"
+        },
+        {
+            "code_district": 315,
+            "code_town": 704,
+            "value_town": "Com Guede Chantier"
+        },
+        {
+            "code_district": 315,
+            "code_town": 705,
+            "value_town": "Com NDiandane"
+        },
+        {
+            "code_district": 315,
+            "code_town": 706,
+            "value_town": "Com Ndioum"
+        },
+        {
+            "code_district": 315,
+            "code_town": 707,
+            "value_town": "Com Podor"
+        },
+        {
+            "code_district": 325,
+            "code_town": 708,
+            "value_town": "Com Saint-Louis"
+        },
+        {
+            "code_district": 325,
+            "code_town": 713,
+            "value_town": "Com Mpal"
+        },
+        {
+            "code_district": 260,
+            "code_town": 726,
+            "value_town": "Com Bakel"
+        },
+        {
+            "code_district": 260,
+            "code_town": 727,
+            "value_town": "Com Diawara"
+        },
+        {
+            "code_district": 260,
+            "code_town": 728,
+            "value_town": "Com Kidira"
+        },
+        {
+            "code_district": 271,
+            "code_town": 747,
+            "value_town": "Com Goudiry"
+        },
+        {
+            "code_district": 271,
+            "code_town": 748,
+            "value_town": "Com Kothiary"
+        },
+        {
+            "code_district": 294,
+            "code_town": 759,
+            "value_town": "Com Malem Niani"
+        },
+        {
+            "code_district": 294,
+            "code_town": 760,
+            "value_town": "Com Koumpentoun"
+        },
+        {
+            "code_district": 328,
+            "code_town": 772,
+            "value_town": "Com Tamba"
+        },
+        {
+            "code_district": 262,
+            "code_town": 783,
+            "value_town": "Com Bignona"
+        },
+        {
+            "code_district": 262,
+            "code_town": 794,
+            "value_town": "Com Diouloulou"
+        },
+        {
+            "code_district": 262,
+            "code_town": 795,
+            "value_town": "Com Thionck Essyl"
+        },
+        {
+            "code_district": 312,
+            "code_town": 802,
+            "value_town": "Com Oussouye"
+        },
+        {
+            "code_district": 258,
+            "code_town": 810,
+            "value_town": "Com Ziguinchor"
+        }
+    ]
+}

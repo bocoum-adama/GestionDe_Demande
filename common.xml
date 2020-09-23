@@ -1,0 +1,248 @@
+<?xml version="1.0"?>
+<!--
+    This build file packages the phing files, builds a package.xml (version 2) for installation
+    using PEAR and creates the TAR and TGZ files.
+-->
+<project name="common" basedir="." default="main">
+
+    <property name="prod.server.ip" value="40.91.222.146"/>
+    <property name="prod.server.user" value="admodjial"/>
+    <property name="key_id_rsa" value="/Users/djigal/.ssh/id_rsa"/>
+
+    <property name="build.config.prod.dir" value="${buildfile.dir}/application/config/production"/>
+    <property name="build.full.dir" value="${buildfile.dir}/build"/>
+    <property name="build.pear.dir" value="${build.full.dir}/pear"/>
+    <property name="build.pear.config.dev.dir" value="${build.pear.dir}/application/config"/>
+    <property name="build.pear.config.prod.dir" value="${build.pear.dir}/application/config/production"/>
+    <property name="prod.server.path" value="${prod.server.path.base}/${project.name}"/>
+    <property name="prod.server.buildpath" value="${prod.server.path.base}/${project.name}/build"/>
+
+
+    <fileset dir="${build.config.prod.dir}" id="config">
+        <include name="**"/>
+        <exclude name="*.testphp"/>
+    </fileset>
+
+    <!--
+        ==============================================
+        Main entry point
+        ==============================================
+    -->
+    <target name="main"  depends="checkout,clean,copy-files,package-pear,allow,unzip,composer,rights"/>
+    <target name="main-checkout"  depends="checkout"/>
+    <target name="main-package"  depends="checkout,clean,copy-files,package-pear"/>
+    <target name="main-deploy"  depends="unzip,composer"/>
+    <!--
+        ==============================================
+        Sets some default properties
+        ==============================================
+    -->
+    <target name="setproperties">
+        
+        <loadfile property="version" file="${phingpkg.home}/VERSION.TXT"/>
+        <property name="pkgname" value="${project.name}-${version}"/>
+
+        <if>
+            <contains string="${version}" substring="RC"/>
+            <then>
+                <property name="notes" value="This is the latest beta release of Phing." />
+                <property name="state" value="beta" />
+            </then>
+
+            <elseif>
+                <contains string="${version}" substring="snapshot"/>
+                <then>
+                    <property name="notes" value="This is a snapshot release that might not be functional." />
+                    <property name="state" value="alpha"/>
+                </then>
+            </elseif>
+
+            <else>
+                <property name="notes" value="This is the latest stable release of Phing." />
+                <property name="state" value="stable"/>
+            </else>
+        </if>
+
+        <echo>Building Phing PEAR/full version ${version} (${state})</echo>
+        <echo>${notes}</echo>
+
+    </target>
+
+    <!--
+        ==============================================
+        Copy the desired files into the build/ dir
+        making sure to put them in the directory
+        structure that will be needed for PEAR install
+        ==============================================
+    -->
+    <target name="copy-files" depends="setproperties">
+
+        <echo>-----------------------------</echo>
+        <echo>| Creating directory layout |</echo>
+        <echo>-----------------------------</echo>
+
+        <mkdir dir="${build.pear.dir}" />
+
+        <copy todir="${build.pear.dir}">
+            <fileset refid="all"/>
+        </copy>
+
+        <copy todir="${build.pear.config.dev.dir}" overwrite="true">
+            <fileset refid="config"/>
+        </copy>
+
+        <copy todir="${build.pear.dir}">
+            <fileset refid="comp"/>
+        </copy>
+
+        <property name="build.pear.dir" value="${build.full.dir}/pear"/>
+
+        <!--<copy file="${build.pear.dir}/.htaccess.dist" tofile="${build.pear.dir}/.htaccess" overwrite="false"/>-->
+        <copy file="${build.pear.config.prod.dir}/config.testphp" tofile="${build.pear.config.prod.dir}/config.php" overwrite="true"/>
+        <copy file="${build.pear.config.prod.dir}/database.testphp" tofile="${build.pear.config.prod.dir}/database.php" overwrite="true"/>
+        <copy file="${build.pear.config.prod.dir}/routes.testphp" tofile="${build.pear.config.prod.dir}/routes.php" overwrite="true"/>
+    </target>
+
+
+    <!--
+        ==============================================
+        Run composer
+        ==============================================
+    -->
+    <target name="composer" depends="setproperties">
+        <exec dir="${prod.server.path}" passthru="true" command="composer install -o --no-dev --prefer-dist"/>
+    </target>
+
+    <!--
+        ==============================================
+        Create a tar.gz of the files, which will be
+        installed by pear package manager.
+        ==============================================
+    -->
+    <target name="package-pear" depends="setproperties">
+
+        <echo>-----------------------------</echo>
+        <echo>| Creating PEAR packages    |</echo>
+        <echo>-----------------------------</echo>
+
+        <property name="zipfile" value="${build.full.dir}/${pkgname}.zip"/>
+        <!--<delete file="${tgzfile}" failonerror="false"/>-->
+        <!--<tar compression="gzip" destfile="${tgzfile}"-->
+            <!--basedir="${build.pear.dir}/*" />-->
+        <zip destfile="${zipfile}"
+            basedir="${build.pear.dir}" />
+        <!--<phingcall target="generate-hash">-->
+            <!--<param name="filename" value="${tgzfile}"/>-->
+        <!--</phingcall>-->
+
+    </target>
+
+
+    <!--
+        ==============================================
+        Clean up build files.
+        ==============================================
+    -->
+     <target name="clean" depends="setproperties">
+
+        <echo>-----------------------------</echo>
+        <echo>| Deleting build directory  |</echo>
+        <echo>-----------------------------</echo>
+
+        <delete dir="${build.pear.dir}" failonerror="false"/>
+
+    </target>
+
+    <!--
+        ==============================================
+        Move delivery package to right folder.
+        ==============================================
+    -->
+
+    <target name="move-delivery" depends="setproperties">
+
+        <echo>-----------------------------</echo>
+        <echo>| move delivery file |</echo>
+        <echo>-----------------------------</echo>
+
+        <copy todir="${buildfile.dir}">
+            <fileset dir="${build.full.dir}">
+                <include name="${pkgname}.zip"/>
+            </fileset>
+        </copy>
+
+    </target>
+
+    <target name="scp" depends="setproperties">
+        <echo>-----------------------------</echo>
+        <echo>| send delivery file to production server |</echo>
+        <echo>-----------------------------</echo>
+
+        <echo>scp -i ${key_id_rsa} ${zipfile} ${prod.server.user}@${prod.server.ip}:${prod.server.buildpath}/${pkgname}.zip</echo>
+        <exec command="scp -i ${key_id_rsa} ${zipfile} ${prod.server.user}@${prod.server.ip}:${prod.server.buildpath}/${pkgname}.zip"
+              dir="${buildfile.dir}" />
+
+        <echo>Exécuter les commandes suivantes pour déployer l'application sur le serveur</echo>
+        <echo>ssh ${prod.server.user}@${prod.server.ip}</echo>
+        <echo>unzip -o ${prod.server.buildpath}/${pkgname}.zip -d ${prod.server.path}</echo>
+
+    </target>
+
+    <target name="unzip" depends="setproperties">
+        <echo>-----------------------------</echo>
+        <echo>| unzip files in document root|</echo>
+        <echo>-----------------------------</echo>
+
+        <property name="zipfile" value="${build.full.dir}/${pkgname}.zip"/>
+
+        <echo>unzip -o ${zipfile} -d ${prod.server.path}</echo>
+        <exec command="unzip -o ${zipfile} -d ${prod.server.path}"
+              dir="${buildfile.dir}" />
+
+    </target>
+
+    <target name="checkout" depends="setproperties">
+        <echo>-----------------------------</echo>
+        <echo>| checkout last version of repository |</echo>
+        <echo>-----------------------------</echo>
+
+        <echo>git pull origin master</echo>
+        <exec command="git pull origin master"
+              dir="${buildfile.dir}" />
+
+    </target>
+
+    <target name="rights" depends="setproperties">
+
+        <echo>-----------------------------</echo>
+        <echo>| Set autorisations on directories and files |</echo>
+        <echo>-----------------------------</echo>
+        <echo>sudo chown www-data:www-data -R ${prod.server.path}</echo>
+        <exec dir="${prod.server.path}" passthru="true" command="sudo chown www-data:www-data -R ${prod.server.path}"/>
+        <echo>sudo find ${prod.server.path}/ -type d -exec chmod 750 {} \;</echo>
+        <exec dir="${prod.server.path}" passthru="true" command="sudo find ${prod.server.path}/ -type d -exec chmod 750 {} \;"/>
+        <echo>sudo find ${prod.server.path}/ -type f -exec chmod 640 {} \;</echo>
+        <exec dir="${prod.server.path}" passthru="true" command="sudo find ${prod.server.path}/ -type f -exec chmod 640 {} \;"/>
+        <echo>sudo chmod 777 -R ${prod.server.sharedfolder}</echo>
+        <exec dir="${prod.server.path}" passthru="true" command="sudo chmod 777 -R ${prod.server.sharedfolder}"/>
+        <echo>sudo chmod 770 ${prod.server.path}/.htaccess</echo>
+        <exec dir="${prod.server.path}" passthru="true" command="sudo chmod 770 ${prod.server.path}/.htaccess"/>
+
+    </target>
+
+    <target name="allow" depends="setproperties">
+
+        <echo>-----------------------------</echo>
+        <echo>| Set autorisations on directories and files |</echo>
+        <echo>-----------------------------</echo>
+
+        <echo>sudo chown admodjial:admodjial -R ${prod.server.path}</echo>
+        <exec dir="${prod.server.path}" passthru="true" command="sudo chown admodjial:admodjial -R ${prod.server.path}"/>
+
+        <echo>sudo chmod 777 -R ${prod.server.path}</echo>
+        <exec dir="${prod.server.path}" passthru="true" command="sudo chmod 777 -R ${prod.server.path}"/>
+
+
+    </target>
+
+</project>

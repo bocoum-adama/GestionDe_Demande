@@ -1,0 +1,229 @@
+{
+    "departments": [
+        {
+            "code_department": 3,
+            "value_department": "Dpt Dakar",
+            "code_region": 1
+        },
+        {
+            "code_department": 146,
+            "value_department": "Dpt Rufisque",
+            "code_region": 1
+        },
+        {
+            "code_department": 275,
+            "value_department": "Dpt Guediawaye",
+            "code_region": 1
+        },
+        {
+            "code_department": 290,
+            "value_department": "Dpt Pikine",
+            "code_region": 1
+        },
+        {
+            "code_department": 33,
+            "value_department": "Dpt Bambey",
+            "code_region": 31
+        },
+        {
+            "code_department": 50,
+            "value_department": "Dpt Diourbel",
+            "code_region": 31
+        },
+        {
+            "code_department": 66,
+            "value_department": "Dpt Mbacké",
+            "code_region": 31
+        },
+        {
+            "code_department": 89,
+            "value_department": "Dpt Fatick",
+            "code_region": 87
+        },
+        {
+            "code_department": 113,
+            "value_department": "Dpt Foundiougne",
+            "code_region": 87
+        },
+        {
+            "code_department": 135,
+            "value_department": "Dpt Gossas",
+            "code_region": 87
+        },
+        {
+            "code_department": 167,
+            "value_department": "Dpt Mbour",
+            "code_region": 165
+        },
+        {
+            "code_department": 189,
+            "value_department": "Dpt Thies",
+            "code_region": 165
+        },
+        {
+            "code_department": 210,
+            "value_department": "Dpt Tivaouane",
+            "code_region": 165
+        },
+        {
+            "code_department": 281,
+            "value_department": "Dpt Kanel",
+            "code_region": 236
+        },
+        {
+            "code_department": 306,
+            "value_department": "Dpt Matam",
+            "code_region": 236
+        },
+        {
+            "code_department": 317,
+            "value_department": "Dpt Ranerou Ferlo",
+            "code_region": 236
+        },
+        {
+            "code_department": 267,
+            "value_department": "Dpt Bounkiling",
+            "code_region": 237
+        },
+        {
+            "code_department": 273,
+            "value_department": "Dpt Goudomp",
+            "code_region": 237
+        },
+        {
+            "code_department": 323,
+            "value_department": "Dpt Sédhiou",
+            "code_region": 237
+        },
+        {
+            "code_department": 269,
+            "value_department": "Dpt Dagana",
+            "code_region": 238
+        },
+        {
+            "code_department": 315,
+            "value_department": "Dpt Podor",
+            "code_region": 238
+        },
+        {
+            "code_department": 325,
+            "value_department": "Dpt Saint-Louis",
+            "code_region": 238
+        },
+        {
+            "code_department": 260,
+            "value_department": "Dpt Bakel",
+            "code_region": 239
+        },
+        {
+            "code_department": 271,
+            "value_department": "Dpt Goudiry",
+            "code_region": 239
+        },
+        {
+            "code_department": 294,
+            "value_department": "Dpt Koupentoum",
+            "code_region": 239
+        },
+        {
+            "code_department": 328,
+            "value_department": "Dpt Tamba",
+            "code_region": 239
+        },
+        {
+            "code_department": 258,
+            "value_department": "Dpt Ziguinchor",
+            "code_region": 241
+        },
+        {
+            "code_department": 262,
+            "value_department": "Dpt Bignona",
+            "code_region": 241
+        },
+        {
+            "code_department": 312,
+            "value_department": "Dpt Oussouye",
+            "code_region": 241
+        },
+        {
+            "code_department": 265,
+            "value_department": "Dpt Birkelane",
+            "code_region": 242
+        },
+        {
+            "code_department": 279,
+            "value_department": "Dpt Kaffrine",
+            "code_region": 242
+        },
+        {
+            "code_department": 296,
+            "value_department": "Dpt Koungheul",
+            "code_region": 242
+        },
+        {
+            "code_department": 303,
+            "value_department": "Dpt Malem Hodar",
+            "code_region": 242
+        },
+        {
+            "code_department": 277,
+            "value_department": "Dpt Guinguineo",
+            "code_region": 243
+        },
+        {
+            "code_department": 283,
+            "value_department": "Dpt Kaolack",
+            "code_region": 243
+        },
+        {
+            "code_department": 310,
+            "value_department": "Dpt Nioro",
+            "code_region": 243
+        },
+        {
+            "code_department": 288,
+            "value_department": "Dpt Kedougou",
+            "code_region": 244
+        },
+        {
+            "code_department": 319,
+            "value_department": "Dpt Salémata",
+            "code_region": 244
+        },
+        {
+            "code_department": 321,
+            "value_department": "Dpt Saraya",
+            "code_region": 244
+        },
+        {
+            "code_department": 292,
+            "value_department": "Dpt Kolda",
+            "code_region": 245
+        },
+        {
+            "code_department": 308,
+            "value_department": "Dpt Médina Yora Foulah",
+            "code_region": 245
+        },
+        {
+            "code_department": 331,
+            "value_department": "Dpt Vélingara",
+            "code_region": 245
+        },
+        {
+            "code_department": 286,
+            "value_department": "Dpt Kebemer",
+            "code_region": 246
+        },
+        {
+            "code_department": 298,
+            "value_department": "Dpt Linguere",
+            "code_region": 246
+        },
+        {
+            "code_department": 300,
+            "value_department": "Dpt Louga",
+            "code_region": 246
+        }
+    ]
+}

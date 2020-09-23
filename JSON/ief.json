@@ -1,0 +1,420 @@
+{
+  "code": "0",
+  "status": "SUCCESS",
+  "message": "Traitement effecturé avec succées",
+  "iefs": [
+    {
+      "code_ia": "2",
+      "code_ief": "17",
+      "code_men_ief": "12",
+      "code_administratif_ief": "2691640490",
+      "value_ief": "IEF Grand Dakar"
+    },
+    {
+      "code_ia": "2",
+      "code_ief": "4",
+      "code_men_ief": "11",
+      "code_administratif_ief": "2210454430",
+      "value_ief": "IEF Almadies"
+    },
+    {
+      "code_ia": "2",
+      "code_ief": "25",
+      "code_men_ief": "13",
+      "code_administratif_ief": "2657264140",
+      "value_ief": "IEF Parcelles Assainies"
+    },
+    {
+      "code_ia": "2",
+      "code_ief": "10",
+      "code_men_ief": "14",
+      "code_administratif_ief": "2359760430",
+      "value_ief": "IEF Dakar Plateau"
+    },
+    {
+      "code_ia": "32",
+      "code_ief": "67",
+      "code_men_ief": "23",
+      "code_administratif_ief": "2288321810",
+      "value_ief": "IEF Mbacké"
+    },
+    {
+      "code_ia": "32",
+      "code_ief": "34",
+      "code_men_ief": "21",
+      "code_administratif_ief": "2286586930",
+      "value_ief": "IEF Bambey"
+    },
+    {
+      "code_ia": "32",
+      "code_ief": "51",
+      "code_men_ief": "22",
+      "code_administratif_ief": "2982858500",
+      "value_ief": "IEF Diourbel"
+    },
+    {
+      "code_ia": "88",
+      "code_ief": "101",
+      "code_men_ief": "32",
+      "code_administratif_ief": "2982213000",
+      "value_ief": "IEF Fatick"
+    },
+    {
+      "code_ia": "88",
+      "code_ief": "114",
+      "code_men_ief": "33",
+      "code_administratif_ief": "2496480910",
+      "value_ief": "IEF Foundiougne"
+    },
+    {
+      "code_ia": "88",
+      "code_ief": "90",
+      "code_men_ief": "31",
+      "code_administratif_ief": "2773523080",
+      "value_ief": "IEF Diofior"
+    },
+    {
+      "code_ia": "88",
+      "code_ief": "136",
+      "code_men_ief": "34",
+      "code_administratif_ief": "2545000030",
+      "value_ief": "IEF Gossas"
+    },
+    {
+      "code_ia": "145",
+      "code_ief": "159",
+      "code_men_ief": "113",
+      "code_administratif_ief": "2420738380",
+      "value_ief": "IEF Sangalkam"
+    },
+    {
+      "code_ia": "145",
+      "code_ief": "147",
+      "code_men_ief": "111",
+      "code_administratif_ief": "2127913720",
+      "value_ief": "IEF Diamniadio"
+    },
+    {
+      "code_ia": "145",
+      "code_ief": "155",
+      "code_men_ief": "112",
+      "code_administratif_ief": "2670395360",
+      "value_ief": "IEF Rufisque Commune"
+    },
+    {
+      "code_ia": "166",
+      "code_ief": "179",
+      "code_men_ief": "152",
+      "code_administratif_ief": "2793122150",
+      "value_ief": "IEF Mbour 2"
+    },
+    {
+      "code_ia": "166",
+      "code_ief": "211",
+      "code_men_ief": "155",
+      "code_administratif_ief": "2043757800",
+      "value_ief": "IEF Tivaouane"
+    },
+    {
+      "code_ia": "166",
+      "code_ief": "190",
+      "code_men_ief": "153",
+      "code_administratif_ief": "2019473000",
+      "value_ief": "IEF Thies Commune"
+    },
+    {
+      "code_ia": "166",
+      "code_ief": "168",
+      "code_men_ief": "151",
+      "code_administratif_ief": "2316676310",
+      "value_ief": "IEF Mbour 1"
+    },
+    {
+      "code_ia": "166",
+      "code_ief": "194",
+      "code_men_ief": "154",
+      "code_administratif_ief": "2599109080",
+      "value_ief": "IEF Thiès Département"
+    },
+    {
+      "code_ia": "235",
+      "code_ief": "291",
+      "code_men_ief": "102",
+      "code_administratif_ief": "2973067000",
+      "value_ief": "IEF Keur Massar"
+    },
+    {
+      "code_ia": "235",
+      "code_ief": "330",
+      "code_men_ief": "104",
+      "code_administratif_ief": "2553444740",
+      "value_ief": "IEF Thiaroye"
+    },
+    {
+      "code_ia": "235",
+      "code_ief": "276",
+      "code_men_ief": "101",
+      "code_administratif_ief": "2235608110",
+      "value_ief": "IEF Guediawaye"
+    },
+    {
+      "code_ia": "247",
+      "code_ief": "282",
+      "code_men_ief": "91",
+      "code_administratif_ief": "2335731470",
+      "value_ief": "IEF Kanel"
+    },
+    {
+      "code_ia": "247",
+      "code_ief": "307",
+      "code_men_ief": "92",
+      "code_administratif_ief": "2420679050",
+      "value_ief": "IEF Matam"
+    },
+    {
+      "code_ia": "247",
+      "code_ief": "318",
+      "code_men_ief": "93",
+      "code_administratif_ief": "2337441770",
+      "value_ief": "IEF Ranerou Ferlo"
+    },
+    {
+      "code_ia": "248",
+      "code_ief": "268",
+      "code_men_ief": "121",
+      "code_administratif_ief": "2389697890",
+      "value_ief": "IEF Bounkiling"
+    },
+    {
+      "code_ia": "248",
+      "code_ief": "274",
+      "code_men_ief": "122",
+      "code_administratif_ief": "2860448340",
+      "value_ief": "IEF Goudomp"
+    },
+    {
+      "code_ia": "248",
+      "code_ief": "324",
+      "code_men_ief": "123",
+      "code_administratif_ief": "2146725910",
+      "value_ief": "IEF Sédhiou"
+    },
+    {
+      "code_ia": "249",
+      "code_ief": "316",
+      "code_men_ief": "133",
+      "code_administratif_ief": "2215582600",
+      "value_ief": "IEF Podor"
+    },
+    {
+      "code_ia": "249",
+      "code_ief": "326",
+      "code_men_ief": "134",
+      "code_administratif_ief": "2288800120",
+      "value_ief": "IEF Saint-Louis Commune"
+    },
+    {
+      "code_ia": "249",
+      "code_ief": "270",
+      "code_men_ief": "131",
+      "code_administratif_ief": "2926943430",
+      "value_ief": "IEF Dagana"
+    },
+    {
+      "code_ia": "249",
+      "code_ief": "333",
+      "code_men_ief": "132",
+      "code_administratif_ief": "2895709760",
+      "value_ief": "IEF Pété"
+    },
+    {
+      "code_ia": "249",
+      "code_ief": "327",
+      "code_men_ief": "135",
+      "code_administratif_ief": "2517636280",
+      "value_ief": "IEF Saint-Louis Departement"
+    },
+    {
+      "code_ia": "250",
+      "code_ief": "295",
+      "code_men_ief": "143",
+      "code_administratif_ief": "2057393910",
+      "value_ief": "IEF Koupentoum"
+    },
+    {
+      "code_ia": "250",
+      "code_ief": "329",
+      "code_men_ief": "144",
+      "code_administratif_ief": "2120422990",
+      "value_ief": "IEF Tamba"
+    },
+    {
+      "code_ia": "250",
+      "code_ief": "261",
+      "code_men_ief": "141",
+      "code_administratif_ief": "2116667920",
+      "value_ief": "IEF Bakel"
+    },
+    {
+      "code_ia": "250",
+      "code_ief": "272",
+      "code_men_ief": "142",
+      "code_administratif_ief": "2464496660",
+      "value_ief": "IEF Goudiry"
+    },
+    {
+      "code_ia": "251",
+      "code_ief": "264",
+      "code_men_ief": "162",
+      "code_administratif_ief": "2268785040",
+      "value_ief": "IEF Bignona2"
+    },
+    {
+      "code_ia": "251",
+      "code_ief": "313",
+      "code_men_ief": "163",
+      "code_administratif_ief": "2475412190",
+      "value_ief": "IEF Oussouye"
+    },
+    {
+      "code_ia": "251",
+      "code_ief": "263",
+      "code_men_ief": "161",
+      "code_administratif_ief": "2126610070",
+      "value_ief": "IEF Bignona1"
+    },
+    {
+      "code_ia": "251",
+      "code_ief": "259",
+      "code_men_ief": "164",
+      "code_administratif_ief": "2073287220",
+      "value_ief": "IEF Ziguinchor"
+    },
+    {
+      "code_ia": "252",
+      "code_ief": "266",
+      "code_men_ief": "41",
+      "code_administratif_ief": "2728118710",
+      "value_ief": "IEF Birkelane"
+    },
+    {
+      "code_ia": "252",
+      "code_ief": "297",
+      "code_men_ief": "43",
+      "code_administratif_ief": "2523814950",
+      "value_ief": "IEF Koungheul"
+    },
+    {
+      "code_ia": "252",
+      "code_ief": "280",
+      "code_men_ief": "42",
+      "code_administratif_ief": "2430208740",
+      "value_ief": "IEF Kaffrine"
+    },
+    {
+      "code_ia": "252",
+      "code_ief": "304",
+      "code_men_ief": "44",
+      "code_administratif_ief": "2134858950",
+      "value_ief": "IEF Malem Hodar"
+    },
+    {
+      "code_ia": "253",
+      "code_ief": "278",
+      "code_men_ief": "51",
+      "code_administratif_ief": "2382024590",
+      "value_ief": "IEF Guinguineo"
+    },
+    {
+      "code_ia": "253",
+      "code_ief": "311",
+      "code_men_ief": "54",
+      "code_administratif_ief": "2639045090",
+      "value_ief": "IEF Nioro"
+    },
+    {
+      "code_ia": "253",
+      "code_ief": "284",
+      "code_men_ief": "52",
+      "code_administratif_ief": "2124859800",
+      "value_ief": "IEF Kaolack Commune"
+    },
+    {
+      "code_ia": "253",
+      "code_ief": "285",
+      "code_men_ief": "53",
+      "code_administratif_ief": "2375467660",
+      "value_ief": "IEF Kaolack Departement"
+    },
+    {
+      "code_ia": "255",
+      "code_ief": "322",
+      "code_men_ief": "63",
+      "code_administratif_ief": "2030762030",
+      "value_ief": "IEF Saraya"
+    },
+    {
+      "code_ia": "255",
+      "code_ief": "289",
+      "code_men_ief": "61",
+      "code_administratif_ief": "2164976080",
+      "value_ief": "IEF Kedougou"
+    },
+    {
+      "code_ia": "255",
+      "code_ief": "320",
+      "code_men_ief": "62",
+      "code_administratif_ief": "2125515030",
+      "value_ief": "IEF Salémata"
+    },
+    {
+      "code_ia": "256",
+      "code_ief": "332",
+      "code_men_ief": "73",
+      "code_administratif_ief": "2088182320",
+      "value_ief": "IEF Vélingara "
+    },
+    {
+      "code_ia": "256",
+      "code_ief": "293",
+      "code_men_ief": "71",
+      "code_administratif_ief": "2674052660",
+      "value_ief": "IEF Kolda"
+    },
+    {
+      "code_ia": "256",
+      "code_ief": "309",
+      "code_men_ief": "72",
+      "code_administratif_ief": "2221618710",
+      "value_ief": "IEF Médina Yora Foulah"
+    },
+    {
+      "code_ia": "257",
+      "code_ief": "299",
+      "code_men_ief": "82",
+      "code_administratif_ief": "2960709840",
+      "value_ief": "IEF Linguere"
+    },
+    {
+      "code_ia": "257",
+      "code_ief": "287",
+      "code_men_ief": "81",
+      "code_administratif_ief": "2850021450",
+      "value_ief": "IEF Kebemer"
+    },
+    {
+      "code_ia": "257",
+      "code_ief": "301",
+      "code_men_ief": "83",
+      "code_administratif_ief": "2413782410",
+      "value_ief": "IEF Louga"
+    },
+    {
+      "code_ia": "10",
+      "code_ief": "314",
+      "code_men_ief": "103",
+      "code_administratif_ief": "2189313480",
+      "value_ief": "IEF PIKINE"
+    }
+  ]
+}

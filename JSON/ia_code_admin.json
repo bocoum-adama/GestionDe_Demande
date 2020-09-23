@@ -1,0 +1,68 @@
+{
+  "ias": [
+    {
+      "code_ia": 2226888890,
+      "value_ia": "IA DAKAR"
+    },
+    {
+      "code_ia": 2781190470,
+      "value_ia": "IA DIOURBEL"
+    },
+    {
+      "code_ia": 2152725660,
+      "value_ia": "IA FATICK"
+    },
+    {
+      "code_ia": 2650198890,
+      "value_ia": "IA KAFFRINE"
+    },
+    {
+      "code_ia": 2035468280,
+      "value_ia": "IA KAOLACK"
+    },
+    {
+      "code_ia": 2662357880,
+      "value_ia": "IA KEDOUGOU"
+    },
+    {
+      "code_ia": 2339171060,
+      "value_ia": "IA KOLDA"
+    },
+    {
+      "code_ia": 2413736640,
+      "value_ia": "IA LOUGA"
+    },
+    {
+      "code_ia": 2324180900,
+      "value_ia": "IA MATAM"
+    },
+    {
+      "code_ia": 2038618300,
+      "value_ia": "IA PIKINE-GUEDIAWAYE"
+    },
+    {
+      "code_ia": 2148362780,
+      "value_ia": "IA RUFISQUE"
+    },
+    {
+      "code_ia": 2224033760,
+      "value_ia": "IA SAINT-LOUIS"
+    },
+    {
+      "code_ia": 2513435360,
+      "value_ia": "IA SEDHIOU"
+    },
+    {
+      "code_ia": 2524623140,
+      "value_ia": "IA TAMBA"
+    },
+    {
+      "code_ia": 2521950630,
+      "value_ia": "IA THIES"
+    },
+    {
+      "code_ia": 2658070130,
+      "value_ia": "IA ZIGUINCHOR"
+    }
+  ]
+}
