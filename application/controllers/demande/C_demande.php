@@ -27,7 +27,7 @@ class C_demande extends MY_Controller
         $data["all_ia"] = $this->struc->get_list_ia();
         $data["all_commune"] = $this->struc->get_list_commune();
         $data['all_data'] = $this->dem->get_data();
-        $struc = $this->struc->get_data();
+        $struc = $this->struc->get_struct_central();
         $type = $this->type->get_data();
         $partenaire = $this->part->get_data();
         //var_dump($struc);exit;

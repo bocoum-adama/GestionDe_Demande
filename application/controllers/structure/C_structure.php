@@ -210,11 +210,13 @@ class C_structure extends CI_Controller
         );
         echo json_encode($a,JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_AMP);
     }
-    public function liste_etat_by_commune($code_area)
+
+    public function fetch_etab()
     {
-        //extract($_POST);
-        $data["all_data"]       = $this->struct->liste_etat_by_commune($code_area);
-        $this->load->view('V_view',$data);
+        if ($this->input->post('code_area'))
+        {
+            echo $this->struct->fetch_etab($this->input->post('code_area'));
+        }
     }
 
 }

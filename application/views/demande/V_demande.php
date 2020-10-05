@@ -1,45 +1,34 @@
-<?php btn_add_action('LST_DEMANDE'); ?>
+<!-- Page-Title -->
+<div class="row">
+    <!--div class="col-sm-12" style="margin-bottom: 30px" id="add_user">
+        <button type="button" id="<?php //echo $info_partenaire->id_partenaire ?>" class="btn btn-success add_user">Ajouter <span lass="m-l-5"><i
+                        class="fa fa-plus-square"></i></span></button>
+    </div-->
+    <?php btn_add_action('LST_DEMANDE'); ?><div class="col-md-12">
 
-<div class="col-md-8"></div>
+    <div class="col-md-12">
+        <div class="col-md-8"></div>
+        <div class="col-md-4">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
 
-<div class="col-md-4">
-
-    <nav aria-label="breadcrumb" style="background-color: #ededed;border-radius: 5px;">
-
-        <ol class="breadcrumb">
-
-            <li class="breadcrumb-item">
-                <a href="#"><i class="fa fa-recycle"></i> Dahboard</a>
-            </li>
-
-            <lsi class="breadcrumb-item active" aria-current="page">Liste Demande</lsi>
-
-        </ol>
-
-    </nav>
+                </ol>
+            </nav>
+        </div>
+    </div>
 
 </div>
 
-<div class="row">
-
-    <div class="col-md-12">
-
-        <div class="panel panel-border panel-primary">
-
-            <div class="panel-heading">
-
-                <h3 class="panel-title">Liste Demandes</h3>
-
+<div class='row'>
+    <div class='col-md-12'>
+        <div class='panel panel-border panel-purple fc-list-table fc-state-default'>
+            <div class='panel-heading'>
+                <h3 class='panel-title' style="font-family: Ionicons">Liste des Demandes</h3>
             </div>
-
-            <div class="panel-body">
-
-                <table id="datatable-buttons" class="table table-striped table-bordered">
-
+            <div class='panel-body'>
+                <table id='datatable' class='table table-striped table-bordered   '>
                     <thead>
-
                     <tr>
-
                         <th>Numero</th>
                         <th>Objet</th>
                         <th>Date</th>
@@ -50,11 +39,8 @@
                         <th></th>
 
                     </tr>
-
                     </thead>
-
                     <tbody>
-
                     <?php foreach ($all_data as $value): ?>
 
                         <tr>
@@ -64,18 +50,18 @@
                             <td><?= $value->date_demande; ?></td>
                             <td>
                                 <?php
-                                    if($value->etat_demande == 0)
-                                    {
-                                        echo '<span href="#" class="on-default btn_active">
+                                if($value->etat_demande == 0)
+                                {
+                                    echo '<span href="#" class="on-default btn_active">
                                                     <i class="fa fa-toggle-on" style="color:#2ed573;font-size: 18px;"></i>
                                               </span>';
-                                    }
-                                    else
-                                    {
-                                        echo '<span href="#" class="on-default btn_inactive">
+                                }
+                                else
+                                {
+                                    echo '<span href="#" class="on-default btn_inactive">
                                                     <i class="fa fa-toggle-off" style="color:#ff4757;font-size: 18px;"></i>
                                               </span>';
-                                    }
+                                }
                                 ?>
                             </td>
 
@@ -105,36 +91,57 @@
                         </tr>
 
                     <?php endforeach; ?>
-
+                    </tbody>
                 </table>
             </div>
-
         </div>
     </div>
+
+</div> <!-- End Row -->
+
+<div class="modal fade bd-example-modal-lg col-md-12" tabindex="-1" id="modal_add_user" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+
+    <div class="col-md-3"></div>
+    <div class="modal-dialog col-md-6">
+
+        <div class="modal-content" id="modal_content_add_user">
+
+
+
+        </div>
+
+    </div>
+
 </div>
 
 
-<!-- sample modal content -->
-<div id="modal_form" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal_formLabel" aria-hidden="true">
+<div class="modal fade bd-example-modal-lg" tabindex="-1" id="modal_list" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 
-    <form action="#" id="form" class="form-horizontal">
+    <div class="modal-dialog modal-md">
 
-        <div class="modal-dialog">
+        <div class="modal-content" id="modal_content_list">
 
-            <div class="modal-content">
 
-                <div class="modal-header">
 
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h4 class="modal-title" id="modal_formLabel">Title</h4>
+        </div>
 
+    </div>
+
+</div>
+<!--- ajouter un nouveau utilisateur --->
+
+<div id='modal_form' class='modal fade' tabindex='-1' role='dialog' aria-labelledby='modal_formLabel'
+     aria-hidden='true'>
+    <form action='#' id='form' class='form-horizontal'>
+        <div class='modal-dialog'>
+            <div class='modal-content'  style="background-color: white">
+                <div class='modal-header'>
+                    <button type='button' class='close' data-dismiss='modal' aria-hidden='true'> × </button>
+                    <h4 class='modal-title' id='modal_formLabel'>Title</h4>
                 </div>
-
-                <div class="modal-body">
-
-                    <input type="hidden" id="id_demande" name="id_type_demande"/>
-
-                    <div class="form-body">
+                <div class='modal-body' >
+                    <input type='hidden' id='id_demande' name='id_demande' />
+                    <div class='form-body'>
 
                         <div class="form-group">
 
@@ -179,24 +186,6 @@
 
                         <div class="form-group">
 
-                            <label class="control-label col-md-4">Type Structure <span class="text-danger">*</span></label>
-
-                            <div class="col-md-8">
-                                <select name="type_structure" id="structure" class="form-control">
-                                    <option value="">Selection type Structure</option>
-                                    <option value="Niveau central">Niveau central</option>
-                                    <option value="19">IA</option>
-                                    <option value="29">CAOSP</option>
-                                    <option value="30">IME</option>
-                                    <option value="23">IEF</option>
-                                    <option value="32">CRFPE</option>
-                                </select>
-                            </div>
-
-                        </div>
-
-                        <div class="form-group">
-
                             <label class="control-label col-md-4">Partenaire<span class="text-danger">*</span></label>
 
                             <div class="col-md-8">
@@ -212,7 +201,37 @@
 
                         </div>
 
-                        <div class="form-group">
+
+                        <div class='form-group' id="div1">
+                            <label class='control-label col-md-4'>Type Structure <span class="text-danger">*</span></label>
+                            <div class='col-md-8'>
+                                <div class="radio radio-info radio-inline">
+                                    <input type="radio" id="nc" class="nc" value="nc" name="nc" checked="checked">
+                                    <label for="inlineRadio1"> Niveau central </label>
+                                </div>
+                                <div class="radio radio-inline">
+                                    <input type="radio" id="ecole" class="ecole" value="ecole" name="nc">
+                                    <label for="inlineRadio2"> Etablissement </label>
+                                </div>
+                            </div>
+                        </div>
+
+                            <div class="form-group structure hidden">
+
+                                <label class="control-label col-md-4">Structure<span class="text-danger">*</span></label>
+
+                                <div class="col-md-8">
+
+                                    <select name="structure" class="form-control md-form" id="structure">
+                                        <option disabled selected value="">Selectionner une Structure</option>
+                                        <?php echo $select_structure ?>
+                                    </select>
+
+                                </div>
+
+                            </div>
+
+                        <div class="form-group ia hidden">
 
                             <label class="control-label col-md-4">IA<span class="text-danger">*</span></label>
 
@@ -227,7 +246,7 @@
 
                         </div>
 
-                        <div class="form-group">
+                        <div class="form-group ief hidden">
 
                             <label class="control-label col-md-4">IEF<span class="text-danger">*</span></label>
 
@@ -242,7 +261,7 @@
 
                         </div>
 
-                        <div class="form-group">
+                        <div class="form-group area hidden">
 
                             <label class="control-label col-md-4">Commune<span class="text-danger">*</span></label>
 
@@ -257,54 +276,132 @@
 
                         </div>
 
+<!--                        <div class="form-group etab hidden">-->
+<!---->
+<!--                            <label class="control-label col-md-4">Etablissement<span class="text-danger">*</span></label>-->
+<!---->
+<!--                            <div class="col-md-8">-->
+<!---->
+<!--                                <select name="code_etab" class="form-control md-form" id="code_etab">-->
+<!--                                    <option value="" disabled selected>Selectionner un Etablissement</option>-->
+<!--                                    --><?php //echo $select_etab ?>
+<!--                                </select>-->
+<!---->
+<!--                            </div>-->
+<!---->
+<!--                        </div>-->
+
+
+                        <div class="form-group etab hidden">
+                            <label class="control-label col-md-4">Etablissement<span class="text-danger">*</span></label>
+
+                            <div class="col-md-8">
+                                <select  name="code_etab" id="code_etab" class="form-control" required >
+                                    <option selected="selected">Sélectionner Etablissement</option>
+
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class='modal-footer'>
+                            <br>
+                            <input type='submit' class='btn btn-primary' value='Enregistrer'/>
+
+                            <button type='button' class='btn btn-default' data-dismiss='modal'>Fermer</button>
+                        </div>
 
                     </div>
-
+                    <!-- /.modal-content -->
                 </div>
-
-                <div class="modal-footer">
-
-                    <br>
-                    <input type="submit" class="btn btn-primary"/>
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
-
-                </div>
-
+                <!-- /.modal-dialog -->
             </div>
-
         </div>
-        <!-- /.modal-content -->
-</div>
-<!-- /.modal-dialog -->
-</form>
+        < </form>
 
 </div><!-- /.modal -->
 
 
+<!-- Modal -->
+
+<!-- sample modal content -->
+
+
 <script type="text/javascript">
+    $(document).ready(function (){
 
-    $(document).ready(function () {
 
-        $('#datatable-buttons').managing_ajax({
+        $('#datatable').managing_ajax({
             id_modal_form: 'modal_form',
 
             id_form: 'form',
-            url_submit: "<?php echo site_url('demande/C_demande/save')?>",
+            url_submit: "<?php echo site_url('contrat/C_utilisateur/save')?>",
 
-            title_modal_add: 'Ajouter un Type',
-            focus_add: 'numero',
+            title_modal_add: 'Nouveau Utilisateur',
+            focus_add: 'prenom_utilisateur',
 
-            title_modal_edit: 'Modifier un Type',
-            focus_edit: 'numero',
 
-            url_edit: "<?php echo site_url('demande/C_demande/get_record')?>",
-            url_delete: "<?php echo site_url('demande/C_demande/delete')?>",
+            title_modal_edit: 'Modifier un Utilisateur',
+            focus_edit: 'prenom_utilisateur',
+
+            url_edit: "<?php echo site_url('contrat/C_utilisateur/get_record')?>",
+            url_delete: "<?php echo site_url('contrat/C_utilisateur/delete')?>",
         });
 
-        $("#code_ief").chained("#code_ia");
-        $("#code_area").chained("#code_ief");
+
+
+        $('#datatable tbody').on('click', '.btn_edit', function () {
+            $('#div1').remove();
+            $('.partie2').remove();
+        });
+
+
+        $('#nc').click(function() {
+
+            if($(this).is(':checked') == true)
+            {
+                $(".structure").removeClass("hidden");
+                $('.ia').addClass('hidden');
+                $('.ief').addClass('hidden');
+                $('.area').addClass('hidden');
+                $('.etab').addClass('hidden');
+            }
+        });
+
+        $('#ecole').click(function() {
+
+            if($(this).is(':checked') == true)
+            {
+                $(".structure").addClass("hidden");
+                $("#code_ief").chained("#code_ia2");
+                $("#code_area").chained("#code_ief");
+                $('.ia').removeClass('hidden');
+                $('.ief').removeClass('hidden');
+                $('.area').removeClass('hidden');
+            }
+        });
+
+        $('#code_area').change(function() {
+
+            $('.etab').removeClass('hidden');
+            var code_area = $('#code_area').val();
+            if(code_area != '')
+            {
+                $.ajax({
+                    url:"<?php echo base_url();?>structure/C_structure/fetch_etab",
+                    method: "POST",
+                    data:{code_area:code_area},
+                    success:function(data)
+                    {
+                        $('#code_etab').html(data);
+                    }
+
+                })
+            }
+        });
 
     });
 
+
 </script>
+
 <?php if (ENVIRONMENT !== 'production'): ?>{elapsed_time} seconds&nbsp;|&nbsp;{memory_usage}<?php endif ?>

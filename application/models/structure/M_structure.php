@@ -251,4 +251,27 @@ class M_structure extends MY_Model
 					->set('annee_sortie_str','9999')
 					->update('enseignant_structure');
 	}
+
+    public function get_struct_central()
+    {
+        return $struc = $this->db->select("*")
+            ->from("structure")
+            ->where("etat_str" , 1)
+            ->get()
+            ->result();
+    }
+
+    public function fetch_etab($code_area)
+    {
+        //https://codeco.education.sn/api-ien/list_etab_by_com?code=233
+        $query1 = apiGetData('codeco', 'api-ien/list_etab_by_com?code='.$code_area);
+        $query = $query1->Etablissements;
+
+        $output = '<option value="">Selectionner Etablissement</option>';
+        foreach ($query as $row)
+        {
+            $output .= '<option value="'.$row->id.'">'.$row->libelle.'</option>';
+        }
+        return $output;
+    }
 }
