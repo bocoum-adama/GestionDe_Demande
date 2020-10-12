@@ -54,7 +54,7 @@ class M_demande extends MY_Model
 
     public function get_struc($code_struc)
     {
-        $struc = $this->db->select("libelle_str")
+        $struc = $this->db->select("libelle_structure")
             ->from("structure")
             ->where("code_str" , $code_struc)
             ->get()

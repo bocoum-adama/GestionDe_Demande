@@ -51,7 +51,7 @@ class C_demande extends MY_Controller
     {
         $args = func_get_args();
         $this->dem->id_demande = $args[0];
-        echo json_encode($this->type->delete(), JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_AMP);
+        echo json_encode($this->dem->delete(), JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_AMP);
     }
 
 

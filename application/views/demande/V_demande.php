@@ -77,7 +77,7 @@
                             </td>
                             <td>
 
-                                <?php echo $this->dem->get_struc($value->id_structure); ?>
+                                <?php echo $this->dem->get_struc($value->code_str); ?>
 
                             </td>
 
@@ -207,10 +207,10 @@
                             <div class='col-md-8'>
                                 <div class="radio radio-info radio-inline">
                                     <input type="radio" id="nc" class="nc" value="nc" name="nc" checked="checked">
-                                    <label for="inlineRadio1"> Niveau central </label>
+                                    <label for="inlineRadio1"> Structure </label>
                                 </div>
                                 <div class="radio radio-inline">
-                                    <input type="radio" id="ecole" class="ecole" value="ecole" name="nc">
+                                    <input type="radio" id="ecole" class="ecole" value="ecole" name="etab">
                                     <label for="inlineRadio2"> Etablissement </label>
                                 </div>
                             </div>
@@ -222,7 +222,7 @@
 
                                 <div class="col-md-8">
 
-                                    <select name="structure" class="form-control md-form" id="structure">
+                                    <select name="id_structure" class="form-control md-form" id="structure">
                                         <option disabled selected value="">Selectionner une Structure</option>
                                         <?php echo $select_structure ?>
                                     </select>
@@ -276,27 +276,11 @@
 
                         </div>
 
-<!--                        <div class="form-group etab hidden">-->
-<!---->
-<!--                            <label class="control-label col-md-4">Etablissement<span class="text-danger">*</span></label>-->
-<!---->
-<!--                            <div class="col-md-8">-->
-<!---->
-<!--                                <select name="code_etab" class="form-control md-form" id="code_etab">-->
-<!--                                    <option value="" disabled selected>Selectionner un Etablissement</option>-->
-<!--                                    --><?php //echo $select_etab ?>
-<!--                                </select>-->
-<!---->
-<!--                            </div>-->
-<!---->
-<!--                        </div>-->
-
-
                         <div class="form-group etab hidden">
                             <label class="control-label col-md-4">Etablissement<span class="text-danger">*</span></label>
 
                             <div class="col-md-8">
-                                <select  name="code_etab" id="code_etab" class="form-control" required >
+                                <select  name="id_structure" id="code_etab" class="form-control" required >
                                     <option selected="selected">Sélectionner Etablissement</option>
 
                                 </select>
@@ -334,17 +318,17 @@
             id_modal_form: 'modal_form',
 
             id_form: 'form',
-            url_submit: "<?php echo site_url('contrat/C_utilisateur/save')?>",
+            url_submit: "<?php echo site_url('demande/C_demande/save')?>",
 
-            title_modal_add: 'Nouveau Utilisateur',
-            focus_add: 'prenom_utilisateur',
+            title_modal_add: 'Nouveau Demande',
+            focus_add: 'numero',
 
 
-            title_modal_edit: 'Modifier un Utilisateur',
-            focus_edit: 'prenom_utilisateur',
+            title_modal_edit: 'Modifier Demande',
+            focus_edit: 'numero',
 
-            url_edit: "<?php echo site_url('contrat/C_utilisateur/get_record')?>",
-            url_delete: "<?php echo site_url('contrat/C_utilisateur/delete')?>",
+            url_edit: "<?php echo site_url('demande/C_demande/get_record')?>",
+            url_delete: "<?php echo site_url('demande/C_demande/delete')?>",
         });
 
 
