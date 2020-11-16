@@ -50,16 +50,22 @@
                             <td><?= $value->date_demande; ?></td>
                             <td>
                                 <?php
-                                if($value->etat_demande == 0)
+                                if($value->etat_demande == 1)
                                 {
                                     echo '<span href="#" class="on-default btn_active">
                                                     <i class="fa fa-toggle-on" style="color:#2ed573;font-size: 18px;"></i>
                                               </span>';
                                 }
+                                else if($value->etat_demande == 0)
+                                {
+                                    echo '<span href="#" class="on-default btn_inactive">
+                                                    <i class="fa fa-toggle-off" style="color:#ff941c;font-size: 18px;"></i>
+                                              </span>';
+                                }
                                 else
                                 {
                                     echo '<span href="#" class="on-default btn_inactive">
-                                                    <i class="fa fa-toggle-off" style="color:#ff4757;font-size: 18px;"></i>
+                                                    <i class="fa fa-toggle-off" style="color:#ff0c0b;font-size: 18px;"></i>
                                               </span>';
                                 }
                                 ?>
@@ -82,6 +88,9 @@
                             </td>
 
                             <td class="actions" style="width: 1%; text-align: center; white-space: nowrap">
+                                <a href="#" class="btn_add_doc" id="<?php echo $value->id_demande;?>" name="id_demande">
+                                    <span class="label label-info"  style="border-radius: 5px">&nbsp;Traiter <i class="fa fa-plus label-info" ></i>&nbsp;</span>
+                                </a>
 
                                 <?php btn_edit_action($value->id_demande, 'LST_DEMANDE');?>
                                 <?php btn_delete_action($value->id_demande, 'LST_DEMANDE');?>
@@ -128,7 +137,20 @@
     </div>
 
 </div>
-<!--- ajouter un nouveau utilisateur --->
+
+    <!--  Ajout documentation -->
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" id="modal_add_doc" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+
+        <div class="modal-dialog modal-lg">
+
+            <div class="modal-content" id="modal_content_add_doc">
+
+
+            </div>
+
+        </div>
+
+    </div>
 
 <div id='modal_form' class='modal fade' tabindex='-1' role='dialog' aria-labelledby='modal_formLabel'
      aria-hidden='true'>
@@ -206,7 +228,7 @@
                             <label class='control-label col-md-4'>Type Structure <span class="text-danger">*</span></label>
                             <div class='col-md-8'>
                                 <div class="radio radio-info radio-inline">
-                                    <input type="radio" id="nc" class="nc" value="nc" name="nc" checked="checked">
+                                    <input type="radio" id="nc" class="nc" value="nc" name="nc" >
                                     <label for="inlineRadio1"> Structure </label>
                                 </div>
                                 <div class="radio radio-inline">
@@ -331,6 +353,21 @@
             url_delete: "<?php echo site_url('demande/C_demande/delete')?>",
         });
 
+        $('#datatable tbody').on('click', '.btn_add_doc', function () {
+
+            var id_demande = $(this).attr('id');
+            if (id_demande == undefined)
+                return false;
+            var href = "<?php echo site_url('demande/C_demande/change_etat/')?>"  + id_demande;
+
+            $('#modal_content_add_doc').empty().load(href, function () {
+                cache: false
+            }).fadeIn('slow');
+            $('#modal_add_doc').modal('show');
+            // $('#modal_add_doc').on('hidden.bs.modal', function (event) {
+            //     $('#'+menu_encours).click();
+            // });
+        });
 
 
         $('#datatable tbody').on('click', '.btn_edit', function () {

@@ -88,7 +88,7 @@ function send_mail_affectation1($prenom,$nom,$mail,$mdp){
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Gestion tickets</title>
+        <title>Gestion Demandes</title>
         
     <style type="text/css">
 		p{
@@ -614,7 +614,7 @@ function send_mail_affectation1($prenom,$nom,$mail,$mdp){
                         
                         <td class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;" valign="top">
                         
-                            <h1>Gestion Ticket</h1>
+                            <h1>Gestion Demande</h1>
 
                         </td>
                     </tr>

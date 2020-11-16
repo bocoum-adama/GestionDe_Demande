@@ -38,6 +38,44 @@ class C_demande extends MY_Controller
 
     }
 
+    public function change_etat()
+    {
+
+       // $this->load->view('demande/V_change_etat');
+        $args = func_get_args();
+        $this->dem->id_demande = $args[0];
+        $data['info'] = $this->dem->get_record_tr($args[0]);
+//        var_dump($_GET);
+//        exit;
+
+        $this->load->view('demande/V_change_etat',$data);
+//var_dump($data['info_api']);
+//exit;
+//        $data['module_api'] = $this->api->get_list_module_where();
+//        $data['list_module'] = $this->module->get_data();
+//        $this->doc->id_api = $this->api->id_api;
+//        $data['infos_documentation'] = $this->doc->get_record_tr();
+//        $data['all_rubrique'] = $this->rubrique->get_data();
+//        $data['list_typeapi'] = $this->typeapi->get_data();
+
+    }
+
+    public function traitement()
+    {
+        //var_dump($this->input->post('etat'));exit;
+        $id = func_get_args()[0];
+        $etat = $_POST["etat"];
+        $obs = $_POST["observation"];
+        //var_dump($id);exit;
+        $this->dem->etat_change($id, $etat, $obs );
+        //$this->change_etat();
+        $result['status']='success';
+        $result['message']='demande traitee';
+        echo json_encode($result, JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_AMP);
+
+    }
+
+
 
     public function get_record()
     {
@@ -76,7 +114,7 @@ class C_demande extends MY_Controller
             $this->dem->numero_demande = $this->input->post('numero');
             $this->dem->objet_demande = $this->input->post('objet');
             $this->dem->date_demande = $this->getDatetimeNow();
-            $this->dem->etat_demande = 0;
+            $this->dem->etat_demande = '0';
             $this->dem->id_partenaire = $this->input->post('id_partenaire');
             $this->dem->id_type_demande = $this->input->post('id_type_demande');
             $this->dem->code_str = $this->input->post('id_structure');

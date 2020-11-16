@@ -8,7 +8,6 @@ class C_sys_user extends MY_Controller
         parent::__construct();
         $this->load->model('sys/M_sys_user', 'user');
         $this->load->model('sys/M_sys_profil', 'profil');
-        $this->load->model('M_personnel', 'pers');
         //$this->load->model('M_table_param');
     }
 

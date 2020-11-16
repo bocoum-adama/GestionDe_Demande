@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../gestion_api/.idea/gestion_api.iml" filepath="$PROJECT_DIR$/../gestion_api/.idea/gestion_api.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/gestion_demande.iml" filepath="$PROJECT_DIR$/.idea/gestion_demande.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../gestion_erreurs/.idea/gestion_erreurs.iml" filepath="$PROJECT_DIR$/../gestion_erreurs/.idea/gestion_erreurs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../gestion_ticket/.idea/gestion_ticket.iml" filepath="$PROJECT_DIR$/../gestion_ticket/.idea/gestion_ticket.iml" />
     </modules>
   </component>
 </project>

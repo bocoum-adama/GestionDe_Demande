@@ -63,5 +63,26 @@ class M_demande extends MY_Model
 
     }
 
+    public function etat_change($id, $etat, $observation)
+    {
+        return $this->db->query( 'UPDATE demande SET etat_demande="'.$etat.'",date_traitement="'.$this->getDatetimeNow().'", observation="'.$observation.'"  WHERE id_demande="'.$id.'"' );
+    }
+
+    public function get_record_tr($id_demande)
+    {
+        return $this->db->select("*")
+            ->from('demande')
+            ->where("demande.id_demande", $id_demande)
+            ->get()
+            ->row();
+    }
+
+    function getDatetimeNow()
+    {
+        $tz_object = new DateTimeZone('UTC');
+        $datetime = new DateTime();
+        $datetime->setTimezone($tz_object);
+        return $datetime->format('Y\-m\-d\ h:i:s');
+    }
 
 }

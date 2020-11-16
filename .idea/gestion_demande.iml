@@ -53,5 +53,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="gestion_api" />
+    <orderEntry type="module" module-name="gestion_api" />
+    <orderEntry type="module" module-name="gestion_ticket" />
+    <orderEntry type="module" module-name="gestion_erreurs" />
   </component>
 </module>

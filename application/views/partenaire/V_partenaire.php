@@ -88,7 +88,7 @@
                                 <br>
                                 <label class='control-label col-md-3'>Telephone <span style="color: brown">*</span></label>
                                 <div class='col-md-9'>
-                                    <input id='tel_partenaire' name='tel_partenaire'class='form-control' type='tel' onblur="valid_tel(tel_partenaire)" required trim/>
+                                    <input id='tel_partenaire' name='tel_partenaire'class='form-control' type='text' onblur="valid_tel(tel_partenaire)" required trim/>
                                 </div>
                             </div>
 
@@ -103,7 +103,7 @@
                                 <br>
                                 <label class='control-label col-md-3'>Email <span style="color: brown">*</span></label>
                                 <div class='col-md-9'>
-                                    <input id='email_partenaire' name='email_partenaire'class='form-control' type='email' required trim/>
+                                    <input id='email_partenaire' name='email_partenaire'class='form-control' type='text' required trim/>
                                     <!--br>
                                     <button type="button" class="fileupload btn btn-primary waves-effect waves-light" style="border-radius: 30px; margin-top: 10px;margin-left: 25px" >
                                         <span><i class="ion-upload m-r-5"></i>Upload</span>
