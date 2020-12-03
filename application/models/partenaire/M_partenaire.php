@@ -21,16 +21,7 @@ class M_partenaire extends  MY_Model{
         return 'id_partenaire';
     }
 
-    public function verif_nompart()
-    {
-        return $this->db->select("*")
-            ->from('partenaire as part')
-            ->where("part.nom_partenaire", $this->part->nom_partenaire)
-            ->get()
-            ->result();
-    }
-
-    public function verif_nom_part($nom)
+    public function verif_nom($nom)
     {
         return $this->db->select("*")
             ->from("partenaire")

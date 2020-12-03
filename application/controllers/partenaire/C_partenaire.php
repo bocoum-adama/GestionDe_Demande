@@ -44,9 +44,30 @@ class C_partenaire extends MY_Controller
 
         }
 
-        if (!empty($this->part->verif_nompart()) and !isset($this->part->id_partenaire))
+        $nom = null;
+        $tel = null;
+        $email = null;
+        $nom = $this->part->verif_nom($this->input->post('nom_partenaire'));
+        $tel = $this->part->verif_tel_part($this->input->post('tel_partenaire'));
+        $email = $this->part->verif_email_part($this->input->post('email_partenaire'));
+
+        if ($nom != null and !isset($this->part->id_partenaire))
         {
-            $d=array("status" => "error", "message" =>"Partenaire existe déja !" );
+            $d=array("status" => "error", "message" =>"Cette Demande existe déja (Nom) !" );
+            echo json_encode($d, JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_AMP);
+            die();
+        }
+
+        if ($email != null and !isset($this->part->id_partenaire))
+        {
+            $d=array("status" => "error", "message" =>"Cette Demande existe déja (Email) !" );
+            echo json_encode($d, JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_AMP);
+            die();
+        }
+
+        if ($tel != null and !isset($this->part->id_partenaire))
+        {
+            $d=array("status" => "error", "message" =>"Cette Demande existe déja (Telephone) !" );
             echo json_encode($d, JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_AMP);
             die();
         }

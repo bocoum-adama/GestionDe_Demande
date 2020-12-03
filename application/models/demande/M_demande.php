@@ -21,11 +21,20 @@ class M_demande extends MY_Model
         return 'id_demande';
     }
 
-    public function verif_numero($num)
+    public function verif_numero($nom)
     {
         return $this->db->select("*")
             ->from("demande")
-            ->where("numero_demande" , $num)
+            ->where("numero_demande" , $nom)
+            ->get()
+            ->row();
+    }
+
+    public function verif_objet($objet)
+    {
+        return $this->db->select("*")
+            ->from("demande")
+            ->where("objet_demande" , $objet)
             ->get()
             ->row();
     }
@@ -68,7 +77,7 @@ class M_demande extends MY_Model
         return $this->db->query( 'UPDATE demande SET etat_demande="'.$etat.'",date_traitement="'.$this->getDatetimeNow().'", observation="'.$observation.'"  WHERE id_demande="'.$id.'"' );
     }
 
-    public function get_record_tr($id_demande)
+    public function get_record_tr($id_demande )
     {
         return $this->db->select("*")
             ->from('demande')
@@ -85,4 +94,25 @@ class M_demande extends MY_Model
         return $datetime->format('Y\-m\-d\ h:i:s');
     }
 
+    public function tt_demande()
+    {
+        $sql = "SELECT COUNT(*) as nb_demande
+		FROM demande
+      ";
+        return $this->db->query($sql)->row()->nb_demande;
+    }
+
+    public function tt_nb_encours()
+    {
+        $sql = "SELECT COUNT(*) as nb_encours FROM demande  
+        where etat_demande = '0'";
+        return $this->db->query($sql)->row()->nb_encours;
+    }
+
+
+    public function tt_traite()
+    {
+        $sql = "SELECT COUNT(*) as nb_traite FROM demande where etat_demande = '1'";
+        return $this->db->query($sql)->row()->nb_traite;
+    }
 }

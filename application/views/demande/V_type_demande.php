@@ -117,9 +117,9 @@
 
                         <div class="form-group">
 
-                            <label class="control-label col-md-3">Partenaire<span class="text-danger">*</span></label>
+                            <label class="control-label col-md-4">Partenaire<span class="text-danger">*</span></label>
 
-                            <div class="col-md-9">
+                            <div class="col-md-8">
 
                                 <select name="id_partenaire" id="id_partenaire" class="form-control" required value="Selectionner partenaire">
 

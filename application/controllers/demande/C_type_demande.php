@@ -54,6 +54,12 @@ class C_type_demande extends MY_Controller
             echo json_encode($d, JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_AMP);
             die();
         }
+        if ($libelle != null and isset($this->type->id_type_demande))
+        {
+            $d=array("status" => "error", "message" =>"Ce type existe déja !" );
+            echo json_encode($d, JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_AMP);
+            die();
+        }
         else
             {
                 $this->type->libelle = $this->input->post('libelle');

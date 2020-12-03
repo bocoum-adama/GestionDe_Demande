@@ -43,6 +43,13 @@
                         <input class="form-control input-lg" type="text" required="" placeholder="Entrer votre IEN" name="ien" maxlength="8" minlength="8">
                     </div>
                 </div>
+                <?php if (ENVIRONMENT == 'production') : ?>
+                    <div class="form-group">
+                        <div class="col-xs-12">
+                            <input class="form-control input-lg" type="password" required placeholder="Entrer mot de passe" name="passe" >
+                        </div>
+                    </div>
+                <?php endif; ?>
 
                 <div class="form-group text-center m-t-40">
                     <div class="col-xs-12">

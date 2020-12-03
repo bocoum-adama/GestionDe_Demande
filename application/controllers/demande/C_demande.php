@@ -101,7 +101,16 @@ class C_demande extends MY_Controller
         }
 
         $numero = null;
+        $objet = null;
         $numero = $this->dem->verif_numero($this->input->post('numero'));
+        $objet = $this->dem->verif_objet($this->input->post('objet'));
+
+        if ($objet != null and !isset($this->dem->id_demande))
+        {
+            $d=array("status" => "error", "message" =>"Cette Demande existe déja (Objet) !" );
+            echo json_encode($d, JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_AMP);
+            die();
+        }
 
         if ($numero != null and !isset($this->dem->id_demande))
         {

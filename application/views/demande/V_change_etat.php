@@ -1,13 +1,12 @@
 <div class="panel panel-border panel-info" id="modal_id" xmlns="http://www.w3.org/1999/html">
+
     <div class="panel-heading">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="padding-top:10px; padding-right:10px;">×</button>
         <h3 class="panel-title">Traitement Demande</h3><br>
         <hr>
     </div>
-    <div class="panel-body">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="panel panel-default" >
+
+
                     <div class="panel-body">
                         <form id="form_add_doc" method="post" onsubmit="return validateForm()">
                             <div class="form-body"  id="form">
@@ -16,7 +15,7 @@
                                     <label class='control-label col-md-4'>Etat <span class="text-danger">*</span></label>
                                     <div class='col-md-8'>
                                         <div class="radio radio-info radio-inline">
-                                            <input type="radio" id="etat" class="attente" value="0" name="etat" checked >
+                                            <input type="radio" id="etat" class="attente" value="0" name="etat"  >
                                             <label for="inlineRadio1"> En attente </label>
                                         </div>
                                         <div class="radio radio-inline">
@@ -55,12 +54,7 @@
                             </div>
                         </form>
                     </div>
-                </div>
-            </div>
 
-        </div>
-
-    </div>
 
 </div>
 

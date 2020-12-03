@@ -58,7 +58,7 @@
 
                 <?php if (isset($menu_roles['DEMANDE'])): ?>
                     <li class="has_sub">
-                        <a href="#" class="waves-effect"><i class="fa fa-folder-open-o"></i><span> Demande </span><span class="pull-right"><i class="md md-add"></i></span></a>
+                        <a href="#" class="waves-effect"><i class="fa fa-folder-open"></i><span> Demande </span><span class="pull-right"><i class="md md-add"></i></span></a>
                         <ul class="list-unstyled">
 
                             <?php if (isset($smenu_roles['LST_DEMANDE']['d_read'])): ?>
@@ -78,7 +78,7 @@
 
                 <?php if (isset($menu_roles['STRUCTURE'])): ?>
                     <li class="has_sub">
-                        <a href="#" class="waves-effect"><i class="fa fa-folder-open-o"></i><span> Structure </span><span class="pull-right"><i class="md md-add"></i></span></a>
+                        <a href="#" class="waves-effect"><i class="fa fa-institution"></i><span> Structure </span><span class="pull-right"><i class="md md-add"></i></span></a>
                         <ul class="list-unstyled">
 
                             <?php if (isset($smenu_roles['LST_STRUCTURE']['d_read'])): ?>

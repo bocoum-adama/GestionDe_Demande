@@ -6,6 +6,7 @@ class C_connexions extends CI_Controller {
         //initialisation de la session
         $this->load->model('M_connexions', 'conn');
         $this->load->model('sys/M_sys_role', 'role');
+        $this->load->model('demande/M_demande', 'dem');
 
         $this->load->helper('form');
         $this->load->library('form_validation');
@@ -40,7 +41,7 @@ class C_connexions extends CI_Controller {
         }
 
         $data['connexions_data'] = $this->conn->test_connexion($ien,$passe);
-        //var_dump( $data['connexions_data']);exit();
+        //  var_dump( $data['connexions_data']);exit();
         if(empty($data['connexions_data'])){
             $this->noconn($ien,$suite_req);
         }
@@ -122,7 +123,10 @@ class C_connexions extends CI_Controller {
         }
         else
         {
-            $this->load->view('template/layout');
+            $data['nb_demande']	= $this->dem->tt_demande();
+            $data['nb_encours']	= $this->dem->tt_nb_encours();
+            $data['nb_traite']	= $this->dem->tt_traite();
+            $this->load->view('template/layout',$data);
         }
 
     }
