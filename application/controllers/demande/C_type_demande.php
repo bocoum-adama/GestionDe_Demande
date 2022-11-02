@@ -46,14 +46,16 @@ class C_type_demande extends MY_Controller
         }
 
         $libelle = null;
+        //$part = null;
         $libelle = $this->type->verif_libelle($this->input->post('libelle'));
-
-        if ($libelle != null and !isset($this->type->id_type_demande))
-        {
-            $d=array("status" => "error", "message" =>"Ce type existe déja !" );
-            echo json_encode($d, JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_AMP);
-            die();
-        }
+//        $part = $this->type->verif_partenaire($this->input->post('id_partenaire'));
+//
+//        if ($libelle != null and $part != null)
+//        {
+//            $d=array("status" => "error", "message" =>"Ce type existe déja !" );
+//            echo json_encode($d, JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_AMP);
+//            die();
+//        }
         if ($libelle != null and isset($this->type->id_type_demande))
         {
             $d=array("status" => "error", "message" =>"Ce type existe déja !" );

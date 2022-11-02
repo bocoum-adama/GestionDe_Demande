@@ -257,6 +257,7 @@ class M_structure extends MY_Model
         return $struc = $this->db->select("*")
             ->from("structure")
             ->where("etat_str" , 1)
+            ->where("categorie_structure" , 1)
             ->get()
             ->result();
     }

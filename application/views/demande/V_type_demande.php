@@ -121,9 +121,8 @@
 
                             <div class="col-md-8">
 
-                                <select name="id_partenaire" id="id_partenaire" class="form-control" required value="Selectionner partenaire">
+                                <select name="id_partenaire" id="id_partenaire" class="form-control"  placeholder="Selectionner partenaire" required>
 
-                                    <option selected="selected">Sélectionner le partenaire</option>
                                     <?php echo $select_partenaire; ?>
 
                                 </select>

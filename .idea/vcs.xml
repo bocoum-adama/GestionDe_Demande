@@ -4,6 +4,7 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../gestion_api" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../gestion_erreurs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../gestion_incidence" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../gestion_ticket" vcs="Git" />
   </component>
 </project>

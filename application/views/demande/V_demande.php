@@ -19,10 +19,10 @@
 
 </div>
 
-<div class='row'>
-    <div class='col-md-12'>
-        <div class='panel panel-border panel-purple fc-list-table fc-state-default'>
-            <div class='panel-heading'>
+    <div class='row'>
+        <div class='col-md-12'>
+            <div class='panel panel-border panel-primary '>
+                <div class='panel-heading'>
                 <h3 class='panel-title' style="font-family: Ionicons">Liste des Demandes</h3>
             </div>
             <div class='panel-body'>
@@ -33,6 +33,7 @@
                         <th>Objet</th>
                         <th>Date</th>
                         <th>Etat</th>
+                        <th>Observation</th>
                         <th>Partenaire</th>
                         <th>Type</th>
                         <th>Structure</th>
@@ -70,7 +71,7 @@
                                 }
                                 ?>
                             </td>
-
+                            <td><?= $value->observation; ?></td>
                             <td>
 
                                 <?php echo $this->dem->get_nom($value->id_partenaire); ?>
@@ -171,7 +172,7 @@
 
                             <div class="col-md-8">
 
-                                <input name="numero" id="numero" type="text" class="form-control" required placeholder="Numero Demande">
+                                <input name="numero_demande" id="numero" type="text" class="form-control" required placeholder="Numero Demande">
 
                             </div>
 
@@ -183,24 +184,7 @@
 
                             <div class="col-md-8">
 
-                                <input name="objet" id="objet" type="text" class="form-control" required placeholder="Objet Demande">
-
-                            </div>
-
-                        </div>
-
-                        <div class="form-group">
-
-                            <label class="control-label col-md-4">Type Demande<span class="text-danger">*</span></label>
-
-                            <div class="col-md-8">
-
-                                <select name="id_type_demande" id="id_type_demande" class="form-control" required value="Selectionner le type">
-
-                                    <option selected="selected">Sélectionner le type</option>
-                                    <?php echo $select_type; ?>
-
-                                </select>
+                                <input name="objet_demande" id="objet" type="" class="form-control" required placeholder="Objet Demande">
 
                             </div>
 
@@ -216,6 +200,23 @@
 
                                     <option selected="selected">Sélectionner le partenaire</option>
                                     <?php echo $select_partenaire; ?>
+
+                                </select>
+
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label class="control-label col-md-4">Type Demande<span class="text-danger">*</span></label>
+
+                            <div class="col-md-8">
+
+                                <select name="id_type_demande" id="id_type_demande" class="form-control" required value="Selectionner le type">
+
+                                    <option selected="selected">Sélectionner le type</option>
+                                    <?php echo $select_type; ?>
 
                                 </select>
 
@@ -268,7 +269,7 @@
 
                         </div>
 
-                        <div class="form-group ief hidden">
+                        <div class="form-group ief hidd">
 
                             <label class="control-label col-md-4">IEF<span class="text-danger">*</span></label>
 
@@ -302,7 +303,7 @@
                             <label class="control-label col-md-4">Etablissement<span class="text-danger">*</span></label>
 
                             <div class="col-md-8">
-                                <select  name="id_structure" id="code_etab" class="form-control" required >
+                                <select  name="id_etab" id="code_etab" class="form-control" required >
                                     <option selected="selected">Sélectionner Etablissement</option>
 
                                 </select>
@@ -369,9 +370,8 @@
             // });
         });
 
-
         $('#datatable tbody').on('click', '.btn_edit', function () {
-            $('#div1').remove();
+            //$('#div1').remove();
             $('.partie2').remove();
         });
 
@@ -388,6 +388,8 @@
             }
         });
 
+        $("#id_type_demande").chained("#id_partenaire");
+
         $('#ecole').click(function() {
 
             if($(this).is(':checked') == true)
@@ -401,23 +403,11 @@
             }
         });
 
-        $('#code_area').change(function() {
+        $('#id_type_demande').change(function() {
 
-            $('.etab').removeClass('hidden');
-            var code_area = $('#code_area').val();
-            if(code_area != '')
-            {
-                $.ajax({
-                    url:"<?php echo base_url();?>structure/C_structure/fetch_etab",
-                    method: "POST",
-                    data:{code_area:code_area},
-                    success:function(data)
-                    {
-                        $('#code_etab').html(data);
-                    }
+            //alert($(this).val())
+            //return false;
 
-                })
-            }
         });
 
     });

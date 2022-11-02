@@ -4,40 +4,11 @@
         <button type="button" id="btn_add" class="btn btn-primary" id="loadingModal">Charger <span class="m-l-5"><i class="fa fa-plus-square"></i></span></button>
     </div>
 </div>
-<!--<div class="row panel panel-body">-->
-<!--    <form class="form-inline" id="form_recherche">-->
-<!--        <div class="form-group col-lg-3">-->
-<!--            <label class="" for="ia">IA:</label>-->
-<!--            <select name="code_ia" class="form-control md-form" id="code_ia2">-->
-<!--                <option value="" disabled selected>Selectionner un IA</option>-->
-<!--                --><?php //echo $select_ia ?>
-<!--            </select>-->
-<!--        </div>-->
-<!--        <div class="form-group col-lg-3">-->
-<!--            <label class="" for="ief">IEF:</label>-->
-<!--            <select name="code_ief" class="form-control md-form" id="code_ief">-->
-<!--                <option disabled selected value="">Selectionner un IEF</option>-->
-<!--                --><?php //echo $select_ief ?>
-<!--            </select>-->
-<!--        </div>-->
-<!--        <div class="form-group col-lg-3">-->
-<!--            <label class="" for="commune">Commune:</label>-->
-<!--            <select name="code_area" class="form-control md-form" id="code_area">-->
-<!--                <option value="" disabled selected>Selectionner une commune</option>-->
-<!--                --><?php //echo $select_commune ?>
-<!--            </select>-->
-<!--        </div>-->
-<!--        <div class="form-group col-lg-3">-->
-<!--            <button type="submit" class="btn btn-primary btn-affiche">Afficher</button>-->
-<!--        </div>-->
-<!--    </form>-->
-<!--</div>-->
 
-
-<div class="row">
-    <div class="col-md-12">
-        <div class="panel panel-default">
-            <div class="panel-heading">
+<div class='row'>
+    <div class='col-md-12'>
+        <div class='panel panel-border panel-primary '>
+            <div class='panel-heading'>
                 <h3 class="panel-title">Liste des établissements</h3>
             </div>
             <div class="panel-body" id="tabl_etab">

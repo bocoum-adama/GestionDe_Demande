@@ -10,10 +10,10 @@
 </div>
 
 
-<div class="row">
-    <div class="col-md-12">
-        <div class="panel panel-default">
-            <div class="panel-heading">
+<div class='row'>
+    <div class='col-md-12'>
+        <div class='panel panel-border panel-primary '>
+            <div class='panel-heading'>
                 <h3 class="panel-title">Liste des structures administratif</h3>
             </div>
             <div class="panel-body">

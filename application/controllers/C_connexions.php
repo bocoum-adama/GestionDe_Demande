@@ -126,6 +126,8 @@ class C_connexions extends CI_Controller {
             $data['nb_demande']	= $this->dem->tt_demande();
             $data['nb_encours']	= $this->dem->tt_nb_encours();
             $data['nb_traite']	= $this->dem->tt_traite();
+            //var_dump($this->dem->tt_annule());exit();
+            $data['nb_annule']	= $this->dem->tt_annule();
             $this->load->view('template/layout',$data);
         }
 

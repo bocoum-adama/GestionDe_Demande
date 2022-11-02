@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="29410146-b076-4fbf-bc50-7da054c6873f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gestion_demande.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gestion_demande.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="gestion_demande" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/demande/C_demande.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>id_type_demande</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/application/controllers/structure/C_structure_old.php" />
+        <option value="$USER_HOME$/Downloads/images/V_structure_etab.php" />
+        <option value="$PROJECT_DIR$/application/controllers/structure/C_structure.php" />
+        <option value="$PROJECT_DIR$/../gestion_api/application/models/contrat/M_contrat.php" />
+        <option value="$PROJECT_DIR$/application/models/structure/M_structure.php" />
+        <option value="$PROJECT_DIR$/application/controllers/sys/C_sys_user.php" />
+        <option value="$PROJECT_DIR$/../gestion_api/application/views/contrat/V_token.php" />
+        <option value="$PROJECT_DIR$/application/helpers/email_affectation_helper.php" />
+        <option value="$PROJECT_DIR$/../gestion_api/application/views/module/V_api.php" />
+        <option value="$PROJECT_DIR$/application/views/demande/V_change etat.php" />
+        <option value="$PROJECT_DIR$/application/models/M_connexions.php" />
+        <option value="$PROJECT_DIR$/application/views/dashboard/sign-in.php" />
+        <option value="$PROJECT_DIR$/application/models/partenaire/M_partenaire.php" />
+        <option value="$PROJECT_DIR$/application/views/template/left_sidebar.php" />
+        <option value="$PROJECT_DIR$/../gestion_api/application/controllers/contrat/C_partenaire.php" />
+        <option value="$PROJECT_DIR$/../gestion_api/application/views/contrat/V_contrat.php" />
+        <option value="$PROJECT_DIR$/../gestion_api/application/views/template/left_sidebar.php" />
+        <option value="$PROJECT_DIR$/../gestion_api/application/controllers/contrat/C_contrat_api.php" />
+        <option value="$PROJECT_DIR$/../gestion_api/application/controllers/contrat/C_contrat.php" />
+        <option value="$PROJECT_DIR$/../gestion_api/application/views/contrat/V_api_contrat.php" />
+        <option value="$PROJECT_DIR$/../gestion_api/application/views/contrat/V_utilisateur.php" />
+        <option value="$PROJECT_DIR$/../gestion_api/application/views/module/V_api_part.php" />
+        <option value="$PROJECT_DIR$/../gestion_api/application/controllers/modules/C_api.php" />
+        <option value="$PROJECT_DIR$/../gestion_api/application/views/contrat/V_partenaire.php" />
+        <option value="$PROJECT_DIR$/application/controllers/partenaire/C_partenaire.php" />
+        <option value="$PROJECT_DIR$/../gestion_incidence/application/controllers/Welcome.php" />
+        <option value="$PROJECT_DIR$/application/controllers/demande/C_type_demande.php" />
+        <option value="$PROJECT_DIR$/application/views/demande/V_type_demande.php" />
+        <option value="$PROJECT_DIR$/application/views/dashboard/home.php" />
+        <option value="$PROJECT_DIR$/application/controllers/C_connexions.php" />
+        <option value="$PROJECT_DIR$/../gestion_api/application/views/consommation/V_cons_dashboad.php" />
+        <option value="$PROJECT_DIR$/application/views/partenaire/V_partenaire.php" />
+        <option value="$PROJECT_DIR$/application/views/structure/V_structure_centr.php" />
+        <option value="$PROJECT_DIR$/application/views/structure/V_structure_etab.php" />
+        <option value="$PROJECT_DIR$/application/views/demande/V_demande.php" />
+        <option value="$PROJECT_DIR$/application/models/demande/M_demande.php" />
+        <option value="$PROJECT_DIR$/application/views/demande/V_change_etat.php" />
+        <option value="$PROJECT_DIR$/application/controllers/demande/C_demande.php" />
+        <option value="$PROJECT_DIR$/application/views/test.php" />
+        <option value="$PROJECT_DIR$/application/controllers/test.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/mikey179/vfsStream" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/setasign/fpdf" />
+      <path value="$PROJECT_DIR$/vendor/setasign/fpdi" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/spipu/html2pdf" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/stevenmaguire/oauth2-keycloak" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/tecnickcom/tcpdf" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/0.0.0/composer-include-files" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/00f100/phpdbug" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-client" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1358" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gestion_demande" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gestion_demande" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gestion_demande" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gestion_demande" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gestion_demande" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gestion_demande" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gestion_demande" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gestion_demande" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="demande" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../consultation_annuaire" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\gestion_incidence\application\config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29410146-b076-4fbf-bc50-7da054c6873f" name="Default Changelist" comment="" />
+      <created>1600946412391</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600946412391</updated>
+      <workItem from="1600946421899" duration="2336000" />
+      <workItem from="1600958590887" duration="1241000" />
+      <workItem from="1601024179909" duration="1249000" />
+      <workItem from="1601542695843" duration="24191000" />
+      <workItem from="1601889623458" duration="1782000" />
+      <workItem from="1602150726397" duration="6332000" />
+      <workItem from="1602170374410" duration="569000" />
+      <workItem from="1602492575204" duration="2669000" />
+      <workItem from="1602580249450" duration="575000" />
+      <workItem from="1602667420370" duration="1780000" />
+      <workItem from="1602753842815" duration="2349000" />
+      <workItem from="1602769120420" duration="1185000" />
+      <workItem from="1602837975987" duration="9157000" />
+      <workItem from="1603097872212" duration="1025000" />
+      <workItem from="1603101171418" duration="3152000" />
+      <workItem from="1603185373672" duration="1398000" />
+      <workItem from="1603281241771" duration="576000" />
+      <workItem from="1603703974591" duration="13452000" />
+      <workItem from="1603791798321" duration="1760000" />
+      <workItem from="1603961688008" duration="559000" />
+      <workItem from="1604307190766" duration="10756000" />
+      <workItem from="1604397082179" duration="9179000" />
+      <workItem from="1604481330852" duration="4146000" />
+      <workItem from="1604566618443" duration="2130000" />
+      <workItem from="1604654795311" duration="1163000" />
+      <workItem from="1605442024550" duration="851000" />
+      <workItem from="1605517241051" duration="780000" />
+      <workItem from="1605521542726" duration="2201000" />
+      <workItem from="1605603700550" duration="952000" />
+      <workItem from="1605609937920" duration="1745000" />
+      <workItem from="1605707144439" duration="2133000" />
+      <workItem from="1605796856053" duration="2421000" />
+      <workItem from="1605863066441" duration="5551000" />
+      <workItem from="1606122489534" duration="8336000" />
+      <workItem from="1606208924014" duration="3198000" />
+      <workItem from="1606381841856" duration="1171000" />
+      <workItem from="1606468053204" duration="5049000" />
+      <workItem from="1606727359656" duration="2364000" />
+      <workItem from="1606814182268" duration="3695000" />
+      <workItem from="1606900247021" duration="575000" />
+      <workItem from="1606906244969" duration="657000" />
+      <workItem from="1606907316474" duration="1381000" />
+      <workItem from="1606986788601" duration="7539000" />
+      <workItem from="1607331774120" duration="604000" />
+      <workItem from="1609764249083" duration="1844000" />
+      <workItem from="1609771921219" duration="3720000" />
+      <workItem from="1609837393872" duration="12575000" />
+      <workItem from="1609924082873" duration="16602000" />
+      <workItem from="1610011617449" duration="19881000" />
+      <workItem from="1610097251770" duration="8371000" />
+      <workItem from="1610204892092" duration="2160000" />
+      <workItem from="1610363001431" duration="15352000" />
+      <workItem from="1610443213101" duration="10612000" />
+      <workItem from="1610528741307" duration="7908000" />
+      <workItem from="1610615231919" duration="9459000" />
+      <workItem from="1610960609963" duration="2171000" />
+      <workItem from="1611001584761" duration="2368000" />
+      <workItem from="1611048201853" duration="1713000" />
+      <workItem from="1611097594234" duration="5000" />
+      <workItem from="1611230820335" duration="2995000" />
+    </task>
+    <task id="LOCAL-00001" summary="debut">
+      <created>1600949187077</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600949187077</updated>
+    </task>
+    <task id="LOCAL-00002" summary="debut">
+      <created>1601890537312</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601890537312</updated>
+    </task>
+    <task id="LOCAL-00003" summary="suite">
+      <created>1602493059829</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602493059829</updated>
+    </task>
+    <task id="LOCAL-00004" summary="suite">
+      <created>1605522599498</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605522599498</updated>
+    </task>
+    <task id="LOCAL-00005" summary="suite">
+      <created>1607001575811</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607001575811</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="273650000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1358" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" sideWeight="0.50167227" side_tool="true" weight="0.1580938" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49832776" visible="true" weight="0.17857143" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32967034" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32943144" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32967034" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="debut" />
+    <MESSAGE value="suite" />
+    <option name="LAST_COMMIT_MESSAGE" value="suite" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../gestion_api/application/views/contrat/V_token.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gestion_api/application/views/template/left_sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="177" column="85" selection-start-line="177" selection-start-column="85" selection-end-line="177" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/template/left_sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gestion_api/application/views/module/V_api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gestion_api/application/views/contrat/V_utilisateur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="84" column="101" selection-start-line="84" selection-start-column="101" selection-end-line="84" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gestion_api/application/controllers/modules/C_api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gestion_api/application/views/module/V_api_part.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gestion_api/application/models/module/M_api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2210">
+          <caret line="130" column="4" selection-start-line="130" selection-start-column="4" selection-end-line="137" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gestion_api/application/controllers/contrat/C_contrat_api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gestion_api/application/views/contrat/V_api_contrat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/template/right_sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-137" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/template/layout.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gestion_erreurs/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gestion_incidence/application/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gestion_incidence/application/config/config.php" />
+    <entry file="file://$PROJECT_DIR$/application/controllers/partenaire/C_partenaire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="70" column="94" selection-start-line="70" selection-start-column="94" selection-end-line="70" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gestion_incidence/application/controllers/Welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gestion_incidence/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gestion_incidence/application/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/managing_ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-226" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gestion_api/application/models/contrat/M_token.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/template/right_content.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1960" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/demande/M_type_demande.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/dashboard/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="69" selection-start-line="35" selection-start-column="69" selection-end-line="35" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/C_connexions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="143" column="10" lean-forward="true" selection-start-line="143" selection-start-column="10" selection-end-line="143" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gestion_erreurs/application/views/dashboard/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-782">
+          <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gestion_erreurs/application/views/template/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2448" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gestion_erreurs/application/controllers/C_api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-850">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gestion_api/application/models/contrat/M_contrat_api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gestion_api/application/controllers/contrat/C_contrat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gestion_api/application/views/consommation/V_cons_dashboad.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="106" column="20" lean-forward="true" selection-start-line="106" selection-start-column="20" selection-end-line="109" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gestion_api/application/views/contrat/V_contrat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2618">
+          <caret line="154" column="28" selection-start-line="154" selection-start-column="28" selection-end-line="154" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gestion_api/application/views/contrat/V_partenaire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="99" column="115" selection-start-line="99" selection-start-column="115" selection-end-line="99" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gestion_api/application/views/consommation/V_consommation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="225" column="162" selection-start-line="225" selection-start-column="16" selection-end-line="225" selection-end-column="162" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/structure/C_etablissement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/structure/C_structure.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gestion_api/application/models/contrat/M_contrat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="124" column="8" selection-start-line="124" selection-start-column="8" selection-end-line="128" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/structure/V_structure.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="44" column="18" selection-start-line="44" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/structure/V_structure_centr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/structure/V_structure_etab.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/partenaire/V_partenaire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="27" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/demande/V_type_demande.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="78" column="14" selection-start-line="78" selection-start-column="14" selection-end-line="78" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/demande/V_change_etat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3740">
+          <caret line="220" column="234" selection-start-line="220" selection-start-column="234" selection-end-line="220" selection-end-column="234" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/demande/V_demande.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3162">
+          <caret line="186" column="77" selection-start-line="186" selection-start-column="77" selection-end-line="186" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/demande/M_demande.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2686">
+          <caret line="158" column="5" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/demande/C_type_demande.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/test.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/test.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/demande/C_demande.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
